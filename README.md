@@ -30,9 +30,12 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing](https://www.usenix.org/conference/atc22/presentation/choi-seungbeom) | ATC'22
 - [Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access](https://dl.acm.org/doi/pdf/10.1145/3552326.3567508) | Eurosys'23
 - [Cocktail](https://www.usenix.org/system/files/nsdi22-paper-gunasekaran.pdf): A Multidimensional Optimization for Model Serving in Cloud | NSDI'22
+- [Merak](https://arxiv.org/abs/2206.04959): An Efficient Distributed DNN Training Framework with Automated 3D Parallelism for Giant Foundation Models
 
 
-## ML-related
+## Other list
 
 - [A curated list of Large Language Model](https://github.com/Hannibal046/Awesome-LLM)
 - [AI systems paper list](https://github.com/lambda7xx/awesome-AI-system#Serving-Inference)
+- [A baseline repository of Auto-Parallelism in Training Neural Networks](https://github.com/ConnollyLeon/awesome-Auto-Parallelism)
+
