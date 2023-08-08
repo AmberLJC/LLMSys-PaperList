@@ -58,3 +58,4 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
 - [Transformer Inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/)
 - [The Transformer Family Version 2.0](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/)
+- [Challenges and Applications of Large Language Models](https://arxiv.org/pdf/2307.10169.pdf)
