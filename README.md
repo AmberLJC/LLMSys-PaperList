@@ -25,7 +25,10 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [H2O](https://arxiv.org/abs/2306.14048): Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models
 - [SkipDecode](https://arxiv.org/abs/2307.02628): Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inferencex
 - [Full Stack Optimization of Transformer Inference](https://arxiv.org/pdf/2302.14017.pdf): a Survey
-- [Optimized Network Architectures for Large Language Model Training with Billions of Parameters](https://arxiv.org/pdf/2307.12169.pdf)
+- [Optimized Network Architectures for Large Language Model Training with Billions of Parameters](https://arxiv.org/pdf/2307.12169.pdf) | UCB
+- [MPCFormer](https://github.com/DachengLi1/MPCFormer) : fast, performant, and private transformer inference with MPC | ICLR'23 
+
+
 
 ## ML Systems
 - [INFaaS](https://www.usenix.org/conference/atc21/presentation/romero): Automated Model-less Inference Serving | ATC’ 21
@@ -47,6 +50,8 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [ZeRO++](https://arxiv.org/abs/2306.10209): Extremely Efficient Collective Communication for Giant Model Training
 - [Channel Permutations for N:M Sparsity](https://proceedings.neurips.cc/paper/2021/hash/6e8404c3b93a9527c8db241a1846599a-Abstract.html) | MLSys' 23
 - [Welder](https://www.usenix.org/conference/osdi23/presentation/shi) : Scheduling Deep Learning Memory Access via Tile-graph | OSDI' 23
+- [Optimizing Dynamic Neural Networks with Brainstorm](https://github.com/MachineLearningSystem/23OSDI-brainstorm) | OSDI'23
+- [ModelKeeper](https://github.com/MachineLearningSystem/ModelKeeper): Accelerating DNN Training via Automated Training Warmup | NSDI'23
 
 
 ## Other list
