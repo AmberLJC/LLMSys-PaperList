@@ -7,7 +7,7 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [FrugalGPT](https://arxiv.org/pdf/2305.05176.pdf): How to Use Large Language Models While Reducing Cost and Improving Performance |  Stanford
 - [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | Peking University
 - [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/abs/2305.13144) | NUS
-- [Efficiently Scaling Transformer Inference](https://arxiv.org/pdf/2211.05102.pdf)
+- [Efficiently Scaling Transformer Inference](https://arxiv.org/pdf/2211.05102.pdf) | MLSys' 23
 - [Flover](https://arxiv.org/pdf/2305.13484.pdf): A Temporal Fusion Framework for Efficient Autoregressive Model Parallel Inference 
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135.pdf)
 - [Megatron-LM](https://arxiv.org/pdf/1909.08053.pdf): Training Multi-Billion Parameter Language Models Using Model Parallelism
@@ -26,7 +26,7 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [SkipDecode](https://arxiv.org/abs/2307.02628): Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inferencex
 - [Full Stack Optimization of Transformer Inference](https://arxiv.org/pdf/2302.14017.pdf): a Survey
 - [Optimized Network Architectures for Large Language Model Training with Billions of Parameters](https://arxiv.org/pdf/2307.12169.pdf) | UCB
-- [MPCFormer](https://github.com/DachengLi1/MPCFormer) : fast, performant, and private transformer inference with MPC | ICLR'23 
+- [MPCFormer](https://arxiv.org/pdf/2211.01452.pdf) : fast, performant, and private transformer inference with MPC | ICLR'23 
 
 
 
@@ -50,13 +50,13 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [ZeRO++](https://arxiv.org/abs/2306.10209): Extremely Efficient Collective Communication for Giant Model Training
 - [Channel Permutations for N:M Sparsity](https://proceedings.neurips.cc/paper/2021/hash/6e8404c3b93a9527c8db241a1846599a-Abstract.html) | MLSys' 23
 - [Welder](https://www.usenix.org/conference/osdi23/presentation/shi) : Scheduling Deep Learning Memory Access via Tile-graph | OSDI' 23
-- [Optimizing Dynamic Neural Networks with Brainstorm](https://github.com/MachineLearningSystem/23OSDI-brainstorm) | OSDI'23
-- [ModelKeeper](https://github.com/MachineLearningSystem/ModelKeeper): Accelerating DNN Training via Automated Training Warmup | NSDI'23
+- [Optimizing Dynamic Neural Networks with Brainstorm](https://www.usenix.org/conference/osdi23/presentation/cui) | OSDI'23
+- [ModelKeeper](https://www.usenix.org/conference/nsdi23/presentation/lai-fan): Accelerating DNN Training via Automated Training Warmup | NSDI'23
 
 
 ## Other list
 - [A curated list of Large Language Model](https://github.com/Hannibal046/Awesome-LLM)
-- [AI systems paper list](https://github.com/lambda7xx/awesome-AI-system#Serving-Inference)
+- [AI systems paper list](https://github.com/lambda7xx/awesome-AI-system)
 - [A baseline repository of Auto-Parallelism in Training Neural Networks](https://github.com/ConnollyLeon/awesome-Auto-Parallelism)
 
 ## Related Readings
