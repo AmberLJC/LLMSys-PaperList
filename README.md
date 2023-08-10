@@ -56,6 +56,8 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 ## LLM Benchmark / Leaderboard
 -  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
 -  [Aviary Explorer](https://aviary.anyscale.com/) | Anyscale
+-  [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | HuggingFace
+-  [HELM](https://crfm.stanford.edu/helm/latest/) | Stanford
 -  [LMSYS](https://chat.lmsys.org) | UCB
  
 ## Other list
