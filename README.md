@@ -53,7 +53,11 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [Optimizing Dynamic Neural Networks with Brainstorm](https://www.usenix.org/conference/osdi23/presentation/cui) | OSDI'23
 - [ModelKeeper](https://www.usenix.org/conference/nsdi23/presentation/lai-fan): Accelerating DNN Training via Automated Training Warmup | NSDI'23
 
-
+## LLM Benchmark / Leaderboard
+-  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
+-  [Aviary Explorer](https://aviary.anyscale.com/) | Anyscale
+-  [LMSYS](https://chat.lmsys.org) | UCB
+ 
 ## Other list
 - [A curated list of Large Language Model](https://github.com/Hannibal046/Awesome-LLM)
 - [AI systems paper list](https://github.com/lambda7xx/awesome-AI-system)
