@@ -55,6 +55,8 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [Welder](https://www.usenix.org/conference/osdi23/presentation/shi) : Scheduling Deep Learning Memory Access via Tile-graph | OSDI' 23
 - [Optimizing Dynamic Neural Networks with Brainstorm](https://www.usenix.org/conference/osdi23/presentation/cui) | OSDI'23
 - [ModelKeeper](https://www.usenix.org/conference/nsdi23/presentation/lai-fan): Accelerating DNN Training via Automated Training Warmup | NSDI'23
+- [Breadth-First Pipeline Parallelism](https://proceedings.mlsys.org/paper_files/paper/2023/file/14bc46029b7ac590f56a203e0a3ef586-Paper-mlsys2023.pdf) | MLSys' 23
+- [MGG: Accelerating Graph Neural Networks with Fine-Grained Intra-Kernel Communication-Computation Pipelining on Multi-GPU Platforms](https://www.usenix.org/system/files/osdi23-wang-yuke.pdf) | OSDI' 23
 
 ## LLM Benchmark / Leaderboard
 -  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
