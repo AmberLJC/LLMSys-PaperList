@@ -23,6 +23,7 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [Optimized Network Architectures for Large Language Model Training with Billions of Parameters](https://arxiv.org/pdf/2307.12169.pdf) | UCB
 - [MPCFormer](https://arxiv.org/pdf/2211.01452.pdf) : fast, performant, and private transformer inference with MPC | ICLR'23
 - [Carbon Emissions and Large Neural Network Training](https://arxiv.org/pdf/2104.10350.pdf?fbclid=IwAR2o0_3HCtTnMxKbXka0OPrHzl8sCzQSSOYp0AOav76-zVWl_pYek2jX8Pk) | Google, UCB
+- [POLCA](https://arxiv.org/abs/2308.12908): Power Oversubscription in LLM Cloud Providers
 
 ### Algorithmic Solution
 - [H2O](https://arxiv.org/abs/2306.14048): Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models | ICML ES-FoMo Workshop 2023
@@ -62,6 +63,8 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [MGG](https://www.usenix.org/system/files/osdi23-wang-yuke.pdf) : Accelerating Graph Neural Networks with Fine-Grained Intra-Kernel Communication-Computation Pipelining on Multi-GPU Platforms | OSDI' 23
 - [Hydro](https://www.usenix.org/system/files/osdi23-hu.pdf): Surrogate-Based Hyperparameter Tuning Service in Datacenters | OSDI' 23
 - [Cocktailer](https://www.usenix.org/system/files/osdi23-zhang-chen.pdf): Analyzing and Optimizing Dynamic Control Flow in Deep Learning | OSDI' 23
+- [BPipe](https://proceedings.mlr.press/v202/kim23l/kim23l.pdf): Memory-Balanced Pipeline Parallelism for TrainingLarge Language Models
+
 
 ## LLM Benchmark / Leaderboard
 -  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
@@ -74,6 +77,7 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [A curated list of Large Language Model](https://github.com/Hannibal046/Awesome-LLM)
 - [AI systems paper list](https://github.com/lambda7xx/awesome-AI-system)
 - [A baseline repository of Auto-Parallelism in Training Neural Networks](https://github.com/ConnollyLeon/awesome-Auto-Parallelism)
+- [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
 
 ## Related Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
