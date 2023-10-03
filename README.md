@@ -25,7 +25,7 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [Carbon Emissions and Large Neural Network Training](https://arxiv.org/pdf/2104.10350.pdf?fbclid=IwAR2o0_3HCtTnMxKbXka0OPrHzl8sCzQSSOYp0AOav76-zVWl_pYek2jX8Pk) | Google, UCB
 - [POLCA](https://arxiv.org/abs/2308.12908): Power Oversubscription in LLM Cloud Providers
 - [SARATHI](https://arxiv.org/abs/2308.16369): Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills
-
+- [Flash-LLM](https://arxiv.org/pdf/2309.10285v1.pdf): Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | VLDB' 24
 
 
 ### Algorithmic Solution
