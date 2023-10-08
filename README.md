@@ -26,8 +26,8 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [POLCA](https://arxiv.org/abs/2308.12908): Power Oversubscription in LLM Cloud Providers
 - [SARATHI](https://arxiv.org/abs/2308.16369): Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills
 - [Flash-LLM](https://arxiv.org/pdf/2309.10285v1.pdf): Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | VLDB' 24
-- [DeepSpeed-VisualChat](https://arxiv.org/abs/2309.14327): Multi-Round Multi-Image Interleave Chat via Multi-Modal Causal Attention
-
+- [DeepSpeed-VisualChat](https://arxiv.org/abs/2309.14327): Multi-Round Multi-Image Interleave Chat via Multi-Modal Causal Attention | Microsoft
+- [AutoGen](https://arxiv.org/abs/2308.08155): Enabling Next-Gen LLM Applications via Multi-Agent Conversation | Microsoft
 
 ### Algorithmic Solution
 - [H2O](https://arxiv.org/abs/2306.14048): Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models | ICML ES-FoMo Workshop 2023
