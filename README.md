@@ -88,6 +88,11 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 - [A baseline repository of Auto-Parallelism in Training Neural Networks](https://github.com/ConnollyLeon/awesome-Auto-Parallelism)
 - [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
 
+## LLM Frameworks
+- [AutoGen](https://github.com/microsoft/autogen#autogen) :Enable Next-Gen Large Language Model Applications | Microsoft
+- [DeepSpeed](https://github.com/microsoft/DeepSpeed): a deep learning optimization library that makes distributed training and inference easy, efficient, and effective | Microsoft
+
+  
 ## Related Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
 - [Transformer Inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/)
