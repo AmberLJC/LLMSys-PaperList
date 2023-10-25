@@ -91,7 +91,8 @@ A curated list of FL systems-related academic papers, articles, tutorials, slide
 ## LLM Frameworks
 - [AutoGen](https://github.com/microsoft/autogen#autogen) :Enable Next-Gen Large Language Model Applications | Microsoft
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed): a deep learning optimization library that makes distributed training and inference easy, efficient, and effective | Microsoft
-
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Nvidia
+- [Accelerate](https://huggingface.co/docs/accelerate/index) | Hugging Face
   
 ## Related Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
