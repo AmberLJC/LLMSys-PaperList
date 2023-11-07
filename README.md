@@ -1,6 +1,6 @@
 # Awesome LLM Systems Papers
 
-A curated list of FL systems-related academic papers, articles, tutorials, slides and projects. Star this repository, and then you can keep abreast of the latest developments of this booming research field.
+A curated list of Large Language Model systems-related academic papers, articles, tutorials, slides and projects. Star this repository, and then you can keep abreast of the latest developments of this booming research field.
 
 ## LLM Systems
 - [Orca](https://www.usenix.org/conference/osdi22/presentation/yu): A Distributed Serving System for Transformer-Based Generative Models | OSDI 22
