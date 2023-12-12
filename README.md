@@ -87,6 +87,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 ## LLM Benchmark / Leaderboard
 -  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
+-  [LLM-Perf Leaderboard](https://huggingface.co/spaces/optimum/llm-perf-leaderboard) | HuggingFace
 -  [Aviary Explorer](https://aviary.anyscale.com/) | Anyscale
 -  [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | HuggingFace
 -  [HELM](https://crfm.stanford.edu/helm/latest/) | Stanford
