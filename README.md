@@ -86,6 +86,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Cocktailer](https://www.usenix.org/system/files/osdi23-zhang-chen.pdf): Analyzing and Optimizing Dynamic Control Flow in Deep Learning | OSDI' 23
 - [BPipe](https://proceedings.mlr.press/v202/kim23l/kim23l.pdf): Memory-Balanced Pipeline Parallelism for TrainingLarge Language Models
 
+## Survey Paper
+- [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863)
+- [Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models](https://arxiv.org/abs/2401.00625)
+- [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234)
 
 ## LLM Benchmark / Leaderboard
 -  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
@@ -106,6 +110,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed): a deep learning optimization library that makes distributed training and inference easy, efficient, and effective | Microsoft
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Nvidia
 - [Accelerate](https://huggingface.co/docs/accelerate/index) | Hugging Face
+- [vLLM](https://github.com/vllm-project/vllm) | UCB
+- [Ray-LLM](https://github.com/ray-project/ray-llm) | Ray
   
 ## Related Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
