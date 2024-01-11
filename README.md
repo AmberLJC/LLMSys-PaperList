@@ -91,6 +91,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 ## Survey Paper
 - [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863)
+- [Challenges and Applications of Large Language Models](https://arxiv.org/pdf/2307.10169.pdf)
 - [Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models](https://arxiv.org/abs/2401.00625)
 - [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234)
 
