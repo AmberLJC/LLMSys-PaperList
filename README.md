@@ -54,6 +54,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Skeleton-of-Thought](https://arxiv.org/abs/2307.15337): Large Language Models Can Do Parallel Decoding | THU
 - [LoRAShear](https://arxiv.org/abs/2310.18356): Efficient Large Language Model Structured Pruning and Knowledge Recovery ｜ Microsoft
 - [Ring Attention](https://arxiv.org/pdf/2310.01889.pdf) with Blockwise Transformers for Near-Infinite Context | UCB
+- [Learned Best-Effort LLM Serving](https://arxiv.org/abs/2401.07886) | UCB
 
 ### Multi-Model Systems
 - [MOSEL](https://arxiv.org/pdf/2310.18481.pdf): Inference Serving Using Dynamic Modality Selection
