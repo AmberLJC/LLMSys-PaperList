@@ -40,6 +40,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [CaraServe](https://arxiv.org/abs/2401.11240): CPU-Assisted and Rank-Aware LoRA Serving for Generative LLM Inference
 - [DistServe](https://arxiv.org/abs/2401.09670): Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving
 - [Inference without Interference](https://arxiv.org/abs/2401.11181): Disaggregate LLM Inference for Mixed Downstream Workloads
+- [APIServe](https://arxiv.org/pdf/2402.01869.pdf): Efficient API Support for Large-Language Model Inferencing 
   
 ### System Efficiency Optimization
 - [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | Peking University
@@ -104,13 +105,15 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models](https://arxiv.org/abs/2401.00625)
 - [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234)
 
-## LLM Benchmark / Leaderboard
+
+## LLM Benchmark / Leaderboard ? Traces
 -  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
 -  [LLM-Perf Leaderboard](https://huggingface.co/spaces/optimum/llm-perf-leaderboard) | HuggingFace
 -  [Aviary Explorer](https://aviary.anyscale.com/) | Anyscale
 -  [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | HuggingFace
 -  [HELM](https://crfm.stanford.edu/helm/latest/) | Stanford
 -  [LMSYS](https://chat.lmsys.org) | UCB
+-  [Towards Efficient and Reliable LLM Serving: A Real-World Workload Study](https://arxiv.org/abs/2401.17644)
  
 ## Other list
 - [A curated list of Large Language Model](https://github.com/Hannibal046/Awesome-LLM)
