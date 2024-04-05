@@ -46,6 +46,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [FlexLLM](https://arxiv.org/abs/2402.18789): A System for Co-Serving Large Language Model Inference and Parameter-Efficient Finetuning
 - [DéjàVu](https://arxiv.org/abs/2403.01876): KV-cache Streaming for Fast, Fault-tolerant Generative LLM Serving
 - [Optimizing LLM Queries in Relational Workloads](https://arxiv.org/abs/2403.05821) | UCB
+- [AttentionStore:](https://arxiv.org/pdf/2403.19708.pdf) Cost-effective Attention Reuse across Multi-turn Conversations in Large Language Model Serving | NUS
 
   
 ### System Efficiency Optimization
