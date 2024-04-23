@@ -48,7 +48,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Optimizing LLM Queries in Relational Workloads](https://arxiv.org/abs/2403.05821) | UCB
 - [AttentionStore:](https://arxiv.org/pdf/2403.19708.pdf) Cost-effective Attention Reuse across Multi-turn Conversations in Large Language Model Serving | NUS
 - [MuxServe:](https://arxiv.org/abs/2404.02015) Flexible Multiplexing for Efficient Multiple LLM Serving
-
+- [LoongServe:](https://arxiv.org/pdf/2404.09526.pdf) Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism
   
 ### System Efficiency Optimization
 - [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | Peking University
