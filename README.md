@@ -138,12 +138,6 @@ A curated list of Large Language Model systems related academic papers, articles
 -  [LMSYS](https://chat.lmsys.org) | UCB
 -  [Towards Efficient and Reliable LLM Serving: A Real-World Workload Study](https://arxiv.org/abs/2401.17644)
  
-## Other list
-- [A curated list of Large Language Model](https://github.com/Hannibal046/Awesome-LLM)
-- [AI systems paper list](https://github.com/lambda7xx/awesome-AI-system)
-- [A baseline repository of Auto-Parallelism in Training Neural Networks](https://github.com/ConnollyLeon/awesome-Auto-Parallelism)
-- [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
-
 ## LLM Frameworks
 - [AutoGen](https://github.com/microsoft/autogen#autogen) :Enable Next-Gen Large Language Model Applications | Microsoft
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed): a deep learning optimization library that makes distributed training and inference easy, efficient, and effective | Microsoft
@@ -152,8 +146,20 @@ A curated list of Large Language Model systems related academic papers, articles
 - [vLLM](https://github.com/vllm-project/vllm) | UCB
 - [Ray-LLM](https://github.com/ray-project/ray-llm) | Ray
   
-## Related Readings
+## Related ML Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
 - [Transformer Inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/)
 - [The Transformer Family Version 2.0](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/)
 - [Full Stack Optimization of Transformer Inference](https://arxiv.org/pdf/2302.14017.pdf): a Survey | UCB
+
+## MLSys Courses
+- Systems for Machine Learning | (Stanford)[https://cs229s.stanford.edu/fall2023/]
+- Systems for Generative AI | (Umich)[https://github.com/mosharaf/eecs598/tree/w24-genai]
+- Systems for AI - LLMs | (GT)[https://cs8803-sp24.anand-iyer.com/]
+
+## Other list
+- [A curated list of Large Language Model](https://github.com/Hannibal046/Awesome-LLM)
+- [AI systems paper list](https://github.com/lambda7xx/awesome-AI-system)
+- [A baseline repository of Auto-Parallelism in Training Neural Networks](https://github.com/ConnollyLeon/awesome-Auto-Parallelism)
+- [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
+
