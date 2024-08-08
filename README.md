@@ -169,9 +169,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - Systems for Generative AI | (Umich)[https://github.com/mosharaf/eecs598/tree/w24-genai]
 - Systems for AI - LLMs | (GT)[https://cs8803-sp24.anand-iyer.com/]
 
-## Other list
+## Other Reading
 - [A curated list of Large Language Model](https://github.com/Hannibal046/Awesome-LLM)
 - [AI systems paper list](https://github.com/lambda7xx/awesome-AI-system)
 - [A baseline repository of Auto-Parallelism in Training Neural Networks](https://github.com/ConnollyLeon/awesome-Auto-Parallelism)
 - [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
+- [100,000 H100 Clusters:](https://www.semianalysis.com/p/100000-h100-clusters-power-network) Power, Network Topology, Ethernet vs InfiniBand, Reliability, Failures, Checkpointing
 
