@@ -156,12 +156,16 @@ A curated list of Large Language Model systems related academic papers, articles
 -  [Towards Efficient and Reliable LLM Serving: A Real-World Workload Study](https://arxiv.org/abs/2401.17644)
  
 ## LLM Frameworks
-- [AutoGen](https://github.com/microsoft/autogen#autogen) :Enable Next-Gen Large Language Model Applications | Microsoft
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed): a deep learning optimization library that makes distributed training and inference easy, efficient, and effective | Microsoft
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Nvidia
 - [Accelerate](https://huggingface.co/docs/accelerate/index) | Hugging Face
-- [vLLM](https://github.com/vllm-project/vllm) | UCB
 - [Ray-LLM](https://github.com/ray-project/ray-llm) | Ray
+- [LLaVA](https://github.com/haotian-liu/LLaVA)
+- [Megatron](https://github.com/NVIDIA/Megatron-LM) | Nvidia
+- [NeMo](https://github.com/NVIDIA/NeMo) | Nvidia
+- [torchtitan](https://github.com/pytorch/torchtitan) | PyTorch
+- [vLLM](https://github.com/vllm-project/vllm) | UCB
+- [SGLang](https://github.com/sgl-project/sglang) | UCB
   
 ## Related ML Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
