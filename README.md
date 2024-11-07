@@ -27,6 +27,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Malleus](https://arxiv.org/abs/2410.13333): Straggler-Resilient Hybrid Parallel Training of Large-scale Models via Malleable Data and Model Parallelization
 - [FALCON](https://arxiv.org/abs/2410.12588): Pinpointing and Mitigating Stragglers for Large-Scale Hybrid-Parallel Training
 - Enabling Parallelism Hot Switching for Efficient Training of Large Language Models | SOSP' 24
+- [Revisiting Reliability in Large-Scale Machine Learning Research Clusters](https://arxiv.org/abs/2410.21680)
 
 ### Serving
 - [Orca](https://www.usenix.org/conference/osdi22/presentation/yu): A Distributed Serving System for Transformer-Based Generative Models | OSDI 22
@@ -93,6 +94,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [BlockLLM](https://arxiv.org/abs/2404.18322): Multi-tenant Finer-grained Serving for Large Language Models
 - [Apparate](https://arxiv.org/abs/2312.05385): Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving | SOSP' 24
 - [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://arxiv.org/abs/2312.12456) | SOSP' 24
+- [Context Parallelism for Scalable Million-Token Inference](https://arxiv.org/abs/2411.01783)
+- [xDiT](https://arxiv.org/abs/2411.01738): an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism
   
 ### Fine-tuning Systems
 - [Ymir:](https://tianweiz07.github.io/Papers/24-ics-2.pdf) A Scheduler for Foundation Model Fine-tuning Workloads in Datacenters | ICS' 24
