@@ -28,6 +28,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [FALCON](https://arxiv.org/abs/2410.12588): Pinpointing and Mitigating Stragglers for Large-Scale Hybrid-Parallel Training
 - Enabling Parallelism Hot Switching for Efficient Training of Large Language Models | SOSP' 24
 - [Revisiting Reliability in Large-Scale Machine Learning Research Clusters](https://arxiv.org/abs/2410.21680)
+- [ReCycle](https://arxiv.org/pdf/2405.14009): Resilient Training of Large DNNs using Pipeline Adaptation | SOSP' 24
 
 ### Serving
 - [Orca](https://www.usenix.org/conference/osdi22/presentation/yu): A Distributed Serving System for Transformer-Based Generative Models | OSDI 22
@@ -162,6 +163,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Hydro](https://www.usenix.org/system/files/osdi23-hu.pdf): Surrogate-Based Hyperparameter Tuning Service in Datacenters | OSDI' 23
 - [Cocktailer](https://www.usenix.org/system/files/osdi23-zhang-chen.pdf): Analyzing and Optimizing Dynamic Control Flow in Deep Learning | OSDI' 23
 - [BPipe](https://proceedings.mlr.press/v202/kim23l/kim23l.pdf): Memory-Balanced Pipeline Parallelism for TrainingLarge Language Models
+- [Exploring GPU-to-GPU Communication: Insights into Supercomputer Interconnects](https://arxiv.org/abs/2408.14090)
+- [Revisiting Reliability in Large-Scale Machine Learning Research Clusters](https://arxiv.org/abs/2410.21680)
 
 ## Survey Paper
 - [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863)
