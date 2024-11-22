@@ -32,7 +32,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [ScheMoE](https://dl.acm.org/doi/10.1145/3627703.3650083): An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling | EuroSys '24
 - [DynaPipe](https://arxiv.org/abs/2311.10418) : Optimizing Multi-task Training through Dynamic Pipelines | EuroSys '24
 - [HAP](https://dl.acm.org/doi/10.1145/3627703.3650074): SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis | EuroSys '24
-- [Model Selection for Latency-Critical Inference Serving](https://dl.acm.org/doi/10.1145/3627703.3629565) | EuroSys '24
 
 ### Serving
 - [Orca](https://www.usenix.org/conference/osdi22/presentation/yu): A Distributed Serving System for Transformer-Based Generative Models | OSDI 22
@@ -84,7 +83,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [NanoFlow](https://arxiv.org/abs/2408.12757): Towards Optimal Large Language Model Serving Throughput
 - [Helix](https://arxiv.org/abs/2406.01566): Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs
 - [Responsive ML inference in multi-tenanted environments using AQUA](https://arxiv.org/abs/2407.21255)
-- [NanoFlow: Towards Optimal Large Language Model Serving Throughput](https://arxiv.org/pdf/2408.12757) | UW
 - [One Queue Is All You Need](https://arxiv.org/abs/2407.00047): Resolving Head-of-Line Blocking in Large Language Model Serving
 - [MemServe](https://arxiv.org/abs/2406.17565): Context Caching for Disaggregated LLM Serving with Elastic Memory Pool
 - [dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) | OSDI' 24
@@ -101,7 +99,11 @@ A curated list of Large Language Model systems related academic papers, articles
 - [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://arxiv.org/abs/2312.12456) | SOSP' 24
 - [Context Parallelism for Scalable Million-Token Inference](https://arxiv.org/abs/2411.01783)
 - [xDiT](https://arxiv.org/abs/2411.01738): an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism
-  
+- [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
+- [Pie](https://arxiv.org/abs/2411.09317): Pooling CPU Memory for LLM Inference
+- [NEO](https://arxiv.org/abs/2411.01142): Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
+
+
 ### Fine-tuning Systems
 - [Ymir:](https://tianweiz07.github.io/Papers/24-ics-2.pdf) A Scheduler for Foundation Model Fine-tuning Workloads in Datacenters | ICS' 24
   
@@ -174,6 +176,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Revisiting Reliability in Large-Scale Machine Learning Research Clusters](https://arxiv.org/abs/2410.21680)
 - [Orion](https://dl.acm.org/doi/10.1145/3627703.3629578): Interference-aware, Fine-grained GPU Sharing for ML Applications | EuroSys '24
 - [Optimus](https://dl.acm.org/doi/10.1145/3627703.3629567): Warming Serverless ML Inference via Inter-Function Model Transformation | EuroSys '24
+- [Model Selection for Latency-Critical Inference Serving](https://dl.acm.org/doi/10.1145/3627703.3629565) | EuroSys '24
 
 ## Survey Paper
 - [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863)
