@@ -74,7 +74,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Andes:](https://arxiv.org/abs/2404.16283) Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services | Umich
 - [BlockLLM:](https://arxiv.org/abs/2404.18322) Multi-tenant Finer-grained Serving for Large Language Models
 - [vAttention:](https://arxiv.org/abs/2405.04437) Dynamic Memory Management for Serving LLMs without PagedAttention
-- [Helix:](https://arxiv.org/abs/2406.01566) Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs | CMU
+- [Helix](https://arxiv.org/abs/2406.01566): Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs | CMU
 - [Eloquent](https://arxiv.org/pdf/2401.12961v2): A More Robust Transmission Scheme for LLM Token Streaming | NAIC' 24
 - [Optimizing Speculative Decoding for Serving Large Language Models Using Goodput](https://arxiv.org/abs/2406.14066v1) | UCB
 - [Enabling Elastic Model Serving with MultiWorld](https://arxiv.org/html/2407.08980v1) | Cisco Research
@@ -94,15 +94,13 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Mnemosyne](https://arxiv.org/abs/2409.17264): Parallelization Strategies for Efficiently Serving Multi-Million Context Length LLM Inference Requests Without Approximations
 - [ConServe](https://arxiv.org/html/2410.01228v1): Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
 - [BlockLLM](https://arxiv.org/abs/2404.18322): Multi-tenant Finer-grained Serving for Large Language Models
-- [Apparate](https://arxiv.org/abs/2312.05385): Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving | SOSP' 24
-- [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://arxiv.org/abs/2312.12456) | SOSP' 24
+- [PowerInfer](https://arxiv.org/abs/2312.12456): Fast Large Language Model Serving with a Consumer-grade GPU | SOSP' 24
 - [Context Parallelism for Scalable Million-Token Inference](https://arxiv.org/abs/2411.01783)
 - [xDiT](https://arxiv.org/abs/2411.01738): an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism
 - [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
 - [Pie](https://arxiv.org/abs/2411.09317): Pooling CPU Memory for LLM Inference
 - [NEO](https://arxiv.org/abs/2411.01142): Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
 - [FastSwitch](https://arxiv.org/abs/2411.18424): Optimizing Context Switching Efficiency in Fairness-aware Large Language Model Serving
-- [Star Attention](https://arxiv.org/pdf/2411.17116) : Efficient LLM Inference over Long Sequences| NVIDIA
 
 ### Fine-tuning Systems
 - [Ymir:](https://tianweiz07.github.io/Papers/24-ics-2.pdf) A Scheduler for Foundation Model Fine-tuning Workloads in Datacenters | ICS' 24
@@ -144,6 +142,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [LoRAShear](https://arxiv.org/abs/2310.18356): Efficient Large Language Model Structured Pruning and Knowledge Recovery ｜ Microsoft
 - [Ring Attention](https://arxiv.org/pdf/2310.01889.pdf) with Blockwise Transformers for Near-Infinite Context | UCB
 - [Learned Best-Effort LLM Serving](https://arxiv.org/abs/2401.07886) | UCB
+- [Star Attention](https://arxiv.org/pdf/2411.17116) : Efficient LLM Inference over Long Sequences| NVIDIA
 
 
 ## ML Systems
@@ -178,6 +177,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Orion](https://dl.acm.org/doi/10.1145/3627703.3629578): Interference-aware, Fine-grained GPU Sharing for ML Applications | EuroSys '24
 - [Optimus](https://dl.acm.org/doi/10.1145/3627703.3629567): Warming Serverless ML Inference via Inter-Function Model Transformation | EuroSys '24
 - [Model Selection for Latency-Critical Inference Serving](https://dl.acm.org/doi/10.1145/3627703.3629565) | EuroSys '24
+- [Apparate](https://arxiv.org/abs/2312.05385): Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving | SOSP' 24
 
 ## Survey Paper
 - [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863)
