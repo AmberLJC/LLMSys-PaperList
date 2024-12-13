@@ -210,6 +210,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [torchtitan](https://github.com/pytorch/torchtitan) | PyTorch
 - [vLLM](https://github.com/vllm-project/vllm) | UCB
 - [SGLang](https://github.com/sgl-project/sglang) | UCB
+- [TGI](https://huggingface.co/docs/text-generation-inference/en/index) | Hugging Face
+- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
   
 ## Related ML Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
