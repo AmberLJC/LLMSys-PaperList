@@ -103,6 +103,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [NEO](https://arxiv.org/abs/2411.01142): Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
 - [FastSwitch](https://arxiv.org/abs/2411.18424): Optimizing Context Switching Efficiency in Fairness-aware Large Language Model Serving
 - [Flash Communication](https://arxiv.org/abs/2412.04964): Reducing Tensor Parallelization Bottleneck for Fast Large Language Model Inference
+- [FlashInfer](https://arxiv.org/abs/2501.01005): Efficient and Customizable Attention Engine for LLM Inference Serving
+- [A System for Microserving of LLMs](https://arxiv.org/abs/2412.12488) | CMU
+
 #### Compound AI Systems 
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
 - [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/conference/osdi24/presentation/lin-chaofan) | OSDI' 24
