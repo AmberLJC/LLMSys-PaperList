@@ -121,7 +121,7 @@ A curated list of Large Language Model systems related academic papers, articles
 ### Fine-tuning Systems
 - [Ymir:](https://tianweiz07.github.io/Papers/24-ics-2.pdf) A Scheduler for Foundation Model Fine-tuning Workloads in Datacenters | ICS' 24
   
-### Multi-Model Systems
+### Multi-Modal Systems
 - [MOSEL](https://arxiv.org/pdf/2310.18481.pdf): Inference Serving Using Dynamic Modality Selection
 - [DISTMM](https://www.amazon.science/publications/distmm-accelerating-distributed-multimodal-model-training): Accelerating distributed multimodal model training | NSDI' 24
 - [Approximate Caching for Efficiently Serving Diffusion Models](https://arxiv.org/abs/2312.04429) | Adobe Research
