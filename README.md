@@ -107,6 +107,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [FlashInfer](https://arxiv.org/abs/2501.01005): Efficient and Customizable Attention Engine for LLM Inference Serving
 - [A System for Microserving of LLMs](https://arxiv.org/abs/2412.12488) | CMU
 - [iServe](https://arxiv.org/abs/2501.13111) : An Intent-based Serving System for LLMs| UT Austin
+- [Locality-aware Fair Scheduling in LLM Serving](https://arxiv.org/abs/2501.14312) | UCB  
 
 #### Compound AI Systems 
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
