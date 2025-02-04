@@ -109,7 +109,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Fast Inference for Augmented Large Language Models](https://arxiv.org/abs/2410.18248)
 - [A System for Microserving of LLMs](https://arxiv.org/abs/2412.12488) | CMU
 - [iServe](https://arxiv.org/abs/2501.13111) : An Intent-based Serving System for LLMs| UT Austin
-- [Locality-aware Fair Scheduling in LLM Serving](https://arxiv.org/abs/2501.14312) | UCB  
+- [Locality-aware Fair Scheduling in LLM Serving](https://arxiv.org/abs/2501.14312) | UCB
+- [Towards Efficient Large Multimodal Model Serving](https://arxiv.org/abs/2502.00937) | MSFT
 
 #### Compound AI Systems 
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
