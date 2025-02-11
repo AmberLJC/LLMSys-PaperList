@@ -201,6 +201,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Optimus](https://dl.acm.org/doi/10.1145/3627703.3629567): Warming Serverless ML Inference via Inter-Function Model Transformation | EuroSys '24
 - [Model Selection for Latency-Critical Inference Serving](https://dl.acm.org/doi/10.1145/3627703.3629565) | EuroSys '24
 - [Apparate](https://arxiv.org/abs/2312.05385): Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving | SOSP' 24
+- [Usher](https://www.usenix.org/system/files/osdi24-shubha.pdf): Holistic Interference Avoidance for Resource Optimized ML Inference | OSDI' 24
 
 ## Survey Paper
 - [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863)
