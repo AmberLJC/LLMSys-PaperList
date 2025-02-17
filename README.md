@@ -112,7 +112,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Locality-aware Fair Scheduling in LLM Serving](https://arxiv.org/abs/2501.14312) | UCB
 - [Towards Efficient Large Multimodal Model Serving](https://arxiv.org/abs/2502.00937) | MSFT
 - [DeltaZip: Efficient Serving of Multiple Full-Model-Tuned LLMs](https://anakli.inf.ethz.ch/papers/deltazip.pdf)
-- [PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference](https://arxiv.org/abs/2502.07578) | ASPLOS' 25
+- [PIM Is All You Need](https://arxiv.org/abs/2502.07578): A CXL-Enabled GPU-Free System for Large Language Model Inference | ASPLOS' 25
+- [λScale](https://arxiv.org/abs/2502.09922): Enabling Fast Scaling for Serverless Large Language Model Inference
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
 - [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/conference/osdi24/presentation/lin-chaofan) | OSDI' 24
