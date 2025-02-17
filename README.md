@@ -40,7 +40,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Minder](https://arxiv.org/pdf/2411.01791): Faulty Machine Detection for Large-scale Distributed Model Training | THU
 - [The Streaming Batch Model for Efficient and Fault-Tolerant Heterogeneous Execution](https://arxiv.org/pdf/2501.12407)  
 - [TrainMover](https://arxiv.org/pdf/2412.12636): Efficient ML Training Live Migration with No Memory Overhead | Alibaba
-- 
+
 ### Serving
 - [Orca](https://www.usenix.org/conference/osdi22/presentation/yu): A Distributed Serving System for Transformer-Based Generative Models | OSDI'22
 - [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/abs/2305.13144) | NUS
@@ -238,6 +238,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
 - [veRL](https://github.com/volcengine/verl) | ByteDance
 - [veScale](https://github.com/volcengine/vescale) | ByteDance
+- [KV Transformers](https://github.com/kvcache-ai/ktransformers)
   
 ## Related ML Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
