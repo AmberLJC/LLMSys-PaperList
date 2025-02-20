@@ -116,9 +116,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [λScale](https://arxiv.org/abs/2502.09922): Enabling Fast Scaling for Serverless Large Language Model Inference
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
-- [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/conference/osdi24/presentation/lin-chaofan) | OSDI' 24
+- [Parrot](https://www.usenix.org/conference/osdi24/presentation/lin-chaofan): Efficient Serving of LLM-based Applications with Semantic Variable | OSDI' 24
 - [Efficiently Serving LLM Reasoning Programs with Certaindex](https://arxiv.org/pdf/2412.20993) | UCSD
-
+- [Autellix](https://arxiv.org/pdf/2502.13965): An Efficient Serving Engine for LLM Agents as General Programs | UCB
 
 #### Serving at the edge
 - [STI](https://arxiv.org/abs/2207.05022): Turbocharge NLP Inference at the Edge via Elastic Pipelining | ASPLOS 23 
