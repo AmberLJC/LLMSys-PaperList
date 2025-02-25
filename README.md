@@ -115,6 +115,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [PIM Is All You Need](https://arxiv.org/abs/2502.07578): A CXL-Enabled GPU-Free System for Large Language Model Inference | ASPLOS' 25
 - [λScale](https://arxiv.org/abs/2502.09922): Enabling Fast Scaling for Serverless Large Language Model Inference
 - [AIBrix: Towards Scalable and Cost-Effective LLM Inference Infrastructure](https://github.com/vllm-project/aibrix/blob/main/docs/paper/AIBrix_White_Paper_0219_2025.pdf) | vLLM
+- [Serving Models, Fast and Slow:Optimizing Heterogeneous LLM Inferencing Workloads at Scale](https://arxiv.org/abs/2502.14617) 
   
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
