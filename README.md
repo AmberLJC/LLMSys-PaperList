@@ -47,6 +47,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
 - [Improving training time and GPU utilization in geo-distributed language model training](https://arxiv.org/abs/2411.14458)
 - [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437)
+- [Comet](https://arxiv.org/pdf/2502.19811): Fine-grained Computation-communication Overlapping for Mixture-of-Experts | ByteDance
+- [ByteScale](https://arxiv.org/pdf/2502.21231) : Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs | ByteDance
+
+  
 #### Fault Tolerance / Straggler Mitigation
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
 - [Malleus](https://arxiv.org/abs/2410.13333): Straggler-Resilient Hybrid Parallel Training of Large-scale Models via Malleable Data and Model Parallelization
