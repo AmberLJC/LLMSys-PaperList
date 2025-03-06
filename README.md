@@ -49,7 +49,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437)
 - [Comet](https://arxiv.org/pdf/2502.19811): Fine-grained Computation-communication Overlapping for Mixture-of-Experts | ByteDance
 - [ByteScale](https://arxiv.org/pdf/2502.21231) : Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs | ByteDance
-
+- [Megalodon](https://arxiv.org/abs/2404.08801): Efficient LLM Pretraining and Inference with Unlimited Context Length
   
 #### Fault Tolerance / Straggler Mitigation
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
