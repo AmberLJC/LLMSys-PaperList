@@ -86,7 +86,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Punica](https://arxiv.org/abs/2310.18547): Multi-Tenant LoRA Serving | MLSys' 24
 - [S-LoRA](https://arxiv.org/abs/2311.03285): Serving Thousands of Concurrent LoRA Adapters | MLSys' 24
 - [SpotServe](https://arxiv.org/abs/2311.15566): Serving Generative Large Language Models on Preemptible Instances | CMU
-- [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
 - [SuperServe:](https://arxiv.org/pdf/2312.16733.pdf) Fine-Grained Inference Serving for Unpredictable Workloads
 - [Fairness in Serving Large Language Models](https://arxiv.org/abs/2401.00588) | OSDI' 24
 - [Infinite-LLM](https://arxiv.org/abs/2401.02669): Efficient LLM Service for Long Context with DistAttention and Distributed KVCache
@@ -148,6 +147,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Autellix](https://arxiv.org/pdf/2502.13965): An Efficient Serving Engine for LLM Agents as General Programs | UCB
 
 #### Serving at the edge
+- [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
 - [STI](https://arxiv.org/abs/2207.05022): Turbocharge NLP Inference at the Edge via Elastic Pipelining | ASPLOS 23 
 - [PowerInfer](https://arxiv.org/abs/2312.12456): Fast Large Language Model Serving with a Consumer-grade GPU | SOSP' 24
 - [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
@@ -155,7 +155,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 
 
-#### System Efficiency Optimization
+#### System Efficiency Optimization - Model Co-design
 - [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | PKU
 - [FrugalGPT](https://arxiv.org/pdf/2305.05176.pdf): How to Use Large Language Models While Reducing Cost and Improving Performance |  Stanford
 - [H2O](https://arxiv.org/abs/2306.14048): Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models | ICML ES-FoMo Workshop 2023
@@ -236,7 +236,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [veRL](https://github.com/volcengine/verl) | ByteDance
 - [veScale](https://github.com/volcengine/vescale) | ByteDance
 - [KV Transformers](https://github.com/kvcache-ai/ktransformers)
-- [DeepSeek Open Infra](https://github.com/deepseek-ai/open-infra-index) 
+- [DeepSeek Open Infra](https://github.com/deepseek-ai/open-infra-index)
+- [Dynamo](https://github.com/ai-dynamo/dynamo) | NVIDA
   
 ## Related ML Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
