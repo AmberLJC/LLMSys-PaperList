@@ -63,6 +63,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Minder](https://arxiv.org/pdf/2411.01791): Faulty Machine Detection for Large-scale Distributed Model Training | THU
 - [The Streaming Batch Model for Efficient and Fault-Tolerant Heterogeneous Execution](https://arxiv.org/pdf/2501.12407)  
 - [TrainMover](https://arxiv.org/pdf/2412.12636): Efficient ML Training Live Migration with No Memory Overhead | Alibaba
+- [Characterizing GPU Resilience and Impact on AI/HPC Systems](https://arxiv.org/abs/2503.11901) | UIUC
 
 ### Serving
 - [Orca](https://www.usenix.org/conference/osdi22/presentation/yu): A Distributed Serving System for Transformer-Based Generative Models | OSDI'22
