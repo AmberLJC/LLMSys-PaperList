@@ -144,6 +144,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [AIBrix: Towards Scalable and Cost-Effective LLM Inference Infrastructure](https://github.com/vllm-project/aibrix/blob/main/docs/paper/AIBrix_White_Paper_0219_2025.pdf) | vLLM
 - [Serving Models, Fast and Slow:Optimizing Heterogeneous LLM Inferencing Workloads at Scale](https://arxiv.org/abs/2502.14617) 
 - [Make LLM Inference Affordable to Everyone: Augmenting GPU Memory with NDP-DIMM](https://arxiv.org/abs/2502.16963)
+- [Jenga](https://arxiv.org/abs/2503.18292): Effective Memory Management for Serving LLM with Heterogeneity
 
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
