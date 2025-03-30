@@ -51,6 +51,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [SPPO](https://arxiv.org/abs/2503.10377):Efficient Long-sequence LLM Training via Adaptive Sequence Pipeline Parallel Offloading
 - [ByteScale](https://arxiv.org/abs/2502.21231): Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs | Bytedance
 - [TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives](https://arxiv.org/abs/2503.20313) | MLSys' 25
+- [Every FLOP Counts](https://arxiv.org/abs/2503.05139): Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs| Ant Group
 
 #### Systems for Post-training / RL 
 - [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
