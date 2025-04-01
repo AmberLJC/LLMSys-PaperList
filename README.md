@@ -5,6 +5,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 - [LLM Systems](#llm-systems)
   - [Pre-Training](#pre-training)
+    - [Post Training - RLHF](#Systems-for-Post-training--RLHF)
     - [Fault Tolerance / Straggler Mitigation](#fault-tolerance--straggler-mitigation)
   - [Serving](#serving)
     - [Compound AI Systems](#compound-ai-systems)
@@ -53,10 +54,11 @@ A curated list of Large Language Model systems related academic papers, articles
 - [TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives](https://arxiv.org/abs/2503.20313) | MLSys' 25
 - [Every FLOP Counts](https://arxiv.org/abs/2503.05139): Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs| Ant Group
 
-#### Systems for Post-training / RL 
+#### Systems for Post-training / RLHF 
 - [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
 - [HybridFlow](https://arxiv.org/pdf/2409.19256): A Flexible and Efficient RLHF Framework
-
+- [ReaLHF](https://arxiv.org/html/2406.14088v1): Optimized RLHF Training for Large Language Models through Parameter Reallocation
+  
 #### Fault Tolerance / Straggler Mitigation
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
 - [Malleus](https://arxiv.org/abs/2410.13333): Straggler-Resilient Hybrid Parallel Training of Large-scale Models via Malleable Data and Model Parallelization
