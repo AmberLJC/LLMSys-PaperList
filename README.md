@@ -4,7 +4,7 @@ A curated list of Large Language Model systems related academic papers, articles
 ## Table of Contents
 
 - [LLM Systems](#llm-systems)
-  - [Pre-Training](#pre-training)
+  - [Training](#pre-training)
     - [Post Training - RLHF](#Systems-for-Post-training--RLHF)
     - [Fault Tolerance / Straggler Mitigation](#fault-tolerance--straggler-mitigation)
   - [Serving](#serving)
@@ -53,6 +53,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [ByteScale](https://arxiv.org/abs/2502.21231): Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs | Bytedance
 - [TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives](https://arxiv.org/abs/2503.20313) | MLSys' 25
 - [Every FLOP Counts](https://arxiv.org/abs/2503.05139): Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs| Ant Group
+- [FlexSP](https://dl.acm.org/doi/abs/10.1145/3676641.3715998): Accelerating Large Language Model Training via Flexible Sequence Parallelism | ASPLOS '25
 
 #### Systems for Post-training / RLHF 
 - [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
