@@ -254,6 +254,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [DeepSeek Open Infra](https://github.com/deepseek-ai/open-infra-index)
 - [Dynamo](https://github.com/ai-dynamo/dynamo) | NVIDA
 - [Cornstarch](https://github.com/cornstarch-org/Cornstarch): Build, Train, Run Your Own Multimodal Model | UMich
+- [verl](https://github.com/volcengine/verl): Volcano Engine Reinforcement Learning for LLM
   
 ## Related ML Readings
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
