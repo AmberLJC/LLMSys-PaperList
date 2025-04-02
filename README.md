@@ -62,7 +62,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
 - [HybridFlow](https://arxiv.org/pdf/2409.19256): A Flexible and Efficient RLHF Framework
 - [ReaLHF](https://arxiv.org/html/2406.14088v1): Optimized RLHF Training for Large Language Models through Parameter Reallocation
-  
+- [NeMo-Aligner](https://arxiv.org/pdf/2405.01481): Scalable Toolkit for Efficient Model Alignment | Nvidia
+- [An Adaptive Placement and Parallelism Framework for Accelerating RLHF Training](https://arxiv.org/pdf/2312.11819) | Ant
+
+
 #### Fault Tolerance / Straggler Mitigation
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
 - [Malleus](https://arxiv.org/abs/2410.13333): Straggler-Resilient Hybrid Parallel Training of Large-scale Models via Malleable Data and Model Parallelization
