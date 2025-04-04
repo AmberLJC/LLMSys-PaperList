@@ -163,6 +163,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Parrot](https://www.usenix.org/conference/osdi24/presentation/lin-chaofan): Efficient Serving of LLM-based Applications with Semantic Variable | OSDI' 24
 - [Efficiently Serving LLM Reasoning Programs with Certaindex](https://arxiv.org/pdf/2412.20993) | UCSD
 - [Autellix](https://arxiv.org/pdf/2502.13965): An Efficient Serving Engine for LLM Agents as General Programs | UCB
+- [RAGO](https://arxiv.org/abs/2503.14649v2): Systematic Performance Optimization for Retrieval-Augmented Generation Serving | ISCA'25
 
 #### Serving at the edge
 - [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
