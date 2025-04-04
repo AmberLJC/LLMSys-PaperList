@@ -156,7 +156,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Make LLM Inference Affordable to Everyone: Augmenting GPU Memory with NDP-DIMM](https://arxiv.org/abs/2502.16963)
 - [Jenga](https://arxiv.org/abs/2503.18292): Effective Memory Management for Serving LLM with Heterogeneity
 - [AQUA](https://arxiv.org/abs/2407.21255) : Network-Accelerated Memory Offloading for LLMs in Scale-Up GPU Domains | ASPLOS 2025
-
+- [MegaScale-Infer](https://arxiv.org/pdf/2504.02263): Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism | Bytedance
 
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
