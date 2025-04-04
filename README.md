@@ -56,8 +56,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [FlexSP](https://dl.acm.org/doi/abs/10.1145/3676641.3715998): Accelerating Large Language Model Training via Flexible Sequence Parallelism | ASPLOS '25
 - [WeiPipe](https://dl.acm.org/doi/pdf/10.1145/3710848.3710869): Weight Pipeline Parallelism for Communication-Effective Long-Context Large Model Training | PPoPP ’25
 - [WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model TraininG](https://arxiv.org/pdf/2503.17924) | UCSD
-
-  
+- [Mixtera](https://mboether.com/assets/pdf/bother2025mixtera.pdf): A Data Plane for Foundation Model Training | ETH
+   
 #### Systems for Post-training / RLHF 
 - [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
 - [HybridFlow](https://arxiv.org/pdf/2409.19256): A Flexible and Efficient RLHF Framework
