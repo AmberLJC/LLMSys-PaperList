@@ -64,7 +64,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [ReaLHF](https://arxiv.org/html/2406.14088v1): Optimized RLHF Training for Large Language Models through Parameter Reallocation
 - [NeMo-Aligner](https://arxiv.org/pdf/2405.01481): Scalable Toolkit for Efficient Model Alignment | Nvidia
 - [An Adaptive Placement and Parallelism Framework for Accelerating RLHF Training](https://arxiv.org/pdf/2312.11819) | Ant
-
+- [Systems Opportunities for LLM Fine-Tuning using Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3721146.3721944)
 
 #### Fault Tolerance / Straggler Mitigation
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
