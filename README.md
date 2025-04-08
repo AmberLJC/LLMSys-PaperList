@@ -132,6 +132,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/conference/osdi24/presentation/agrawal) | OSDI' 24
 - [InfiniGen](https://www.usenix.org/conference/osdi24/presentation/lee): Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management
 - [ServerlessLLM: Low-Latency Serverless Inference for Large Language Models](https://www.usenix.org/conference/osdi24/presentation/fu) | OSDI' 24
+- [CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving](https://dl.acm.org/doi/10.1145/3651890.3672274) | SIGCOMM' 24
 - [Preble](https://arxiv.org/abs/2407.00023): Efficient Distributed Prompt Scheduling for LLM Serving
 - [Mnemosyne](https://arxiv.org/abs/2409.17264): Parallelization Strategies for Efficiently Serving Multi-Million Context Length LLM Inference Requests Without Approximations
 - [ConServe](https://arxiv.org/html/2410.01228v1): Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
@@ -158,6 +159,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [AQUA](https://arxiv.org/abs/2407.21255) : Network-Accelerated Memory Offloading for LLMs in Scale-Up GPU Domains | ASPLOS 2025
 - [MegaScale-Infer](https://arxiv.org/pdf/2504.02263): Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism | Bytedance
 - [Towards End-to-End Optimization of LLM-based Applications with Ayo](https://dl.acm.org/doi/10.1145/3676641.3716278) | ASPLOS '25
+- [CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion](https://dl.acm.org/doi/10.1145/3689031.3696098) | EuroSys' 25 (Best Paper)
 
   
 #### Compound AI Systems  
