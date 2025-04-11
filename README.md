@@ -50,7 +50,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [ByteScale](https://arxiv.org/pdf/2502.21231) : Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs | ByteDance
 - [Megalodon](https://arxiv.org/abs/2404.08801): Efficient LLM Pretraining and Inference with Unlimited Context Length
 - [SPPO](https://arxiv.org/abs/2503.10377):Efficient Long-sequence LLM Training via Adaptive Sequence Pipeline Parallel Offloading
-- [ByteScale](https://arxiv.org/abs/2502.21231): Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs | Bytedance
 - [TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives](https://arxiv.org/abs/2503.20313) | MLSys' 25
 - [Every FLOP Counts](https://arxiv.org/abs/2503.05139): Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs| Ant Group
 - [FlexSP](https://dl.acm.org/doi/abs/10.1145/3676641.3715998): Accelerating Large Language Model Training via Flexible Sequence Parallelism | ASPLOS '25
