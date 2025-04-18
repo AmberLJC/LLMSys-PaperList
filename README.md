@@ -86,6 +86,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Efficiently Scaling Transformer Inference](https://arxiv.org/pdf/2211.05102.pdf) | MLSys' 23
 - [Flover](https://arxiv.org/pdf/2305.13484.pdf): A Temporal Fusion Framework for Efficient Autoregressive Model Parallel Inference 
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135.pdf)
+- [SageAttention](https://arxiv.org/pdf/2410.02367): Accurate 8-Bit Attention for Plug-and-play Inference Acceleration
+- [SageAttention2](https://arxiv.org/pdf/2411.10958): Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization
+- [SpargeAttn](https://arxiv.org/pdf/2502.18137): Accurate Sparse Attention Accelerating Any Model Inference
 - [DeepSpeed Inference](https://arxiv.org/abs/2207.00032) : Enabling Efficient Inference of Transformer Models at Unprecedented Scale.  
 - [TurboTransformers](https://arxiv.org/pdf/2010.05680.pdf): An Efficient GPU Serving System For Transformer Models
 - [FlexGen](https://arxiv.org/abs/2303.06865): High-throughput Generative Inference of Large Language Models with a Single GPU | ICML' 23
