@@ -176,7 +176,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [PowerInfer](https://arxiv.org/abs/2312.12456): Fast Large Language Model Serving with a Consumer-grade GPU | SOSP' 24
 - [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
 - [InfiniteHiP](https://arxiv.org/abs/2502.08910): Extending Language Model Context Up to 3 Million Tokens on a Single GPU
-
+- [prima.cpp](https://arxiv.org/pdf/2504.08791): PRIMA.CPP: Speeding Up 70B-Scale LLM Inference on Low-Resource Everyday Home Clusters
 
 
 #### System Efficiency Optimization - Model Co-design
