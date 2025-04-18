@@ -4,7 +4,7 @@ A curated list of Large Language Model systems related academic papers, articles
 ## Table of Contents
 
 - [LLM Systems](#llm-systems)
-  - [Training](#pre-training)
+  - [Training](#Training)
     - [Post Training - RLHF](#Systems-for-Post-training--RLHF)
     - [Fault Tolerance / Straggler Mitigation](#fault-tolerance--straggler-mitigation)
   - [Serving](#serving)
@@ -57,6 +57,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Mixtera](https://mboether.com/assets/pdf/bother2025mixtera.pdf): A Data Plane for Foundation Model Training | ETH
 - [Flex Attention](https://arxiv.org/abs/2412.05496): A Programming Model for Generating Optimized Attention Kernels | MLSys' 25
 - [Balancing Pipeline Parallelism with Vocabulary Parallelism](https://arxiv.org/abs/2411.05288) | MLSys' 25
+- [Training Transformers with 4-bit Integers](https://arxiv.org/abs/2306.11987) | NeurIPS' 23
+- [Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization](https://arxiv.org/abs/2403.12422) | ICML' 24
+- [COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training](https://arxiv.org/abs/2410.19313) | ICLR'25
    
 #### Systems for Post-training / RLHF 
 - [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
