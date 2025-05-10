@@ -166,6 +166,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [ThunderServe](https://arxiv.org/pdf/2502.09334): High-performance and Cost-efficient LLM Serving in Cloud Environments | MLSys' 25
 - [SLOs-Serve](https://arxiv.org/abs/2504.08784): Optimized Serving of Multi-SLO LLMs
 - [Tempo](https://arxiv.org/abs/2504.20068): Application-aware LLM Serving with Mixed SLO Requirements
+- [Prism](https://arxiv.org/pdf/2505.04021): Unleashing GPU Sharing for Cost-Efficient Multi-LLM Serving | UCLA
+
   
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
