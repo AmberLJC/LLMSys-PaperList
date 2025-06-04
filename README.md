@@ -57,8 +57,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Flex Attention](https://arxiv.org/abs/2412.05496): A Programming Model for Generating Optimized Attention Kernels | MLSys' 25
 - [Balancing Pipeline Parallelism with Vocabulary Parallelism](https://arxiv.org/abs/2411.05288) | MLSys' 25
 - [SlimPipe](https://arxiv.org/abs/2504.14519): Memory-Thrifty and Efficient Pipeline Parallelism for Long-Context LLM Training | Kuaishou
+- [Scaling Llama 3 Training with Efficient Parallelism Strategies](https://aisystemcodesign.github.io/papers/Llama3-ISCA25.pdf) | ISCA' 25
+- [Lumos](https://arxiv.org/abs/2504.09307) : Efficient Performance Modeling and Estimation for Large-scale LLM Training| MLSys' 25
 
-  
+
 #### Systems for Post-training / RLHF 
 - [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
 - [HybridFlow](https://arxiv.org/pdf/2409.19256): A Flexible and Efficient RLHF Framework
