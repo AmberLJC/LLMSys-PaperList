@@ -173,7 +173,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Tempo](https://arxiv.org/abs/2504.20068): Application-aware LLM Serving with Mixed SLO Requirements
 - [Prism](https://arxiv.org/pdf/2505.04021): Unleashing GPU Sharing for Cost-Efficient Multi-LLM Serving | UCLA
 - [RetroInfer](https://arxiv.org/abs/2505.02922): A Vector-Storage Approach for Scalable Long-Context LLM Inference
-  
+- [Efficient Serving of LLM Applications with Probabilistic Demand Modeling](https://arxiv.org/abs/2506.14851)
+- [eLLM](https://arxiv.org/abs/2506.14851) : Elastic Memory Management Framework for Efficient LLM Serving
+
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
 - [Parrot](https://www.usenix.org/conference/osdi24/presentation/lin-chaofan): Efficient Serving of LLM-based Applications with Semantic Variable | OSDI' 24
