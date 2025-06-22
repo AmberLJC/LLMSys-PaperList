@@ -175,6 +175,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [RetroInfer](https://arxiv.org/abs/2505.02922): A Vector-Storage Approach for Scalable Long-Context LLM Inference
 - [Efficient Serving of LLM Applications with Probabilistic Demand Modeling](https://arxiv.org/abs/2506.14851)
 - [eLLM](https://arxiv.org/abs/2506.14851) : Elastic Memory Management Framework for Efficient LLM Serving
+- [DiSCo](https://arxiv.org/abs/2502.11417v2): Device-Server Collaborative LLM-Based Text Streaming Services
 
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
