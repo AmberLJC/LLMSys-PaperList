@@ -176,6 +176,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Efficient Serving of LLM Applications with Probabilistic Demand Modeling](https://arxiv.org/abs/2506.14851)
 - [eLLM](https://arxiv.org/abs/2506.14851) : Elastic Memory Management Framework for Efficient LLM Serving
 - [DiSCo](https://arxiv.org/abs/2502.11417v2): Device-Server Collaborative LLM-Based Text Streaming Services
+- [DynaServe](https://arxiv.org/abs/2504.09285): Unified and Elastic Execution for Dynamic Disaggregated LLM Serving
+- [HyGen](https://arxiv.org/pdf/2501.14808): Efficient LLM Serving via Elastic Online-Offline Request Co-location
+
 
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
