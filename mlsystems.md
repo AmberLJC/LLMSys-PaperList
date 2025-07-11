@@ -1,4 +1,20 @@
-## ML Systems
+# ML Systems
+## OSDI 25
+
+* [KPerfIR: Towards an Open and Compiler‑centric Ecosystem for GPU Kernel Performance Tooling on Modern AI Workloads](https://arxiv.org/abs/2505.21661)
+* [Mirage: A Multi‑Level Superoptimizer for Tensor Programs](https://arxiv.org/abs/2405.05751)
+* [Neutrino: Fine‑grained GPU Kernel Profiling via Programmable Probing](https://www.usenix.org/conference/osdi25/presentation/songlin‑huang)
+* [TrainCheck: Training with Confidence – Catching Silent Errors in Deep Learning Training](https://www.usenix.org/conference/osdi25/presentation/jiang)
+* [QiMeng‑Xpiler: Transcompiling Tensor Programs via LLM‑assisted Neural‑Symbolic Synthesis**](https://arxiv.org/abs/2505.02146) 
+* [WaferLLM: A Wafer‑Scale LLM Inference System](https://arxiv.org/abs/2502.04563)  
+* [BlitzScale: Fast and Live Large Model Autoscaling with O(1) Host Caching](https://arxiv.org/abs/2412.17246)  
+* [Bayesian Code Diffusion for Efficient Automatic Deep Learning Program Optimization](https://www.usenix.org/system/files/osdi25-jeong.pdf) 
+
+
+ 
+
+
+## From Earlier Years
 - [INFaaS](https://www.usenix.org/conference/atc21/presentation/romero): Automated Model-less Inference Serving | ATC’ 21
 - [Alpa](https://arxiv.org/abs/2201.12023) : Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning | OSDI' 22
 - [Pathways](https://proceedings.mlsys.org/paper/2022/hash/98dce83da57b0395e163467c9dae521b-Abstract.html) : Asynchronous Distributed Dataflow for ML | MLSys' 22
