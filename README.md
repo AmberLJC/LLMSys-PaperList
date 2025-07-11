@@ -52,7 +52,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Every FLOP Counts](https://arxiv.org/abs/2503.05139): Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs| Ant Group
 - [FlexSP](https://dl.acm.org/doi/abs/10.1145/3676641.3715998): Accelerating Large Language Model Training via Flexible Sequence Parallelism | ASPLOS '25
 - [WeiPipe](https://dl.acm.org/doi/pdf/10.1145/3710848.3710869): Weight Pipeline Parallelism for Communication-Effective Long-Context Large Model Training | PPoPP ’25
-- [WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model TraininG](https://arxiv.org/pdf/2503.17924) | UCSD
+- [WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model TraininG](https://arxiv.org/pdf/2503.17924) | OSDI' 25
 - [Mixtera](https://mboether.com/assets/pdf/bother2025mixtera.pdf): A Data Plane for Foundation Model Training | ETH
 - [Flex Attention](https://arxiv.org/abs/2412.05496): A Programming Model for Generating Optimized Attention Kernels | MLSys' 25
 - [Balancing Pipeline Parallelism with Vocabulary Parallelism](https://arxiv.org/abs/2411.05288) | MLSys' 25
@@ -84,7 +84,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [The Streaming Batch Model for Efficient and Fault-Tolerant Heterogeneous Execution](https://arxiv.org/pdf/2501.12407)  
 - [TrainMover](https://arxiv.org/pdf/2412.12636): Efficient ML Training Live Migration with No Memory Overhead | Alibaba
 - [Characterizing GPU Resilience and Impact on AI/HPC Systems](https://arxiv.org/abs/2503.11901) | UIUC
-- [Understanding Stragglers in Large Model Training Using What-if Analysis](https://arxiv.org/abs/2505.05713)
+- [Understanding Stragglers in Large Model Training Using What-if Analysis](https://arxiv.org/abs/2505.05713) | OSDI' 25
 
 
 ### Serving
@@ -178,7 +178,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [DiSCo](https://arxiv.org/abs/2502.11417v2): Device-Server Collaborative LLM-Based Text Streaming Services
 - [DynaServe](https://arxiv.org/abs/2504.09285): Unified and Elastic Execution for Dynamic Disaggregated LLM Serving
 - [HyGen](https://arxiv.org/pdf/2501.14808): Efficient LLM Serving via Elastic Online-Offline Request Co-location
-
+- [WaferLLM: A Wafer‑Scale LLM Inference System](https://arxiv.org/abs/2502.04563) | OSDI 25
+- [BlitzScale: Fast and Live Large Model Autoscaling with O(1) Host Caching](https://arxiv.org/abs/2412.17246) | OSDI 25
+- [TokenWeave: Efficient Compute-Communication Overlap for Distributed LLM Inference](https://arxiv.org/html/2505.11329v1) | OSDI 25
 
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
