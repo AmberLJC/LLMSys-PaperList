@@ -181,6 +181,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [WaferLLM: A Wafer‑Scale LLM Inference System](https://arxiv.org/abs/2502.04563) | OSDI 25
 - [BlitzScale: Fast and Live Large Model Autoscaling with O(1) Host Caching](https://arxiv.org/abs/2412.17246) | OSDI 25
 - [TokenWeave: Efficient Compute-Communication Overlap for Distributed LLM Inference](https://arxiv.org/html/2505.11329v1) | OSDI 25
+- [Nexus: Taming Throughput-Latency Tradeoff in LLM Serving via Efficient GPU Sharing](https://arxiv.org/abs/2507.06608v2)
+
 
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
@@ -191,7 +193,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Circinus](https://arxiv.org/abs/2504.16397): Efficient Query Planner for Compound ML Serving | UIUC
 - [Patchwork: A Unified Framework for RAG Serving](https://arxiv.org/abs/2505.07833)
 
-- 
+
 #### Serving at the edge
 - [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
 - [STI](https://arxiv.org/abs/2207.05022): Turbocharge NLP Inference at the Edge via Elastic Pipelining | ASPLOS 23 
@@ -245,7 +247,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Cornstarch](https://arxiv.org/abs/2503.11367): Distributed Multimodal Training Must Be Multimodality-Aware | UMich
 - [PipeWeaver](https://arxiv.org/abs/2504.14145): Addressing Data Dynamicity in Large Multimodal Model Training with Dynamic Interleaved Pipeline | SJTU
 - [DDiT](https://arxiv.org/abs/2506.13497v1): Dynamic Resource Allocation for Diffusion Transformer Model Serving
-- [PATCHEDSERVE: A Patch Management Framework for SLO-Optimized Hybrid Resolution Diffusion Serving](https://arxiv.org/pdf/2501.09253)
+- [PATCHEDSERVE](https://arxiv.org/pdf/2501.09253): A Patch Management Framework for SLO-Optimized Hybrid Resolution Diffusion Serving
+- [ElasticMM](https://arxiv.org/abs/2507.10069): Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism
+
 
 ## LLM for Systems
 - [Large Language Models for Compiler Optimization](https://arxiv.org/abs/2309.07062)
