@@ -192,7 +192,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [RAGO](https://arxiv.org/abs/2503.14649v2): Systematic Performance Optimization for Retrieval-Augmented Generation Serving | ISCA'25
 - [Circinus](https://arxiv.org/abs/2504.16397): Efficient Query Planner for Compound ML Serving | UIUC
 - [Patchwork: A Unified Framework for RAG Serving](https://arxiv.org/abs/2505.07833)
-
+- [KVFlow](https://arxiv.org/abs/2507.07400): Efficient Prefix Caching for Accelerating LLM-Based Multi-Agent Workflows
+- [DroidSpeak](https://arxiv.org/abs/2411.02820): KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving
 
 #### Serving at the edge
 - [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
