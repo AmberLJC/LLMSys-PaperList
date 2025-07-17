@@ -180,7 +180,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [HyGen](https://arxiv.org/pdf/2501.14808): Efficient LLM Serving via Elastic Online-Offline Request Co-location
 - [WaferLLM: A Wafer‑Scale LLM Inference System](https://arxiv.org/abs/2502.04563) | OSDI 25
 - [BlitzScale: Fast and Live Large Model Autoscaling with O(1) Host Caching](https://arxiv.org/abs/2412.17246) | OSDI 25
-- [TokenWeave: Efficient Compute-Communication Overlap for Distributed LLM Inference](https://arxiv.org/html/2505.11329v1) | OSDI 25
+- [TokenWeave: Efficient Compute-Communication Overlap for Distributed LLM Inference](https://arxiv.org/abs/2505.11329) | [Code](https://github.com/microsoft/tokenweave) | ArXiv'25
 - [Nexus: Taming Throughput-Latency Tradeoff in LLM Serving via Efficient GPU Sharing](https://arxiv.org/abs/2507.06608v2)
 
 
