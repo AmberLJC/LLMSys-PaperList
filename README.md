@@ -290,12 +290,15 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Megatron](https://github.com/NVIDIA/Megatron-LM) | Nvidia
 - [NeMo](https://github.com/NVIDIA/NeMo) | Nvidia
 - [torchtitan](https://github.com/pytorch/torchtitan) | PyTorch
-- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
-- [VeRL](https://github.com/volcengine/verl) | ByteDance
 - [veScale](https://github.com/volcengine/vescale) | ByteDance
 - [Cornstarch](https://github.com/cornstarch-org/Cornstarch): Build, Train, Run Your Own Multimodal Model | UMich
-- [TRL](https://github.com/huggingface/trl): Transformers Reinforcement Learning
 - [DeepSeek Open Infra](https://github.com/deepseek-ai/open-infra-index)
+- **Post-Training**
+  - [TRL](https://github.com/huggingface/trl): Transformers Reinforcement Learning
+  - [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
+  - [VeRL](https://github.com/volcengine/verl) | ByteDance
+  - [rLLM](https://github.com/agentica-project/rllm): Reinforcement Learning for Language Agents
+  - [SkyRL](https://github.com/NovaSky-AI/SkyRL): A Modular Full-stack RL Library for LLMs
 
 ### Serving
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Nvidia
