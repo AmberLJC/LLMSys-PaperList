@@ -299,6 +299,8 @@ A curated list of Large Language Model systems related academic papers, articles
   - [VeRL](https://github.com/volcengine/verl) | ByteDance
   - [rLLM](https://github.com/agentica-project/rllm): Reinforcement Learning for Language Agents
   - [SkyRL](https://github.com/NovaSky-AI/SkyRL): A Modular Full-stack RL Library for LLMs
+  - [ROLL](https://github.com/alibaba/ROLL): Reinforcement Learning Optimization for Large-Scale Learning
+  - [slime](https://github.com/THUDM/slime): a LLM post-training framework aiming for RL Scaling
 
 ### Serving
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Nvidia
