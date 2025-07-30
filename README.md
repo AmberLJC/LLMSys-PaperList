@@ -295,12 +295,14 @@ A curated list of Large Language Model systems related academic papers, articles
 - [DeepSeek Open Infra](https://github.com/deepseek-ai/open-infra-index)
 - **Post-Training**
   - [TRL](https://github.com/huggingface/trl): Transformers Reinforcement Learning
-  - [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
-  - [VeRL](https://github.com/volcengine/verl) | ByteDance
+  - [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF): An Easy-to-use, Scalable and High-performance RLHF Framework based on Ray
+  - [VeRL](https://github.com/volcengine/verl): Volcano Engine Reinforcement Learning for LLMs
   - [rLLM](https://github.com/agentica-project/rllm): Reinforcement Learning for Language Agents
   - [SkyRL](https://github.com/NovaSky-AI/SkyRL): A Modular Full-stack RL Library for LLMs
+  - [AReal](https://github.com/inclusionAI/AReaL): Distributed RL System for LLM Reasoning
   - [ROLL](https://github.com/alibaba/ROLL): Reinforcement Learning Optimization for Large-Scale Learning
   - [slime](https://github.com/THUDM/slime): a LLM post-training framework aiming for RL Scaling
+  
 
 ### Serving
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Nvidia
