@@ -70,6 +70,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Systems Opportunities for LLM Fine-Tuning using Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3721146.3721944)
 - [AReaL](https://arxiv.org/pdf/2505.24298): A Large-Scale Asynchronous Reinforcement Learning System for Language Reasoning | [Code](https://github.com/inclusionAI/AReaL) | Ant
 - [StreamRL](https://arxiv.org/abs/2504.15930): Scalable, Heterogeneous, and Elastic RL for LLMs with Disaggregated Stream Generation
+- [RL-Factory](https://github.com/Simple-Efficient/RL-Factory): Train your Agent model via our easy and efficient framework
+
 
 #### Fault Tolerance / Straggler Mitigation
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
