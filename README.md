@@ -302,7 +302,7 @@ A curated list of Large Language Model systems related academic papers, articles
   - [AReal](https://github.com/inclusionAI/AReaL): Distributed RL System for LLM Reasoning
   - [ROLL](https://github.com/alibaba/ROLL): Reinforcement Learning Optimization for Large-Scale Learning
   - [slime](https://github.com/THUDM/slime): a LLM post-training framework aiming for RL Scaling
-  
+  - [RAGEN](https://github.com/RAGEN-AI/RAGEN): Training Agents by Reinforcing Reasoning
 
 ### Serving
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Nvidia
