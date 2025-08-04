@@ -14,11 +14,11 @@ A curated list of Large Language Model systems related academic papers, articles
   - [Fine-tuning Systems](#fine-tuning-systems)
   - [Multi-Modal Systems](#multi-modal-systems)
 - [LLM for Systems](#llm-for-systems)
-- [ML Systems](mlsystems.md)
-- [Survey Paper](#survey-paper)
-- [LLM Benchmark / Leaderboard / Traces](#llm-benchmark--leaderboard--traces)
 - [LLM Frameworks](#llm-frameworks)
+- [LLM Systems Survey Paper](#survey-paper)
+- [LLM Benchmark / Leaderboard / Traces](#llm-benchmark--leaderboard--traces)
 - [Related ML Readings](#related-ml-readings) 
+
 
 ## LLM Systems
 ### Training
@@ -264,26 +264,22 @@ A curated list of Large Language Model systems related academic papers, articles
 - [GMorph](https://dl.acm.org/doi/10.1145/3627703.3650074): Accelerating Multi-DNN Inference via Model Fusion | EuroSys '24
 - [Automatic Root Cause Analysis via Large Language Models for Cloud Incidents](https://dl.acm.org/doi/10.1145/3627703.3629553) | EuroSys '24
 
+## Industrial LLM Technical Report   
 
-## [ML Systems](mlsystems.md)
-
-
-## Survey Paper
-- [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863)
-- [Challenges and Applications of Large Language Models](https://arxiv.org/pdf/2307.10169.pdf)
-- [Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models](https://arxiv.org/abs/2401.00625)
-- [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234)
-
-
-## LLM Benchmark / Leaderboard ? Traces
--  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
--  [LLM-Perf Leaderboard](https://huggingface.co/spaces/optimum/llm-perf-leaderboard) | HuggingFace
--  [Aviary Explorer](https://aviary.anyscale.com/) | Anyscale
--  [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | HuggingFace
--  [HELM](https://crfm.stanford.edu/helm/latest/) | Stanford
--  [LMSYS](https://chat.lmsys.org) | UCB
--  [Towards Efficient and Reliable LLM Serving: A Real-World Workload Study](https://arxiv.org/abs/2401.17644)
  
+- [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) - (Dec 2024)   
+- [Gemini 2.5 Tech Report](https://deepmind.google/models/gemini/pro/) - (June 2025)   
+- [The Llama 3 Herd of Models](https://arxiv.org/abs/2404.11083) - (Aug 2024)
+- **[Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next‑Generation Agentic Capabilities](https://arxiv.org/html/2507.06261v1)** – (July 2025)  
+- **[Qwen 3 Technical Report](https://arxiv.org/abs/2505.09388)** – (May 14, 2025)  
+- **[Phi‑4‑reasoning Technical Report](https://arxiv.org/abs/2504.21318)** – (Apr 29, 2025)  
+- **[Phi‑4 Technical Report](https://arxiv.org/abs/2412.08905)** – (Dec 2024)  
+- **[Kimi‑VL Technical Report](https://arxiv.org/abs/2504.07491)** – (Apr 2025)  
+- **[Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599)** – (Jan 2025)  
+- **[DeepSeek‑R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)** – (Jan 2025)  
+ 
+
+
 ## LLM Frameworks
 ### Training
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed): a deep learning optimization library that makes distributed training and inference easy, efficient, and effective | Microsoft
@@ -318,6 +314,27 @@ A curated list of Large Language Model systems related academic papers, articles
 
 
 
+
+
+## [ML Systems](mlsystems.md)
+
+
+## Survey Paper
+- [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863)
+- [Challenges and Applications of Large Language Models](https://arxiv.org/pdf/2307.10169.pdf)
+- [Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models](https://arxiv.org/abs/2401.00625)
+- [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234)
+
+
+## LLM Benchmark / Leaderboard ? Traces
+-  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
+-  [LLM-Perf Leaderboard](https://huggingface.co/spaces/optimum/llm-perf-leaderboard) | HuggingFace
+-  [Aviary Explorer](https://aviary.anyscale.com/) | Anyscale
+-  [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | HuggingFace
+-  [HELM](https://crfm.stanford.edu/helm/latest/) | Stanford
+-  [LMSYS](https://chat.lmsys.org) | UCB
+-  [Towards Efficient and Reliable LLM Serving: A Real-World Workload Study](https://arxiv.org/abs/2401.17644)
+ 
 
 
 
