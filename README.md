@@ -272,16 +272,15 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Automatic Root Cause Analysis via Large Language Models for Cloud Incidents](https://dl.acm.org/doi/10.1145/3627703.3629553) | EuroSys '24
 
 ## Industrial LLM Technical Report   
-
  
 - [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) - (Dec 2024)   
+- [Qwen 3 Technical Report](https://arxiv.org/abs/2505.09388) – (May 2025)
 - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) - (Feb 2023)
 - [Llama 2: Open Foundation and Fine‑Tuned Chat Models](https://arxiv.org/abs/2307.09288) - (Jul 2023)
 - [The Llama 3 Herd of Models](https://arxiv.org/abs/2404.11083) - (Aug 2024)
 - [Gemini: A Family of Highly Capable Multimodal Models](https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/r7G7RrtT6rnM/v0) - (Dec 2023)
 - [Gemini 1.5: Unlocking multimodal understanding across millions of tokens](https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf) - (Feb 2024)
 - [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next‑Generation Agentic Capabilities](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) - (Jun 2025)
-- [Qwen 3 Technical Report](https://arxiv.org/abs/2505.09388) – (May 2025)
 - [Phi‑4‑reasoning Technical Report](https://arxiv.org/abs/2504.21318) – (Apr 2025)
 - [Phi‑4 Technical Report](https://arxiv.org/abs/2412.08905) – (Dec 2024)
 - [Kimi‑VL Technical Report](https://arxiv.org/abs/2504.07491) – (Apr 2025)
@@ -293,8 +292,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Kimi-VL: Multimodal LLM with Vision, Language, and Long Context](https://arxiv.org/abs/2504.07491) – (Apr 2025)
 - [Kimi k1.5: Reinforcement Learning with Multimodal LLMs](https://arxiv.org/abs/2501.12599) – (Jan 2025)
 - [Kimi-K2: Open Agentic Intelligence](https://arxiv.org/abs/2507.20534) – (Jul 2025)
- 
-
+- [GPT-oss-120b & GPT-oss-20b](https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf) – (Aug 2025)
 
 ## LLM Frameworks
 ### Training
@@ -327,10 +325,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [KV Transformers](https://github.com/kvcache-ai/ktransformers)
 - [Dynamo](https://github.com/ai-dynamo/dynamo): A Datacenter Scale Distributed Inference Serving Framework | NVIDA
 - [LMCache](https://github.com/LMCache/LMCache): Supercharge Your LLM with the Fastest KV Cache Layer
-
-
-
-
+ 
 
 ## [ML Systems](mlsystems.md)
 
