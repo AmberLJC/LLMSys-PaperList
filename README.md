@@ -4,20 +4,27 @@ A curated list of Large Language Model systems related academic papers, articles
 ## Table of Contents
 
 - [LLM Systems](#llm-systems)
-  - [Training](#Training)
-    - [Post Training - RLHF](#Systems-for-Post-training--RLHF)
+  - [Training](#training)
+    - [Post Training - RLHF](#systems-for-post-training--rlhf)
     - [Fault Tolerance / Straggler Mitigation](#fault-tolerance--straggler-mitigation)
   - [Serving](#serving)
     - [Compound AI Systems](#compound-ai-systems)
     - [Serving at the edge](#serving-at-the-edge)
-    - [System Efficiency Optimization](#system-efficiency-optimization)
+    - [System Efficiency Optimization - Model Co-design](#system-efficiency-optimization---model-co-design)
   - [Fine-tuning Systems](#fine-tuning-systems)
   - [Multi-Modal Systems](#multi-modal-systems)
 - [LLM for Systems](#llm-for-systems)
+- [Industrial LLM Technical Report](#industrial-llm-technical-report)
 - [LLM Frameworks](#llm-frameworks)
-- [LLM Systems Survey Paper](#survey-paper)
+  - [Training](#training-1)
+  - [Post-Training](#post-training)
+  - [Serving](#serving-1)
+- [ML Systems](#ml-systems)
+- [Survey Paper](#survey-paper)
 - [LLM Benchmark / Leaderboard / Traces](#llm-benchmark--leaderboard--traces)
-- [Related ML Readings](#related-ml-readings) 
+- [Related ML Readings](#related-ml-readings)
+- [MLSys Courses](#mlsys-courses)
+- [Other Reading](#other-reading)
 
 
 ## LLM Systems
@@ -232,7 +239,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization](https://arxiv.org/abs/2403.12422) | ICML' 24
 - [COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training](https://arxiv.org/abs/2410.19313) | ICLR'25
   
-### Fine-tuning Systems
+### Post-Training Systems
 - [Ymir:](https://tianweiz07.github.io/Papers/24-ics-2.pdf) A Scheduler for Foundation Model Fine-tuning Workloads in Datacenters | ICS' 24
   
 ### Multi-Modal Systems
@@ -268,15 +275,24 @@ A curated list of Large Language Model systems related academic papers, articles
 
  
 - [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) - (Dec 2024)   
-- [Gemini 2.5 Tech Report](https://deepmind.google/models/gemini/pro/) - (June 2025)   
+- [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) - (Feb 2023)
+- [Llama 2: Open Foundation and Fine‑Tuned Chat Models](https://arxiv.org/abs/2307.09288) - (Jul 2023)
 - [The Llama 3 Herd of Models](https://arxiv.org/abs/2404.11083) - (Aug 2024)
-- **[Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next‑Generation Agentic Capabilities](https://arxiv.org/html/2507.06261v1)** – (July 2025)  
-- **[Qwen 3 Technical Report](https://arxiv.org/abs/2505.09388)** – (May 14, 2025)  
-- **[Phi‑4‑reasoning Technical Report](https://arxiv.org/abs/2504.21318)** – (Apr 29, 2025)  
-- **[Phi‑4 Technical Report](https://arxiv.org/abs/2412.08905)** – (Dec 2024)  
-- **[Kimi‑VL Technical Report](https://arxiv.org/abs/2504.07491)** – (Apr 2025)  
-- **[Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599)** – (Jan 2025)  
-- **[DeepSeek‑R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)** – (Jan 2025)  
+- [Gemini: A Family of Highly Capable Multimodal Models](https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/r7G7RrtT6rnM/v0) - (Dec 2023)
+- [Gemini 1.5: Unlocking multimodal understanding across millions of tokens](https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf) - (Feb 2024)
+- [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next‑Generation Agentic Capabilities](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) - (Jun 2025)
+- [Qwen 3 Technical Report](https://arxiv.org/abs/2505.09388) – (May 2025)
+- [Phi‑4‑reasoning Technical Report](https://arxiv.org/abs/2504.21318) – (Apr 2025)
+- [Phi‑4 Technical Report](https://arxiv.org/abs/2412.08905) – (Dec 2024)
+- [Kimi‑VL Technical Report](https://arxiv.org/abs/2504.07491) – (Apr 2025)
+- [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) – (Jan 2025)
+- [DeepSeek-LLM Technical Report](https://nairl.kr/wp-content/uploads/2025/02/deepseek_r1_techreport.pdf) - (Jan 2024)
+- [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434) - (05/2024)
+- [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) - (12/2024)
+- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://www.boozallen.com/content/dam/home/docs/ai/a-technical-primer-on-deepseek.pdf) - (012025)
+- [Kimi-VL: Multimodal LLM with Vision, Language, and Long Context](https://arxiv.org/abs/2504.07491) – (Apr 2025)
+- [Kimi k1.5: Reinforcement Learning with Multimodal LLMs](https://arxiv.org/abs/2501.12599) – (Jan 2025)
+- [Kimi-K2: Open Agentic Intelligence](https://arxiv.org/abs/2507.20534) – (Jul 2025)
  
 
 
