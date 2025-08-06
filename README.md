@@ -11,7 +11,6 @@ A curated list of Large Language Model systems related academic papers, articles
     - [Compound AI Systems](#compound-ai-systems)
     - [Serving at the edge](#serving-at-the-edge)
     - [System Efficiency Optimization - Model Co-design](#system-efficiency-optimization---model-co-design)
-  - [Fine-tuning Systems](#fine-tuning-systems)
   - [Multi-Modal Systems](#multi-modal-systems)
 - [LLM for Systems](#llm-for-systems)
 - [Industrial LLM Technical Report](#industrial-llm-technical-report)
@@ -69,6 +68,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 
 #### Systems for Post-training / RLHF 
+- [Ymir:](https://tianweiz07.github.io/Papers/24-ics-2.pdf) A Scheduler for Foundation Model Fine-tuning Workloads in Datacenters | ICS' 24
 - [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
 - [HybridFlow](https://arxiv.org/pdf/2409.19256): A Flexible and Efficient RLHF Framework
 - [ReaLHF](https://arxiv.org/html/2406.14088v1): Optimized RLHF Training for Large Language Models through Parameter Reallocation
@@ -238,9 +238,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Training Transformers with 4-bit Integers](https://arxiv.org/abs/2306.11987) | NeurIPS' 23
 - [Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization](https://arxiv.org/abs/2403.12422) | ICML' 24
 - [COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training](https://arxiv.org/abs/2410.19313) | ICLR'25
-  
-### Post-Training Systems
-- [Ymir:](https://tianweiz07.github.io/Papers/24-ics-2.pdf) A Scheduler for Foundation Model Fine-tuning Workloads in Datacenters | ICS' 24
   
 ### Multi-Modal Systems
 - [xDiT](https://arxiv.org/abs/2411.01738): an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism
