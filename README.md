@@ -300,8 +300,11 @@ A curated list of Large Language Model systems related academic papers, articles
 - [NeMo](https://github.com/NVIDIA/NeMo) | Nvidia
 - [torchtitan](https://github.com/pytorch/torchtitan) | PyTorch
 - [veScale](https://github.com/volcengine/vescale) | ByteDance
-- [Cornstarch](https://github.com/cornstarch-org/Cornstarch): Build, Train, Run Your Own Multimodal Model | UMich
 - [DeepSeek Open Infra](https://github.com/deepseek-ai/open-infra-index)
+- [VeOmni](https://github.com/ByteDance-Seed/VeOmni): Scaling any Modality Model Training  
+- [Cornstarch](https://github.com/cornstarch-org/Cornstarch): Distributed Multimodal Training Must Be Multimodality-Aware | UMich
+
+
 - **Post-Training**
   - [TRL](https://github.com/huggingface/trl): Transformers Reinforcement Learning
   - [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF): An Easy-to-use, Scalable and High-performance RLHF Framework based on Ray
