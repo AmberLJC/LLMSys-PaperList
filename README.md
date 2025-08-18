@@ -5,7 +5,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 - [LLM Systems](#llm-systems)
   - [Training](#training)
-    - [Post Training - RLHF](#systems-for-post-training--rlhf)
+    - [Post Training](#systems-for-post-training--rlhf)
     - [Fault Tolerance / Straggler Mitigation](#fault-tolerance--straggler-mitigation)
   - [Serving](#serving)
     - [Compound AI Systems](#compound-ai-systems)
@@ -78,7 +78,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [AReaL](https://arxiv.org/pdf/2505.24298): A Large-Scale Asynchronous Reinforcement Learning System for Language Reasoning | [Code](https://github.com/inclusionAI/AReaL) | Ant
 - [StreamRL](https://arxiv.org/abs/2504.15930): Scalable, Heterogeneous, and Elastic RL for LLMs with Disaggregated Stream Generation
 - [RL-Factory](https://github.com/Simple-Efficient/RL-Factory): Train your Agent model via our easy and efficient framework
-
+- [PLoRA](https://arxiv.org/pdf/2508.02932): Efficient LoRA Hyperparameter Tuning for Large Models
 
 #### Fault Tolerance / Straggler Mitigation
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
