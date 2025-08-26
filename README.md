@@ -238,6 +238,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Training Transformers with 4-bit Integers](https://arxiv.org/abs/2306.11987) | NeurIPS' 23
 - [Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization](https://arxiv.org/abs/2403.12422) | ICML' 24
 - [COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training](https://arxiv.org/abs/2410.19313) | ICLR'25
+- [Efficient Mixed-Precision Large Language Model Inference with TurboMind](https://arxiv.org/pdf/2508.15601v1) | Shanghai AI Lab 
   
 ### Multi-Modal Systems
 - [xDiT](https://arxiv.org/abs/2411.01738): an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism
