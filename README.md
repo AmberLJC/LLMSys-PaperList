@@ -204,6 +204,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Patchwork: A Unified Framework for RAG Serving](https://arxiv.org/abs/2505.07833)
 - [KVFlow](https://arxiv.org/abs/2507.07400): Efficient Prefix Caching for Accelerating LLM-Based Multi-Agent Workflows
 - [DroidSpeak](https://arxiv.org/abs/2411.02820): KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving
+- [Murakkab](https://arxiv.org/abs/2508.18298): Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms
 
 #### Serving at the edge
 - [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
@@ -317,7 +318,9 @@ A curated list of Large Language Model systems related academic papers, articles
   - [ROLL](https://github.com/alibaba/ROLL): Reinforcement Learning Optimization for Large-Scale Learning
   - [slime](https://github.com/THUDM/slime): a LLM post-training framework aiming for RL Scaling
   - [RAGEN](https://github.com/RAGEN-AI/RAGEN): Training Agents by Reinforcing Reasoning
-
+  - [Agent Lightning](https://arxiv.org/pdf/2508.03680): Train ANY AI Agents with Reinforcement Learning
+ 
+  
 ### Serving
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Nvidia
 - [Ray-LLM](https://github.com/ray-project/ray-llm) | Ray
