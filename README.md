@@ -193,6 +193,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [TokenWeave: Efficient Compute-Communication Overlap for Distributed LLM Inference](https://arxiv.org/abs/2505.11329) | [Code](https://github.com/microsoft/tokenweave) | ArXiv'25
 - [Nexus](https://arxiv.org/abs/2507.06608v2): Taming Throughput-Latency Tradeoff in LLM Serving via Efficient GPU Sharing
 - [Taming the Chaos](https://arxiv.org/abs/2508.19559): Coordinated Autoscaling for Heterogeneous and Disaggregated LLM Inference | Seed
+- [TokenLake](https://arxiv.org/abs/2508.17219): A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving
 
 #### Compound AI Systems  
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
