@@ -8,7 +8,7 @@ A curated list of Large Language Model systems related academic papers, articles
     - [Post Training](#systems-for-post-training--rlhf)
     - [Fault Tolerance / Straggler Mitigation](#fault-tolerance--straggler-mitigation)
   - [Serving](#serving)
-    - [Compound AI Systems](#compound-ai-systems)
+    - [Agent Systems](#agent-systems)
     - [Serving at the edge](#serving-at-the-edge)
     - [System Efficiency Optimization - Model Co-design](#system-efficiency-optimization---model-co-design)
   - [Multi-Modal Systems](#multi-modal-systems)
@@ -195,7 +195,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Taming the Chaos](https://arxiv.org/abs/2508.19559): Coordinated Autoscaling for Heterogeneous and Disaggregated LLM Inference | Seed
 - [TokenLake](https://arxiv.org/abs/2508.17219): A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving
 
-#### Compound AI Systems  
+#### Agent Systems
+- [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
 - [Parrot](https://www.usenix.org/conference/osdi24/presentation/lin-chaofan): Efficient Serving of LLM-based Applications with Semantic Variable | OSDI' 24
 - [Efficiently Serving LLM Reasoning Programs with Certaindex](https://arxiv.org/pdf/2412.20993) | UCSD
