@@ -16,7 +16,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Industrial LLM Technical Report](#industrial-llm-technical-report)
 - [LLM Frameworks](#llm-frameworks)
   - [Training](#training-1)
-  - [Post-Training](#post-training)
   - [Serving](#serving-1)
 - [ML Systems](#ml-systems)
 - [Survey Paper](#survey-paper)
@@ -80,6 +79,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [RL-Factory](https://github.com/Simple-Efficient/RL-Factory): Train your Agent model via our easy and efficient framework
 - [PLoRA](https://arxiv.org/pdf/2508.02932): Efficient LoRA Hyperparameter Tuning for Large Models
 - [History Rhymes](https://arxiv.org/abs/2508.18588): Accelerating LLM Reinforcement Learning with RhymeRL
+- [APRIL](https://arxiv.org/abs/2509.18521): Active Partial Rollouts in Reinforcement Learning to tame long-tail generation
 
 #### Fault Tolerance / Straggler Mitigation
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
