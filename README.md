@@ -195,6 +195,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Nexus](https://arxiv.org/abs/2507.06608v2): Taming Throughput-Latency Tradeoff in LLM Serving via Efficient GPU Sharing
 - [Taming the Chaos](https://arxiv.org/abs/2508.19559): Coordinated Autoscaling for Heterogeneous and Disaggregated LLM Inference | Seed
 - [TokenLake](https://arxiv.org/abs/2508.17219): A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving
+- [Expert-as-a-Service](https://arxiv.org/abs/2509.17863): Towards Efficient, Scalable, and Robust Large-scale MoE Serving
 
 #### Agent Systems
 - [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
