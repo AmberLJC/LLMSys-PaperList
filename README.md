@@ -65,6 +65,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [SlimPipe](https://arxiv.org/abs/2504.14519): Memory-Thrifty and Efficient Pipeline Parallelism for Long-Context LLM Training | Kuaishou
 - [Scaling Llama 3 Training with Efficient Parallelism Strategies](https://aisystemcodesign.github.io/papers/Llama3-ISCA25.pdf) | ISCA' 25
 - [Lumos](https://arxiv.org/abs/2504.09307) : Efficient Performance Modeling and Estimation for Large-scale LLM Training| MLSys' 25
+- [BurstEngine](https://arxiv.org/abs/2509.19836): an Efficient Distributed Framework for Training Transformers on Extremely Long Sequences of over 1M Tokens
+- [Zeppelin](https://arxiv.org/abs/2509.21841): Balancing Variable-length Workloads in Data Parallel Large Model Training
 
 
 #### Systems for Post-training / RLHF 
@@ -196,6 +198,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Taming the Chaos](https://arxiv.org/abs/2508.19559): Coordinated Autoscaling for Heterogeneous and Disaggregated LLM Inference | Seed
 - [TokenLake](https://arxiv.org/abs/2508.17219): A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving
 - [Expert-as-a-Service](https://arxiv.org/abs/2509.17863): Towards Efficient, Scalable, and Robust Large-scale MoE Serving
+- [Shift Parallelism](https://arxiv.org/pdf/2509.16495): Low-Latency, High-Throughput LLM Inference for Dynamic Workloads
+- [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
 
 #### Agent Systems
 - [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
