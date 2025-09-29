@@ -196,6 +196,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Taming the Chaos](https://arxiv.org/abs/2508.19559): Coordinated Autoscaling for Heterogeneous and Disaggregated LLM Inference | Seed
 - [TokenLake](https://arxiv.org/abs/2508.17219): A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving
 - [Expert-as-a-Service](https://arxiv.org/abs/2509.17863): Towards Efficient, Scalable, and Robust Large-scale MoE Serving
+- [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/) | Blog
+- [Paper on LLM Systems](https://arxiv.org/abs/2509.19836)
+- [Paper on LLM Systems](https://arxiv.org/abs/2509.21841)
+- [Paper on LLM Systems](https://arxiv.org/pdf/2509.16495)
 
 #### Agent Systems
 - [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
