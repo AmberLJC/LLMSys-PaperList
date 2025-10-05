@@ -67,6 +67,12 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Lumos](https://arxiv.org/abs/2504.09307) : Efficient Performance Modeling and Estimation for Large-scale LLM Training| MLSys' 25
 - [BurstEngine](https://arxiv.org/abs/2509.19836): an Efficient Distributed Framework for Training Transformers on Extremely Long Sequences of over 1M Tokens
 - [Zeppelin](https://arxiv.org/abs/2509.21841): Balancing Variable-length Workloads in Data Parallel Large Model Training
+- [Robust LLM Training Infrastructure at ByteDance](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [TrainVerify: Equivalence-Based Verification for Distributed LLM Training](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 
 
 #### Systems for Post-training / RLHF 
@@ -200,6 +206,14 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Expert-as-a-Service](https://arxiv.org/abs/2509.17863): Towards Efficient, Scalable, and Robust Large-scale MoE Serving
 - [Shift Parallelism](https://arxiv.org/pdf/2509.16495): Low-Latency, High-Throughput LLM Inference for Dynamic Workloads
 - [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
+- [Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [Pie: A Programmable Serving System for Emerging LLM Applications](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [Jenga: Effective Memory Management for Serving LLM with Heterogeneity](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [IC-Cache: Efficient Large Language Model Serving via In-context Caching](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 
 #### Agent Systems
 - [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
@@ -213,6 +227,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [KVFlow](https://arxiv.org/abs/2507.07400): Efficient Prefix Caching for Accelerating LLM-Based Multi-Agent Workflows
 - [DroidSpeak](https://arxiv.org/abs/2411.02820): KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving
 - [Murakkab](https://arxiv.org/abs/2508.18298): Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms
+- [HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 
 #### Serving at the edge
 - [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
@@ -221,6 +237,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
 - [InfiniteHiP](https://arxiv.org/abs/2502.08910): Extending Language Model Context Up to 3 Million Tokens on a Single GPU
 - [prima.cpp](https://arxiv.org/pdf/2504.08791): PRIMA.CPP: Speeding Up 70B-Scale LLM Inference on Low-Resource Everyday Home Clusters
+- [Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 
 
 #### System Efficiency Optimization - Model Co-design
@@ -274,10 +291,11 @@ A curated list of Large Language Model systems related academic papers, articles
 - [The Hitchhiker's Guide to Program Analysis](https://arxiv.org/abs/2308.00245): A Journey with Large Language Models
 - [LLM-Assisted Code Cleaning For Training Accurate Code Generators](https://arxiv.org/abs/2311.14904) | UCB
 - [Efficient Multi-Task Large Model Training via Data Heterogeneity-aware Model Management](https://arxiv.org/abs/2409.03365)
-- [If At First You Don’t Succeed, Try, Try, Again...?](https://www.microsoft.com/en-us/research/publication/if-at-first-you-dont-succeed-try-try-again-insights-and-llm-informed-tooling-for-detecting-retry-bugs-in-software-systems/) | SOSP' 24
+- [If At First You Don't Succeed, Try, Try, Again...?](https://www.microsoft.com/en-us/research/publication/if-at-first-you-dont-succeed-try-try-again-insights-and-llm-informed-tooling-for-detecting-retry-bugs-in-software-systems/) | SOSP' 24
 - [Aceso](https://dl.acm.org/doi/pdf/10.1145/3627703.3629554): Efficient Parallel DNN Training through Iterative Bottleneck Alleviation | EuroSys '24
 - [GMorph](https://dl.acm.org/doi/10.1145/3627703.3650074): Accelerating Multi-DNN Inference via Model Fusion | EuroSys '24
 - [Automatic Root Cause Analysis via Large Language Models for Cloud Incidents](https://dl.acm.org/doi/10.1145/3627703.3629553) | EuroSys '24
+- [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 
 ## Industrial LLM Technical Report   
  

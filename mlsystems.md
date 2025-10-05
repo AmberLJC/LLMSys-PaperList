@@ -1,4 +1,10 @@
 # ML Systems
+## SOSP 25
+
+* [LithOS: An Operating System for Efficient Machine Learning on GPUs](https://sigops.org/s/conferences/sosp/2025/accepted.html)
+* [PhoenixOS: Concurrent OS-level GPU Checkpoint and Restore with Validated Speculation](https://sigops.org/s/conferences/sosp/2025/accepted.html)
+* [SAND: A New Programming Abstraction for Video-based Deep Learning](https://sigops.org/s/conferences/sosp/2025/accepted.html)
+
 ## OSDI 25
 
 * [KPerfIR: Towards an Open and Compiler‑centric Ecosystem for GPU Kernel Performance Tooling on Modern AI Workloads](https://arxiv.org/abs/2505.21661)
