@@ -200,8 +200,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Expert-as-a-Service](https://arxiv.org/abs/2509.17863): Towards Efficient, Scalable, and Robust Large-scale MoE Serving
 - [Shift Parallelism](https://arxiv.org/pdf/2509.16495): Low-Latency, High-Throughput LLM Inference for Dynamic Workloads
 - [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
-- [Paper Title TBD](https://arxiv.org/abs/2506.04301v1)
-- [Paper Title TBD](https://arxiv.org/abs/2508.17756)
+- [The Cost of Dynamic Reasoning: Demystifying AI Agents and Test-Time Scaling from an AI Infrastructure Perspective](https://arxiv.org/abs/2506.04301)
+- [SuperGen: An Efficient Ultra-high-resolution Video Generation System with Sketching and Tiling](https://arxiv.org/abs/2508.17756)
 
 #### Agent Systems
 - [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
