@@ -11,7 +11,8 @@ A curated list of Large Language Model systems related academic papers, articles
     - [Agent Systems](#agent-systems)
     - [Serving at the edge](#serving-at-the-edge)
     - [System Efficiency Optimization - Model Co-design](#system-efficiency-optimization---model-co-design)
-  - [Multi-Modal Systems](#multi-modal-systems)
+  - [Multi-Modal Training Systems](#multi-modal-training-systems)
+  - [Multi-Modal Serving Systems](#multi-modal-serving-systems)
 - [LLM for Systems](#llm-for-systems)
 - [Industrial LLM Technical Report](#industrial-llm-technical-report)
 - [LLM Frameworks](#llm-frameworks)
@@ -201,7 +202,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Shift Parallelism](https://arxiv.org/pdf/2509.16495): Low-Latency, High-Throughput LLM Inference for Dynamic Workloads
 - [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
 - [The Cost of Dynamic Reasoning: Demystifying AI Agents and Test-Time Scaling from an AI Infrastructure Perspective](https://arxiv.org/abs/2506.04301)
-- [SuperGen: An Efficient Ultra-high-resolution Video Generation System with Sketching and Tiling](https://arxiv.org/abs/2508.17756)
+- [TetriServe](https://arxiv.org/abs/2510.01565): Efficient DiT Serving for Heterogeneous Image Generation
+- [Barbarians at the Gate: How AI is Upending Systems Research](https://arxiv.org/pdf/2510.06189)
 
 #### Agent Systems
 - [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
@@ -252,20 +254,22 @@ A curated list of Large Language Model systems related academic papers, articles
 - [COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training](https://arxiv.org/abs/2410.19313) | ICLR'25
 - [Efficient Mixed-Precision Large Language Model Inference with TurboMind](https://arxiv.org/pdf/2508.15601v1) | Shanghai AI Lab 
   
-### Multi-Modal Systems
+### Multi-Modal Training Systems
+- [DISTMM](https://www.amazon.science/publications/distmm-accelerating-distributed-multimodal-model-training): Accelerating distributed multimodal model training | NSDI' 24
+- [Optimus:](https://www.arxiv.org/abs/2408.03505) Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation
+- [Addressing Model and Data Heterogeneity in Multimodal Large Language Model Training](https://arxiv.org/pdf/2408.04275v1) | PKU
+- [Cornstarch](https://arxiv.org/abs/2503.11367): Distributed Multimodal Training Must Be Multimodality-Aware | UMich
+- [PipeWeaver](https://arxiv.org/abs/2504.14145): Addressing Data Dynamicity in Large Multimodal Model Training with Dynamic Interleaved Pipeline | SJTU
+
+### Multi-Modal Serving Systems
 - [xDiT](https://arxiv.org/abs/2411.01738): an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism
 - [MOSEL](https://arxiv.org/pdf/2310.18481.pdf): Inference Serving Using Dynamic Modality Selection
-- [DISTMM](https://www.amazon.science/publications/distmm-accelerating-distributed-multimodal-model-training): Accelerating distributed multimodal model training | NSDI' 24
 - [Approximate Caching for Efficiently Serving Diffusion Models](https://arxiv.org/abs/2312.04429) | Adobe Research
 - [Generative AI Beyond LLMs](https://arxiv.org/pdf/2312.14385): System Implications of Multi-Modal Generation | Meta
 - [Characterizing and Efficiently Accelerating Multimodal Generation Model Inference](https://arxiv.org/abs/2410.00215) | Meta
 - [DistriFusion:](https://arxiv.org/abs/2402.19481) Distributed Parallel Inference for High-Resolution Diffusion Models |  MIT
-- [Optimus:](https://www.arxiv.org/abs/2408.03505) Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation
-- [Addressing Model and Data Heterogeneity in Multimodal Large Language Model Training](https://arxiv.org/pdf/2408.04275v1) | PKU
 - [LongVILA: Scaling Long-Context Visual Language Models for Long Videos](https://arxiv.org/abs/2408.10188) | NVIDIA
 - [FlexCache: Flexible Approximate Cache System for Video Diffusion](https://arxiv.org/abs/2501.04012) | University of Waterloo
-- [Cornstarch](https://arxiv.org/abs/2503.11367): Distributed Multimodal Training Must Be Multimodality-Aware | UMich
-- [PipeWeaver](https://arxiv.org/abs/2504.14145): Addressing Data Dynamicity in Large Multimodal Model Training with Dynamic Interleaved Pipeline | SJTU
 - [DDiT](https://arxiv.org/abs/2506.13497v1): Dynamic Resource Allocation for Diffusion Transformer Model Serving
 - [PATCHEDSERVE](https://arxiv.org/pdf/2501.09253): A Patch Management Framework for SLO-Optimized Hybrid Resolution Diffusion Serving
 - [ElasticMM](https://arxiv.org/abs/2507.10069): Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism
