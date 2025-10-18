@@ -5,9 +5,11 @@ A curated list of Large Language Model systems related academic papers, articles
 
 - [LLM Systems](#llm-systems)
   - [Training](#training)
+    - [Pre-training](#pre-training)
     - [Post Training](#systems-for-post-training--rlhf)
     - [Fault Tolerance / Straggler Mitigation](#fault-tolerance--straggler-mitigation)
   - [Serving](#serving)
+    - [LLM serving](#llm-serving)
     - [Agent Systems](#agent-systems)
     - [Serving at the edge](#serving-at-the-edge)
     - [System Efficiency Optimization - Model Co-design](#system-efficiency-optimization---model-co-design)
@@ -29,6 +31,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 ## LLM Systems
 ### Training
+#### Pre-training
 - [Megatron-LM](https://arxiv.org/pdf/1909.08053.pdf): Training Multi-Billion Parameter Language Models Using Model Parallelism
 - [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/pdf/2104.04473.pdf)
 - [Reducing Activation Recomputation in Large Transformer Models](https://arxiv.org/pdf/2205.05198.pdf)
@@ -36,7 +39,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Carbon Emissions and Large Neural Network Training](https://arxiv.org/pdf/2104.10350.pdf?fbclid=IwAR2o0_3HCtTnMxKbXka0OPrHzl8sCzQSSOYp0AOav76-zVWl_pYek2jX8Pk) | Google, UCB
 - [Perseus](https://arxiv.org/abs/2312.06902v1): Removing Energy Bloat from Large Model Training | SOSP' 24
 - [MegaScale](https://arxiv.org/abs/2402.15627): Scaling Large Language Model Training to More Than 10,000 GPUs | ByteDance
-- [DISTMM](https://www.amazon.science/publications/distmm-accelerating-distributed-multimodal-model-training): Accelerating distributed multimodal model training | NSDI' 24
+- [DISTMM](https://www.usenix.org/conference/nsdi24/presentation/huang): Accelerating distributed multimodal model training | NSDI' 24
 - [A Codesign of Scheduling and Parallelization for Large Model Training in Heterogeneous Clusters](https://arxiv.org/pdf/2403.16125)
 - [Pipeline Parallelism with Controllable Memory](https://arxiv.org/abs/2405.15362) | Sea AI Lab
 - [Boosting Large-scale Parallel Training Efficiency with C4](https://arxiv.org/abs/2406.04594): A Communication-Driven Approach
@@ -108,6 +111,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 
 ### Serving
+#### LLM serving
 - [Orca](https://www.usenix.org/conference/osdi22/presentation/yu): A Distributed Serving System for Transformer-Based Generative Models | OSDI'22
 - [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/abs/2305.13144) | NUS
 - [Efficiently Scaling Transformer Inference](https://arxiv.org/pdf/2211.05102.pdf) | MLSys' 23
@@ -217,6 +221,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [IC-Cache: Efficient Large Language Model Serving via In-context Caching](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [The ML.ENERGY Benchmark](https://arxiv.org/abs/2505.06371): Toward Automated Inference Energy Measurement and Optimization | NeurIPS' 25
 
 
 #### Agent Systems
@@ -272,7 +277,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Efficient Mixed-Precision Large Language Model Inference with TurboMind](https://arxiv.org/pdf/2508.15601v1) | Shanghai AI Lab 
   
 ### Multi-Modal Training Systems
-- [DISTMM](https://www.amazon.science/publications/distmm-accelerating-distributed-multimodal-model-training): Accelerating distributed multimodal model training | NSDI' 24
+- [DISTMM](https://www.usenix.org/conference/nsdi24/presentation/huang): Accelerating distributed multimodal model training | NSDI' 24
 - [Optimus:](https://www.arxiv.org/abs/2408.03505) Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation
 - [Addressing Model and Data Heterogeneity in Multimodal Large Language Model Training](https://arxiv.org/pdf/2408.04275v1) | PKU
 - [Cornstarch](https://arxiv.org/abs/2503.11367): Distributed Multimodal Training Must Be Multimodality-Aware | UMich
@@ -291,6 +296,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [PATCHEDSERVE](https://arxiv.org/pdf/2501.09253): A Patch Management Framework for SLO-Optimized Hybrid Resolution Diffusion Serving
 - [ElasticMM](https://arxiv.org/abs/2507.10069): Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism
 - [TetriServe](https://arxiv.org/abs/2510.01565): Efficient DiT Serving for Heterogeneous Image Generation
+- [dInfer](https://arxiv.org/abs/2510.08666): An Efficient Inference Framework for Diffusion Language Models
+- [Fast-dLLM v2](https://arxiv.org/abs/2509.26328): Efficient Block-Diffusion LLM
 
 
 ## LLM for Systems
