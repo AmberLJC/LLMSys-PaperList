@@ -5,9 +5,11 @@ A curated list of Large Language Model systems related academic papers, articles
 
 - [LLM Systems](#llm-systems)
   - [Training](#training)
+    - [Pre-training](#pre-training)
     - [Post Training](#systems-for-post-training--rlhf)
     - [Fault Tolerance / Straggler Mitigation](#fault-tolerance--straggler-mitigation)
   - [Serving](#serving)
+    - [LLM serving](#llm-serving)
     - [Agent Systems](#agent-systems)
     - [Serving at the edge](#serving-at-the-edge)
     - [System Efficiency Optimization - Model Co-design](#system-efficiency-optimization---model-co-design)
@@ -110,7 +112,6 @@ A curated list of Large Language Model systems related academic papers, articles
 
 ### Serving
 #### LLM serving
-- [The ML.ENERGY Benchmark](https://arxiv.org/abs/2505.06371): Toward Automated Inference Energy Measurement and Optimization | NeurIPS' 25
 - [Orca](https://www.usenix.org/conference/osdi22/presentation/yu): A Distributed Serving System for Transformer-Based Generative Models | OSDI'22
 - [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/abs/2305.13144) | NUS
 - [Efficiently Scaling Transformer Inference](https://arxiv.org/pdf/2211.05102.pdf) | MLSys' 23
@@ -220,6 +221,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [IC-Cache: Efficient Large Language Model Serving via In-context Caching](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [The ML.ENERGY Benchmark](https://arxiv.org/abs/2505.06371): Toward Automated Inference Energy Measurement and Optimization | NeurIPS' 25
 
 
 #### Agent Systems
