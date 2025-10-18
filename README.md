@@ -291,6 +291,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [PATCHEDSERVE](https://arxiv.org/pdf/2501.09253): A Patch Management Framework for SLO-Optimized Hybrid Resolution Diffusion Serving
 - [ElasticMM](https://arxiv.org/abs/2507.10069): Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism
 - [TetriServe](https://arxiv.org/abs/2510.01565): Efficient DiT Serving for Heterogeneous Image Generation
+- [dInfer](https://arxiv.org/abs/2510.08666): An Efficient Inference Framework for Diffusion Language Models
+- [Fast-dLLM v2](https://arxiv.org/abs/2509.26328): Efficient Block-Diffusion LLM
 
 
 ## LLM for Systems
@@ -383,6 +385,7 @@ A curated list of Large Language Model systems related academic papers, articles
 -  [HELM](https://crfm.stanford.edu/helm/latest/) | Stanford
 -  [LMSYS](https://chat.lmsys.org) | UCB
 -  [Towards Efficient and Reliable LLM Serving: A Real-World Workload Study](https://arxiv.org/abs/2401.17644)
+-  [The ML.ENERGY Benchmark](https://www.arxiv.org/abs/2505.06371): Toward Automated Inference Energy Measurement and Optimization | NeurIPS' 25
  
 
 
