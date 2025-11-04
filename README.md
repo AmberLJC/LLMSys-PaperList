@@ -77,6 +77,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [TrainVerify: Equivalence-Based Verification for Distributed LLM Training](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [Collective Communication for 100k+ GPUs](https://arxiv.org/abs/2510.20171): Large-scale collective communication optimization for massive GPU clusters
 
 
 #### Systems for Post-training / RLHF 
@@ -222,6 +223,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [The ML.ENERGY Benchmark](https://arxiv.org/abs/2505.06371): Toward Automated Inference Energy Measurement and Optimization | NeurIPS' 25
+- [Serve Programs, Not Prompts](https://arxiv.org/abs/2510.25412): Efficient LLM serving system for structured program execution
 
 
 #### Agent Systems
