@@ -402,6 +402,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Transformer Inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/)
 - [The Transformer Family Version 2.0](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/)
 - [Full Stack Optimization of Transformer Inference](https://arxiv.org/pdf/2302.14017.pdf): a Survey | UCB
+- [The Smol Training Playbook](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook): The Secrets to Building World-Class LLMs | Hugging Face
+- [The Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook): Training LLMs on GPU Clusters | Hugging Face
 
 ## MLSys Courses
 - Systems for Machine Learning | (Stanford)[https://cs229s.stanford.edu/fall2023/]
