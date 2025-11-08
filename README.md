@@ -275,7 +275,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Learned Best-Effort LLM Serving](https://arxiv.org/abs/2401.07886) | UCB
 - [Star Attention](https://arxiv.org/pdf/2411.17116) : Efficient LLM Inference over Long Sequences| NVIDIA
 - [FFN Fusion](https://arxiv.org/abs/2503.18908): Rethinking Sequential Computation in Large Language Models
-- [SpargeAttn](https://arxiv.org/pdf/2502.18137): Accurate Sparse Attention Accelerating Any Model Inference
+- [SpargeAttention](https://arxiv.org/pdf/2502.18137): SpargeAttention: Accurate and Training-free Sparse Attention Accelerating Any Model Inference | ICML' 25
 - [Training Transformers with 4-bit Integers](https://arxiv.org/abs/2306.11987) | NeurIPS' 23
 - [Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization](https://arxiv.org/abs/2403.12422) | ICML' 24
 - [COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training](https://arxiv.org/abs/2410.19313) | ICLR'25
