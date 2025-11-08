@@ -119,6 +119,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Flover](https://arxiv.org/pdf/2305.13484.pdf): A Temporal Fusion Framework for Efficient Autoregressive Model Parallel Inference 
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135.pdf)
 - [FlashAttention-3:](https://tridao.me/blog/2024/flash3/) Fast and Accurate Attention with Asynchrony and Low-precision
+- [SageAttention](https://arxiv.org/pdf/2410.02367): Accurate 8-Bit Attention for Plug-and-play Inference Acceleration | ICLR 2025
+- [SageAttention2](https://arxiv.org/pdf/2411.10958): Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization | ICML 2025
+- [SageAttention3](https://arxiv.org/pdf/2505.11594): SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training | NeurIPS 2025 spotlight
+- [SageAttention2++](https://arxiv.org/abs/2505.21136): SageAttention2++: A More Efficient Implementation of SageAttention2 | ICML ES-FoMo Workshop 2025
 - [DeepSpeed Inference](https://arxiv.org/abs/2207.00032) : Enabling Efficient Inference of Transformer Models at Unprecedented Scale.  
 - [TurboTransformers](https://arxiv.org/pdf/2010.05680.pdf): An Efficient GPU Serving System For Transformer Models
 - [FlexGen](https://arxiv.org/abs/2303.06865): High-throughput Generative Inference of Large Language Models with a Single GPU | ICML' 23
@@ -252,6 +256,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 
 #### System Efficiency Optimization - Model Co-design
+- [Sparse-Linear Attention](https://www.arxiv.org/pdf/2509.24006): SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse–Linear Attention | Tsinghua
 - [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | PKU
 - [FrugalGPT](https://arxiv.org/pdf/2305.05176.pdf): How to Use Large Language Models While Reducing Cost and Improving Performance |  Stanford
 - [H2O](https://arxiv.org/abs/2306.14048): Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models | ICML ES-FoMo Workshop 2023
@@ -270,9 +275,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Learned Best-Effort LLM Serving](https://arxiv.org/abs/2401.07886) | UCB
 - [Star Attention](https://arxiv.org/pdf/2411.17116) : Efficient LLM Inference over Long Sequences| NVIDIA
 - [FFN Fusion](https://arxiv.org/abs/2503.18908): Rethinking Sequential Computation in Large Language Models
-- [SageAttention](https://arxiv.org/pdf/2410.02367): Accurate 8-Bit Attention for Plug-and-play Inference Acceleration
-- [SageAttention2](https://arxiv.org/pdf/2411.10958): Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization
-- [SpargeAttn](https://arxiv.org/pdf/2502.18137): Accurate Sparse Attention Accelerating Any Model Inference
+- [SpargeAttention](https://arxiv.org/pdf/2502.18137): SpargeAttention: Accurate and Training-free Sparse Attention Accelerating Any Model Inference | ICML' 25
 - [Training Transformers with 4-bit Integers](https://arxiv.org/abs/2306.11987) | NeurIPS' 23
 - [Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization](https://arxiv.org/abs/2403.12422) | ICML' 24
 - [COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training](https://arxiv.org/abs/2410.19313) | ICLR'25
