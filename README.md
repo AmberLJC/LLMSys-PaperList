@@ -164,7 +164,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [NanoFlow](https://arxiv.org/abs/2408.12757): Towards Optimal Large Language Model Serving Throughput
 - [Responsive ML inference in multi-tenanted environments using AQUA](https://arxiv.org/abs/2407.21255)
 - [One Queue Is All You Need](https://arxiv.org/abs/2407.00047): Resolving Head-of-Line Blocking in Large Language Model Serving
-- [Queue management for slo-oriented large language model serving](https://arxiv.org/abs/2407.00047v2): Queue management strategies for meeting SLO requirements in LLM serving
 - [MemServe](https://arxiv.org/abs/2406.17565): Context Caching for Disaggregated LLM Serving with Elastic Memory Pool
 - [dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) | OSDI' 24
 - [Llumnix](https://www.usenix.org/conference/osdi24/presentation/sun-biao): Dynamic Scheduling for Large Language Model Serving | OSDI' 24
