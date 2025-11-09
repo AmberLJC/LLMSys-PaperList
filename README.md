@@ -164,6 +164,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [NanoFlow](https://arxiv.org/abs/2408.12757): Towards Optimal Large Language Model Serving Throughput
 - [Responsive ML inference in multi-tenanted environments using AQUA](https://arxiv.org/abs/2407.21255)
 - [One Queue Is All You Need](https://arxiv.org/abs/2407.00047): Resolving Head-of-Line Blocking in Large Language Model Serving
+- [Queue management for slo-oriented large language model serving](https://arxiv.org/abs/2407.00047v2): Queue management strategies for meeting SLO requirements in LLM serving
 - [MemServe](https://arxiv.org/abs/2406.17565): Context Caching for Disaggregated LLM Serving with Elastic Memory Pool
 - [dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) | OSDI' 24
 - [Llumnix](https://www.usenix.org/conference/osdi24/presentation/sun-biao): Dynamic Scheduling for Large Language Model Serving | OSDI' 24
@@ -200,6 +201,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [ThunderServe](https://arxiv.org/pdf/2502.09334): High-performance and Cost-efficient LLM Serving in Cloud Environments | MLSys' 25
 - [SLOs-Serve](https://arxiv.org/abs/2504.08784): Optimized Serving of Multi-SLO LLMs
 - [Tempo](https://arxiv.org/abs/2504.20068): Application-aware LLM Serving with Mixed SLO Requirements
+- [Hogwild! Inference](https://arxiv.org/abs/2504.06261): Parallel LLM Generation via Concurrent Attention
 - [Prism](https://arxiv.org/pdf/2505.04021): Unleashing GPU Sharing for Cost-Efficient Multi-LLM Serving | UCLA
 - [RetroInfer](https://arxiv.org/abs/2505.02922): A Vector-Storage Approach for Scalable Long-Context LLM Inference
 - [Efficient Serving of LLM Applications with Probabilistic Demand Modeling](https://arxiv.org/abs/2506.14851)
@@ -228,6 +230,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [The ML.ENERGY Benchmark](https://arxiv.org/abs/2505.06371): Toward Automated Inference Energy Measurement and Optimization | NeurIPS' 25
 - [Serve Programs, Not Prompts](https://arxiv.org/abs/2510.25412): Efficient LLM serving system for structured program execution
+- [Continuum](https://arxiv.org/abs/2511.02230): Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live
 
 
 #### Agent Systems
