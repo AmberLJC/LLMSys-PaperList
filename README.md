@@ -317,6 +317,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [GMorph](https://dl.acm.org/doi/10.1145/3627703.3650074): Accelerating Multi-DNN Inference via Model Fusion | EuroSys '24
 - [Automatic Root Cause Analysis via Large Language Models for Cloud Incidents](https://dl.acm.org/doi/10.1145/3627703.3629553) | EuroSys '24
 - [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+- [Barbarians at the Gate: How AI is Upending Systems Research](https://arxiv.org/abs/2510.06189)
+- [AI Research Engineering Skills Library](https://github.com/zechenzhangAGI/claude-ai-research-skills): A collection of AI research engineering skills and best practices
 
 ## Industrial LLM Technical Report   
  
