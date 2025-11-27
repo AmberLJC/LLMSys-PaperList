@@ -221,6 +221,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Expert-as-a-Service](https://arxiv.org/abs/2509.17863): Towards Efficient, Scalable, and Robust Large-scale MoE Serving
 - [Shift Parallelism](https://arxiv.org/pdf/2509.16495): Low-Latency, High-Throughput LLM Inference for Dynamic Workloads
 - [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
+- [Deterministic Inference across Tensor Parallel Sizes That Eliminates Training-Inference Mismatch](https://arxiv.org/abs/2511.17826): Ensuring deterministic inference across different tensor parallelism configurations
 - [The Cost of Dynamic Reasoning: Demystifying AI Agents and Test-Time Scaling from an AI Infrastructure Perspective](https://arxiv.org/abs/2506.04301)
 - [Barbarians at the Gate: How AI is Upending Systems Research](https://arxiv.org/pdf/2510.06189)
 - [Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
