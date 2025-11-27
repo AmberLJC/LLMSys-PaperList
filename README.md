@@ -78,6 +78,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [TrainVerify: Equivalence-Based Verification for Distributed LLM Training](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [Collective Communication for 100k+ GPUs](https://arxiv.org/abs/2510.20171): Large-scale collective communication optimization for massive GPU clusters
+- [RDMA Point-to-Point Communication for LLM Systems](https://arxiv.org/abs/2510.27656): RDMA-based point-to-point communication optimization for distributed LLM systems
 
 
 #### Systems for Post-training / RLHF 
@@ -95,6 +96,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [History Rhymes](https://arxiv.org/abs/2508.18588): Accelerating LLM Reinforcement Learning with RhymeRL
 - [APRIL](https://arxiv.org/abs/2509.18521): Active Partial Rollouts in Reinforcement Learning to tame long-tail generation
 - [Laminar](https://arxiv.org/abs/2510.12633): A Scalable Asynchronous RL Post-Training Framework
+- [Seer](https://arxiv.org/abs/2511.14617): Online Context Learning for Fast Synchronous LLM Reinforcement Learning
+- [SkyRL-Agent](https://arxiv.org/abs/2511.16108): Efficient RL Training for Multi-turn LLM Agent
 
 #### Fault Tolerance / Straggler Mitigation
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
