@@ -10,10 +10,11 @@ A curated list of NeurIPS 2025 papers focused on efficient LLM inference, servin
   - [1.1 Scheduling & Resource Management](#11-scheduling--resource-management)
   - [1.2 Distributed Inference](#12-distributed-inference)
   - [1.3 KV Cache Systems](#13-kv-cache-systems)
-  - [1.4 Compression Systems](#14-compression-systems)
+  - [1.4 Energy Efficiency](#14-energy-efficiency)
   - [1.5 Multi-LoRA Serving](#15-multi-lora-serving)
   - [1.6 TPU Infrastructure](#16-tpu-infrastructure)
   - [1.7 Inference Reliability](#17-inference-reliability)
+  - [1.8 Compression Systems](#18-compression-systems)
 - [2. System-Algorithm Co-design](#2-system-algorithm-co-design)
   - [2.1 Speculative Decoding](#21-speculative-decoding)
   - [2.2 Long-Context Inference](#22-long-context-inference)
@@ -82,12 +83,13 @@ A curated list of NeurIPS 2025 papers focused on efficient LLM inference, servin
 
 ---
 
-### 1.4 Compression Systems
+### 1.4 Energy Efficiency
 
-#### DFloat11: Lossless LLM Compression for Efficient GPU Inference via Dynamic-Length Float
+#### The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization 🔦 **SPOTLIGHT**
 
-- **Link:** [NeurIPS 2025 Poster](https://neurips.cc/virtual/2025/poster/115225)
-- **Summary:** Unlike lossy quantization methods that trade accuracy for size, DFloat11 achieves **~30% model size reduction while producing bit-for-bit identical outputs**. The approach uses entropy coding with dynamic-length floating-point representations and custom GPU kernels with hierarchical lookup tables for fast online decompression. Critically, this enables **lossless inference of Llama 3.1 405B (810GB) on 8×80GB GPUs** without any quality compromise. Compared to CPU offloading alternatives, DFloat11 achieves **2.3-46.2× higher throughput**.
+- **Link:** [arXiv:2505.06371](https://arxiv.org/abs/2505.06371) | [Benchmark](https://github.com/ml-energy/benchmark) | [Leaderboard](https://ml.energy/leaderboard)
+- **Authors:** Jae-Won Chung, Jeff J. Ma, Ruofan Wu, Jiachen Liu, Oh Jun Kweon, Yuxuan Xia, Zhiyu Wu, Mosharaf Chowdhury
+- **Summary:** As generative AI becomes increasingly embedded in production services, energy has emerged as a critical bottleneck resource that remains overlooked and poorly understood in ML systems. The ML.ENERGY Benchmark addresses this gap by providing an open-source benchmarking suite and public leaderboard that measures inference energy consumption under realistic deployment conditions. The paper outlines four key design principles for effective energy benchmarking and demonstrates their implementation across 40 widely used model architectures spanning 6 different tasks, tested on NVIDIA A100 and H100 GPUs. Notably, automatic optimizations can cut energy consumption by **over 40%** without sacrificing output quality. The research also reveals that even with the model and inference parameters fixed, the software system used to serve inference requests—including batch size configurations and preemption mechanisms—significantly impacts energy consumption.
 
 ---
 
@@ -120,6 +122,15 @@ A curated list of NeurIPS 2025 papers focused on efficient LLM inference, servin
 - **Link:** [OpenReview](https://openreview.net/forum?id=Q3qAsZAEZw) | [arXiv:2506.09501](https://arxiv.org/abs/2506.09501)
 - **Authors:** Jiayi Yuan, Hao Li, Xinheng Ding, and collaborators
 - **Summary:** This paper presents the first systematic investigation of LLM inference reproducibility failures caused by numerical precision issues. The authors demonstrate that supposedly deterministic greedy decoding produces significantly different outputs when hardware configurations change. Under bfloat16 precision, DeepSeek-R1-Distill-Qwen-7B exhibits up to **9% accuracy variation** and **9,000 tokens difference** in response length merely from changing GPU count, GPU type, or batch size. The root cause is the non-associative nature of floating-point arithmetic. The solution, **LayerCast**, is a lightweight inference pipeline that stores weights in 16-bit precision (for memory efficiency) while performing all computations in FP32 (for numerical stability), achieving FP32-level determinism without the full memory overhead.
+
+---
+
+### 1.8 Compression Systems
+
+#### DFloat11: Lossless LLM Compression for Efficient GPU Inference via Dynamic-Length Float
+
+- **Link:** [NeurIPS 2025 Poster](https://neurips.cc/virtual/2025/poster/115225)
+- **Summary:** Unlike lossy quantization methods that trade accuracy for size, DFloat11 achieves **~30% model size reduction while producing bit-for-bit identical outputs**. The approach uses entropy coding with dynamic-length floating-point representations and custom GPU kernels with hierarchical lookup tables for fast online decompression. Critically, this enables **lossless inference of Llama 3.1 405B (810GB) on 8×80GB GPUs** without any quality compromise. Compared to CPU offloading alternatives, DFloat11 achieves **2.3-46.2× higher throughput**.
 
 ---
 

@@ -4,6 +4,12 @@ A curated collection of **NeurIPS 2025** papers focused on efficient systems for
 
 ---
 
+## 📊 NeurIPS 2025 Statistics
+
+![NeurIPS 2025 Summary](stats.png)
+ 
+---
+
 ## 📑 Table of Contents
 
 | Category | Description | Papers |
