@@ -3,6 +3,7 @@
 A curated list of Large Language Model systems related academic papers, articles, tutorials, slides and projects. Star this repository, and then you can keep abreast of the latest developments of this booming research field.
 ## Table of Contents
 
+- [NeurIPS 2025 ML Systems Papers](#neurips-2025-ml-systems-papers)
 - [LLM Systems](#llm-systems)
   - [Training](#training)
     - [Pre-training](#pre-training)
@@ -28,6 +29,18 @@ A curated list of Large Language Model systems related academic papers, articles
 - [MLSys Courses](#mlsys-courses)
 - [Other Reading](#other-reading)
 
+
+## NeurIPS 2025 ML Systems Papers
+
+A curated collection of **[NeurIPS 2025 papers](neurips25-mlsys/)** focused on efficient systems for generative AI models. The collection includes papers on:
+- [Architecture & Efficient Mechanisms](neurips25-mlsys/architecture.md) - Efficient attention, KV-cache systems, speculative decoding
+- [Model Compression & Quantization](neurips25-mlsys/compression.md) - Quantization, pruning, KV cache compression
+- [Inference & Serving](neurips25-mlsys/inference.md) - LLM serving, scheduling, distributed inference
+- [Multi-Modal & Diffusion](neurips25-mlsys/multi-modality.md) - VLM efficiency, diffusion optimization
+- [Reinforcement Learning](neurips25-mlsys/rl.md) - RL training infrastructure, policy optimization
+- [Training Systems](neurips25-mlsys/training.md) - Distributed training, memory efficiency
+
+See the **[full NeurIPS 2025 collection](neurips25-mlsys/)** for detailed categorization and paper summaries.
 
 ## LLM Systems
 ### Training
@@ -246,6 +259,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [RAGO](https://arxiv.org/abs/2503.14649v2): Systematic Performance Optimization for Retrieval-Augmented Generation Serving | ISCA'25
 - [Circinus](https://arxiv.org/abs/2504.16397): Efficient Query Planner for Compound ML Serving | UIUC
 - [Patchwork: A Unified Framework for RAG Serving](https://arxiv.org/abs/2505.07833)
+- [DS SERVE](https://berkeley-large-rag.github.io/RAG-DS-Serve/): A Framework for Efficient and Scalable Neural Retrieval | UCB
 - [KVFlow](https://arxiv.org/abs/2507.07400): Efficient Prefix Caching for Accelerating LLM-Based Multi-Agent Workflows
 - [DroidSpeak](https://arxiv.org/abs/2411.02820): KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving
 - [Murakkab](https://arxiv.org/abs/2508.18298): Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms
