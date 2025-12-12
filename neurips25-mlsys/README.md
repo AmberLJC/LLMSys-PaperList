@@ -1,4 +1,4 @@
-# NeurIPS 2025: ML Systems for Large Models
+# NeurIPS 2025: ML Systems  
 
 A curated collection of **NeurIPS 2025** papers focused on efficient systems for generative AI models (Large Language Models (LLMs), multi-modal models, diffusion models, etc.) . This collection emphasizes systems research, system-algorithm co-design, and algorithmic innovations with practical efficiency implications.
 
