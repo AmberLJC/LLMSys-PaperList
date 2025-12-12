@@ -1,6 +1,7 @@
 # NeurIPS 2025: Model Compression & Quantization
 
 A curated list of NeurIPS 2025 papers focused on model compression, quantization, sparsification, and efficient representations.
+Given the large volume of work in this area, I’ve highlighted only the oral and spotlight papers.
 
 ---
 
@@ -86,6 +87,18 @@ A curated list of NeurIPS 2025 papers focused on model compression, quantization
 - **Link:** https://machinelearning.apple.com/research/neurips-2025
 - **Authors:** Apple Machine Learning Research
 - **Summary:** STARFlow presents scalable high-resolution generation avoiding diffusion computational costs through normalizing flows with autoregressive transformers. Produces images rivaling top diffusion and autoregressive methods while maintaining exact likelihood modeling and faster inference.
+  
+
+---
+
+### Twilight: Adaptive Attention Sparsity with Hierarchical Top-p Pruning
+ 
+
+**Authors:** Chaofan Lin, Jiaming Tang, Shuo Yang, Hanshuo Wang, Tian Tang, Boyu Tian, Ion Stoica (UC Berkeley), Song Han (MIT), Mingyu Gao (Tsinghua)
+
+**Links:** https://arxiv.org/abs/2502.02770 
+
+**Summary:** Existing sparse attention methods for long-context LLM inference rely on fixed token budgets (top-k selection), which fails to account for the varying computational needs across different layers, attention heads, and prompts. Twilight solves this by borrowing the concept of **top-p (nucleus) sampling** from text generation and applying it to attention sparsity—selecting tokens until cumulative attention weight reaches a threshold rather than selecting a fixed count. This enables truly adaptive budget decisions that adjust automatically to the information content of each attention computation. The framework implements hierarchical pruning that starts with rough filtering and progressively refines to key tokens. Results show Twilight can adaptively **prune up to 98% of tokens** with nearly no accuracy loss in mid- and long-context scenarios, achieving **15.4× acceleration** in self-attention operations, **3.9× acceleration** in end-to-end per-token latency, and **1.4× speedup** over prior state-of-the-art sparse attention mechanisms.
 
 ---
 
