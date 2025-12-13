@@ -3,7 +3,6 @@
 A curated list of Large Language Model systems related academic papers, articles, tutorials, slides and projects. Star this repository, and then you can keep abreast of the latest developments of this booming research field.
 ## Table of Contents
 
-- [NeurIPS 2025 ML Systems Papers](#neurips-2025-ml-systems-papers)
 - [LLM Systems](#llm-systems)
   - [Training](#training)
     - [Pre-training](#pre-training)
@@ -18,6 +17,8 @@ A curated list of Large Language Model systems related academic papers, articles
   - [Multi-Modal Serving Systems](#multi-modal-serving-systems)
 - [LLM for Systems](#llm-for-systems)
 - [Industrial LLM Technical Report](#industrial-llm-technical-report)
+- [ML Conferences](#ml-conferences)
+  - [NeurIPS 2025](#neurips-2025)
 - [LLM Frameworks](#llm-frameworks)
   - [Training](#training-1)
   - [Post-Training](#post-training)
@@ -29,18 +30,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [MLSys Courses](#mlsys-courses)
 - [Other Reading](#other-reading)
 
-
-## NeurIPS 2025 ML Systems Papers
-
-A curated collection of **[NeurIPS 2025 papers](neurips25-mlsys/)** focused on efficient systems for generative AI models. The collection includes papers on:
-- [Architecture & Efficient Mechanisms](neurips25-mlsys/architecture.md) - Efficient attention, KV-cache systems, speculative decoding
-- [Model Compression & Quantization](neurips25-mlsys/compression.md) - Quantization, pruning, KV cache compression
-- [Inference & Serving](neurips25-mlsys/inference.md) - LLM serving, scheduling, distributed inference
-- [Multi-Modal & Diffusion](neurips25-mlsys/multi-modality.md) - VLM efficiency, diffusion optimization
-- [Reinforcement Learning](neurips25-mlsys/rl.md) - RL training infrastructure, policy optimization
-- [Training Systems](neurips25-mlsys/training.md) - Distributed training, memory efficiency
-
-See the **[full NeurIPS 2025 collection](neurips25-mlsys/)** for detailed categorization and paper summaries.
 
 ## LLM Systems
 ### Training
@@ -362,6 +351,19 @@ See the **[full NeurIPS 2025 collection](neurips25-mlsys/)** for detailed catego
 - [Kimi k1.5: Reinforcement Learning with Multimodal LLMs](https://arxiv.org/abs/2501.12599) – (Jan 2025)
 - [Kimi-K2: Open Agentic Intelligence](https://arxiv.org/abs/2507.20534) – (Jul 2025)
 - [GPT-oss-120b & GPT-oss-20b](https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf) – (Aug 2025)
+
+## ML Conferences
+### NeurIPS 2025
+
+A curated collection of **[NeurIPS 2025 papers](neurips25-mlsys/)** focused on efficient systems for generative AI models. The collection includes papers on:
+- [Architecture & Efficient Mechanisms](neurips25-mlsys/architecture.md) - Efficient attention, KV-cache systems, speculative decoding
+- [Model Compression & Quantization](neurips25-mlsys/compression.md) - Quantization, pruning, KV cache compression
+- [Inference & Serving](neurips25-mlsys/inference.md) - LLM serving, scheduling, distributed inference
+- [Multi-Modal & Diffusion](neurips25-mlsys/multi-modality.md) - VLM efficiency, diffusion optimization
+- [Reinforcement Learning](neurips25-mlsys/rl.md) - RL training infrastructure, policy optimization
+- [Training Systems](neurips25-mlsys/training.md) - Distributed training, memory efficiency
+
+See the **[full NeurIPS 2025 collection](neurips25-mlsys/)** for detailed categorization and paper summaries.
 
 ## LLM Frameworks
 ### Training
