@@ -314,6 +314,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [dInfer](https://arxiv.org/abs/2510.08666): An Efficient Inference Framework for Diffusion Language Models
 - [Fast-dLLM v2](https://arxiv.org/abs/2509.26328): Efficient Block-Diffusion LLM
 - [Argus](https://arxiv.org/abs/2511.06724): Quality-Aware High-Throughput Text-to-Image Inference Serving System
+- [Cornserve](https://arxiv.org/abs/2512.14098): Efficiently Serving Any-to-Any Multimodal Models
 
 
 ## LLM for Systems
@@ -327,6 +328,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Automatic Root Cause Analysis via Large Language Models for Cloud Incidents](https://dl.acm.org/doi/10.1145/3627703.3629553) | EuroSys '24
 - [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [Barbarians at the Gate: How AI is Upending Systems Research](https://arxiv.org/abs/2510.06189)
+- [Let the Barbarians In](https://arxiv.org/abs/2512.14806): How AI Can Accelerate Systems Performance Research
 - [AI Research Engineering Skills Library](https://github.com/zechenzhangAGI/claude-ai-research-skills): A collection of AI research engineering skills and best practices
 
 ## Industrial LLM Technical Report   
