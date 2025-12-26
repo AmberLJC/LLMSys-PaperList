@@ -315,6 +315,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Fast-dLLM v2](https://arxiv.org/abs/2509.26328): Efficient Block-Diffusion LLM
 - [Argus](https://arxiv.org/abs/2511.06724): Quality-Aware High-Throughput Text-to-Image Inference Serving System
 - [Cornserve](https://arxiv.org/abs/2512.14098): Efficiently Serving Any-to-Any Multimodal Models
+- [HydraInfer](https://arxiv.org/abs/2505.12658): Hybrid Disaggregated Scheduling for Multimodal Large Language Model Serving
+- [Enabling Disaggregated Multi-Stage MLLM Inference via GPU-Internal Scheduling and Resource Sharing](https://arxiv.org/abs/2512.17574)
 
 
 ## LLM for Systems
