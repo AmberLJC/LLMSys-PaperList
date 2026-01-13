@@ -81,6 +81,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [TrainVerify: Equivalence-Based Verification for Distributed LLM Training](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [Collective Communication for 100k+ GPUs](https://arxiv.org/abs/2510.20171): Large-scale collective communication optimization for massive GPU clusters
 - [RDMA Point-to-Point Communication for LLM Systems](https://arxiv.org/abs/2510.27656): RDMA-based point-to-point communication optimization for distributed LLM systems
+- [MoEBlaze](https://arxiv.org/abs/2601.05296): Breaking the Memory Wall for Efficient MoE Training on Modern GPUs
 
 
 #### Systems for Post-training / RLHF 
@@ -237,6 +238,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [The ML.ENERGY Benchmark](https://arxiv.org/abs/2505.06371): Toward Automated Inference Energy Measurement and Optimization | NeurIPS' 25
 - [Serve Programs, Not Prompts](https://arxiv.org/abs/2510.25412): Efficient LLM serving system for structured program execution
 - [Continuum](https://arxiv.org/abs/2511.02230): Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live
+- [AIConfigurator](https://arxiv.org/abs/2601.06288): Lightning-Fast Configuration Optimization for Multi-Framework LLM Serving
 
 
 #### Agent Systems
