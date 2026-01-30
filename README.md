@@ -82,6 +82,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Collective Communication for 100k+ GPUs](https://arxiv.org/abs/2510.20171): Large-scale collective communication optimization for massive GPU clusters
 - [RDMA Point-to-Point Communication for LLM Systems](https://arxiv.org/abs/2510.27656): RDMA-based point-to-point communication optimization for distributed LLM systems
 - [MoEBlaze](https://arxiv.org/abs/2601.05296): Breaking the Memory Wall for Efficient MoE Training on Modern GPUs
+- [Kareus](https://arxiv.org/abs/2601.17654): Joint Reduction of Dynamic and Static Energy in Large Model Training
+- [AXLearn](https://arxiv.org/abs/2507.05411): Modular Large Model Training on Heterogeneous Infrastructure | MLSys' 26
 
 
 #### Systems for Post-training / RLHF 
@@ -239,6 +241,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Serve Programs, Not Prompts](https://arxiv.org/abs/2510.25412): Efficient LLM serving system for structured program execution
 - [Continuum](https://arxiv.org/abs/2511.02230): Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live
 - [AIConfigurator](https://arxiv.org/abs/2601.06288): Lightning-Fast Configuration Optimization for Multi-Framework LLM Serving
+- [SuperInfer](https://arxiv.org/abs/2601.20309): SLO-Aware Rotary Scheduling and Memory Management for LLM Inference on Superchips | MLSys' 26
+- [Scaling Up Efficient Small Language Models Serving](https://arxiv.org/abs/2510.22101): Serving and Deployment for Semantic Job Search | MLSys' 26
+- [BestServe](https://arxiv.org/abs/2506.05871): Serving Strategies with Optimal Goodput in Collocation and Disaggregation Architectures
+- [OptiKIT](https://arxiv.org/abs/2601.20408): Meeting SLOs, Slashing Hours - Automated Enterprise LLM Optimization | MLSys' 26
 
 
 #### Agent Systems
