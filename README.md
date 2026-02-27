@@ -263,6 +263,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [Aragog: Just-in-Time Model Routing for Scalable Serving of Agentic Workflows](https://arxiv.org/pdf/2511.20975)
+- [DualPath](https://arxiv.org/abs/2602.21548): Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference | DeepSeek
 
 #### Serving at the edge
 - [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
@@ -342,6 +343,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Barbarians at the Gate: How AI is Upending Systems Research](https://arxiv.org/abs/2510.06189)
 - [Let the Barbarians In](https://arxiv.org/abs/2512.14806): How AI Can Accelerate Systems Performance Research
 - [AI Research Engineering Skills Library](https://github.com/zechenzhangAGI/claude-ai-research-skills): A collection of AI research engineering skills and best practices
+- [K-Search](https://arxiv.org/abs/2602.19128): LLM Kernel Generation via Co-Evolving Intrinsic World Model
 
 ## Industrial LLM Technical Report   
  
