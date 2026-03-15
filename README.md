@@ -84,6 +84,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [MoEBlaze](https://arxiv.org/abs/2601.05296): Breaking the Memory Wall for Efficient MoE Training on Modern GPUs
 - [Kareus](https://arxiv.org/abs/2601.17654): Joint Reduction of Dynamic and Static Energy in Large Model Training
 - [AXLearn](https://arxiv.org/abs/2507.05411): Modular Large Model Training on Heterogeneous Infrastructure | MLSys' 26
+- [MoSE](https://arxiv.org/abs/2602.06154): Mixture of Slimmable Experts for Efficient and Adaptive Language Models
 
 
 #### Systems for Post-training / RLHF 
@@ -118,6 +119,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [TrainMover](https://arxiv.org/pdf/2412.12636): Efficient ML Training Live Migration with No Memory Overhead | Alibaba
 - [Characterizing GPU Resilience and Impact on AI/HPC Systems](https://arxiv.org/abs/2503.11901) | UIUC
 - [Understanding Stragglers in Large Model Training Using What-if Analysis](https://arxiv.org/abs/2505.05713) | OSDI' 25
+- [GoCkpt](https://arxiv.org/abs/2511.07035): Gradient-Assisted Multi-Step Overlapped Checkpointing for Efficient LLM Training | PPoPP' 26
+- [BitSnap](https://arxiv.org/abs/2511.12376): Checkpoint Sparsification and Quantization in LLM Training
 
 
 ### Serving
@@ -248,6 +251,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [BlendServe](https://dl.acm.org/doi/abs/10.1145/3779212.3790133): Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching | ASPLOS' 26
 - [SwiftSpec](https://dl.acm.org/doi/abs/10.1145/3779212.3790246): Ultra-Low Latency LLM Decoding by Scaling Asynchronous Speculative Decoding with Disaggregated Pipeline and Fused Kernels | ASPLOS' 26
 - [MuxWise](https://dl.acm.org/doi/abs/10.1145/3779212.3790236): Towards High-Goodput LLM Serving with Prefill-decode Multiplexing | ASPLOS' 26
+- [MoEless](https://arxiv.org/abs/2603.06350): Efficient MoE LLM Serving via Serverless Computing
+- [Online Scheduling for LLM Inference with KV Cache Constraints](https://arxiv.org/abs/2502.07115): Optimal Batching and Scheduling for KV Cache-Constrained Inference
+- [BiScale](https://arxiv.org/abs/2602.18755): Energy-Efficient Disaggregated LLM Serving via Phase-Aware Placement and DVFS
+- [Harvest](https://arxiv.org/abs/2602.00328): Opportunistic Peer-to-Peer GPU Caching for LLM Inference
 
 
 #### Agent Systems
@@ -302,8 +309,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Training Transformers with 4-bit Integers](https://arxiv.org/abs/2306.11987) | NeurIPS' 23
 - [Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization](https://arxiv.org/abs/2403.12422) | ICML' 24
 - [COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training](https://arxiv.org/abs/2410.19313) | ICLR'25
-- [Efficient Mixed-Precision Large Language Model Inference with TurboMind](https://arxiv.org/pdf/2508.15601v1) | Shanghai AI Lab 
-  
+- [Efficient Mixed-Precision Large Language Model Inference with TurboMind](https://arxiv.org/pdf/2508.15601v1) | Shanghai AI Lab
+- [Reducing GPU Memory Fragmentation via Spatio-Temporal Allocation Planning](https://arxiv.org/abs/2507.16274) | EuroSys' 26
+
 ### Multi-Modal Training Systems
 - [DISTMM](https://www.usenix.org/conference/nsdi24/presentation/huang): Accelerating distributed multimodal model training | NSDI' 24
 - [Optimus:](https://www.arxiv.org/abs/2408.03505) Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation
@@ -331,6 +339,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [HydraInfer](https://arxiv.org/abs/2505.12658): Hybrid Disaggregated Scheduling for Multimodal Large Language Model Serving
 - [Enabling Disaggregated Multi-Stage MLLM Inference via GPU-Internal Scheduling and Resource Sharing](https://arxiv.org/abs/2512.17574)
 - [VoxServe](https://arxiv.org/abs/2602.00269): Streaming-Centric Serving System for Speech Language Models
+- [dLLM-Serve](https://arxiv.org/abs/2512.17077): Taming the Memory Footprint Crisis for Efficient Diffusion LLM Serving
+- [HADIS](https://arxiv.org/abs/2509.00642): Hybrid Adaptive Diffusion Model Serving for Efficient Text-to-Image Generation
 
 
 ## LLM for Systems
