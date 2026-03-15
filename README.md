@@ -245,6 +245,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Scaling Up Efficient Small Language Models Serving](https://arxiv.org/abs/2510.22101): Serving and Deployment for Semantic Job Search | MLSys' 26
 - [BestServe](https://arxiv.org/abs/2506.05871): Serving Strategies with Optimal Goodput in Collocation and Disaggregation Architectures
 - [OptiKIT](https://arxiv.org/abs/2601.20408): Meeting SLOs, Slashing Hours - Automated Enterprise LLM Optimization | MLSys' 26
+- [BlendServe](https://dl.acm.org/doi/abs/10.1145/3779212.3790133): Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching | ASPLOS' 26
+- [SwiftSpec](https://dl.acm.org/doi/abs/10.1145/3779212.3790246): Ultra-Low Latency LLM Decoding by Scaling Asynchronous Speculative Decoding with Disaggregated Pipeline and Fused Kernels | ASPLOS' 26
+- [MuxWise](https://dl.acm.org/doi/abs/10.1145/3779212.3790236): Towards High-Goodput LLM Serving with Prefill-decode Multiplexing | ASPLOS' 26
 
 
 #### Agent Systems
