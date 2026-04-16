@@ -256,6 +256,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [BiScale](https://arxiv.org/abs/2602.18755): Energy-Efficient Disaggregated LLM Serving via Phase-Aware Placement and DVFS
 - [Harvest](https://arxiv.org/abs/2602.00328): Opportunistic Peer-to-Peer GPU Caching for LLM Inference
 - [TokenFlow](files/report.pdf): Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling | Plagiarism
+- [MineDraft](https://arxiv.org/abs/2603.18016): A Framework for Batch Parallel Speculative Decoding — overlaps drafting and verification across two batches, hiding draft latency. Up to +75% throughput, -39% latency. Integrated into vLLM. | NUS & MIT
 
 #### Agent Systems
 - [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
