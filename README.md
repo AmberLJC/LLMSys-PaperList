@@ -255,7 +255,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Online Scheduling for LLM Inference with KV Cache Constraints](https://arxiv.org/abs/2502.07115): Optimal Batching and Scheduling for KV Cache-Constrained Inference
 - [BiScale](https://arxiv.org/abs/2602.18755): Energy-Efficient Disaggregated LLM Serving via Phase-Aware Placement and DVFS
 - [Harvest](https://arxiv.org/abs/2602.00328): Opportunistic Peer-to-Peer GPU Caching for LLM Inference
-- [TokenFlow](files/report.pdf): Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling | Plagiarism
+- [TokenFlow](file/report.pdf): Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling | Plagiarism
 - [MineDraft](https://arxiv.org/abs/2603.18016): A Framework for Batch Parallel Speculative Decoding — overlaps drafting and verification across two batches, hiding draft latency. Up to +75% throughput, -39% latency. Integrated into vLLM. | NUS & MIT
 - [Foundry](https://arxiv.org/abs/2604.06664): Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start
 
