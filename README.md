@@ -522,13 +522,20 @@ See the **[full NeurIPS 2025 collection](neurips25-mlsys/)** for detailed catego
 - [Megatron](https://github.com/NVIDIA/Megatron-LM) | Nvidia
 - [NeMo](https://github.com/NVIDIA/NeMo) | Nvidia
 - [torchtitan](https://github.com/pytorch/torchtitan) | PyTorch
+- [torchtune](https://github.com/pytorch/torchtune): PyTorch-native fine-tuning library for LLMs with minimal dependencies | PyTorch
 - [veScale](https://github.com/volcengine/vescale) | ByteDance
 - [DeepSeek Open Infra](https://github.com/deepseek-ai/open-infra-index)
 - [VeOmni](https://github.com/ByteDance-Seed/VeOmni): Scaling any Modality Model Training  
 - [Cornstarch](https://github.com/cornstarch-org/Cornstarch): Distributed Multimodal Training Must Be Multimodality-Aware | UMich
+- [GPT-NeoX](https://github.com/EleutherAI/gpt-neox): Model-parallel autoregressive LLM training combining Megatron and DeepSpeed | EleutherAI
+- [nanotron](https://github.com/huggingface/nanotron): Minimalistic 3D-parallel (tensor/pipeline/data) LLM training framework | Hugging Face
+- [litgpt](https://github.com/lightning-ai/litgpt): 20+ LLM implementations with pre-training and fine-tuning recipes | Lightning AI
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): Unified efficient fine-tuning of 100+ LLMs and VLMs via LoRA, full fine-tuning, and RL methods | ACL' 24
+- [Unsloth](https://github.com/unslothai/unsloth): 2-5x faster LLM fine-tuning with ~80% less memory via custom Triton/CUDA kernels
 
 
 - **Post-Training**
+  - [PEFT](https://github.com/huggingface/peft): Parameter-efficient fine-tuning library (LoRA, QLoRA, Prompt Tuning, IA3, etc.) | Hugging Face
   - [TRL](https://github.com/huggingface/trl): Transformers Reinforcement Learning
   - [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF): An Easy-to-use, Scalable and High-performance RLHF Framework based on Ray
   - [VeRL](https://github.com/volcengine/verl): Volcano Engine Reinforcement Learning for LLMs
@@ -539,17 +546,28 @@ See the **[full NeurIPS 2025 collection](neurips25-mlsys/)** for detailed catego
   - [slime](https://github.com/THUDM/slime): a LLM post-training framework aiming for RL Scaling
   - [RAGEN](https://github.com/RAGEN-AI/RAGEN): Training Agents by Reinforcing Reasoning
   - [Agent Lightning](https://arxiv.org/pdf/2508.03680): Train ANY AI Agents with Reinforcement Learning
+  - [LMFlow](https://github.com/OptimalScale/LMFlow): Extensible toolkit for fine-tuning and inference of large foundation models
+  - [NeMo-Aligner](https://github.com/NVIDIA/NeMo-Aligner): Scalable alignment toolkit for SFT, PPO, DPO, and SteerLM on NeMo | Nvidia
  
   
 ### Serving
+- [llama.cpp](https://github.com/ggml-org/llama.cpp): LLM inference in C/C++ with GGUF quantization; supports CPU, Metal, CUDA, and wide hardware
+- [Ollama](https://github.com/ollama/ollama): Local LLM serving with model management and OpenAI-compatible API
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Nvidia
+- [Triton Inference Server](https://github.com/triton-inference-server/server): Production multi-framework model serving platform with dynamic batching | Nvidia
 - [Ray-LLM](https://github.com/ray-project/ray-llm) | Ray
 - [TGI](https://huggingface.co/docs/text-generation-inference/en/index) | Hugging Face
 - [vLLM](https://github.com/vllm-project/vllm) | UCB
 - [SGLang](https://github.com/sgl-project/sglang) | UCB
+- [LMDeploy](https://github.com/InternLM/lmdeploy): LLM compression, deployment, and serving toolkit with TurboMind persistent batching engine | InternLM
+- [LightLLM](https://github.com/ModelTC/lightllm): Lightweight Python LLM serving with tri-process architecture decoupling prefill and decode
+- [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII): Low-latency, high-throughput LLM inference powered by DeepSpeed | Microsoft
+- [CTranslate2](https://github.com/OpenNMT/CTranslate2): Fast C++/Python inference engine for Transformer models with int8/int16 quantization | OpenNMT
+- [Petals](https://github.com/bigscience-workshop/petals): Distributed LLM inference and fine-tuning across volunteer GPUs in a BitTorrent-like fashion | ACL' 23
 - [KV Transformers](https://github.com/kvcache-ai/ktransformers)
-- [Dynamo](https://github.com/ai-dynamo/dynamo): A Datacenter Scale Distributed Inference Serving Framework | NVIDA
+- [Dynamo](https://github.com/ai-dynamo/dynamo): A Datacenter Scale Distributed Inference Serving Framework | Nvidia
 - [LMCache](https://github.com/LMCache/LMCache): Supercharge Your LLM with the Fastest KV Cache Layer
+- [aibrix](https://github.com/vllm-project/aibrix): Cost-efficient pluggable infrastructure for GenAI inference (KV cache routing, autoscaling, disaggregated prefill) | vLLM Project
  
 
 ## [ML Systems](mlsystems.md)
