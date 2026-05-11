@@ -328,6 +328,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Demystifying the Mixture of Experts Serving Tax](https://mlsys.org/virtual/2026/oral/3764) | MLSys' 26
 - [RaidServe: High-Performance Resilient LLM Serving](https://mlsys.org/virtual/2026/oral/3856) | MLSys' 26
 - [Toward Principled LLM Safety Testing: Solving the Jailbreak Oracle Problem](https://mlsys.org/virtual/2026/oral/3739) | MLSys' 26
+- [ZeRO-Prefill](https://arxiv.org/abs/2605.02960): Zero Redundancy Overheads in MoE Prefill Serving
 
 #### Agent Systems
 - [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
