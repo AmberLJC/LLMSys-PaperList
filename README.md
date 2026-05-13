@@ -34,15 +34,24 @@ A curated list of Large Language Model systems related academic papers, articles
 ## LLM Systems
 ### Training
 #### Pre-training
+
+<details>
+<summary><b>Before 2024</b></summary>
+
 - [Megatron-LM](https://arxiv.org/pdf/1909.08053.pdf): Training Multi-Billion Parameter Language Models Using Model Parallelism
 - [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/pdf/2104.04473.pdf)
 - [Reducing Activation Recomputation in Large Transformer Models](https://arxiv.org/pdf/2205.05198.pdf)
 - [Optimized Network Architectures for Large Language Model Training with Billions of Parameters](https://arxiv.org/pdf/2307.12169.pdf) | MIT
 - [Carbon Emissions and Large Neural Network Training](https://arxiv.org/pdf/2104.10350.pdf?fbclid=IwAR2o0_3HCtTnMxKbXka0OPrHzl8sCzQSSOYp0AOav76-zVWl_pYek2jX8Pk) | Google, UCB
+
+</details>
+
+<details>
+<summary><b>2024</b></summary>
+
 - [Perseus](https://arxiv.org/abs/2312.06902v1): Removing Energy Bloat from Large Model Training | SOSP' 24
 - [MegaScale](https://arxiv.org/abs/2402.15627): Scaling Large Language Model Training to More Than 10,000 GPUs | ByteDance
 - [DISTMM](https://www.usenix.org/conference/nsdi24/presentation/huang): Accelerating distributed multimodal model training | NSDI' 24
-- [Arena](https://arxiv.org/abs/2403.16125): Efficiently Training Large Models via Dynamic Scheduling and Adaptive Parallelism Co-Design | EuroSys' 26
 - [Pipeline Parallelism with Controllable Memory](https://arxiv.org/abs/2405.15362) | Sea AI Lab
 - [Boosting Large-scale Parallel Training Efficiency with C4](https://arxiv.org/abs/2406.04594): A Communication-Driven Approach
 - [Scaling Beyond the GPU Memory Limit for Large Mixture-of-Experts Model Training](https://openreview.net/pdf?id=uLpyWQPyF9) | ICML' 24
@@ -56,9 +65,15 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Demystifying Workload Imbalances in Large Transformer Model Training over Variable-length Sequences](https://arxiv.org/abs/2412.07894) | PKU
 - [Improving training time and GPU utilization in geo-distributed language model training](https://arxiv.org/abs/2411.14458)
 - [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437)
+- [Megalodon](https://arxiv.org/abs/2404.08801): Efficient LLM Pretraining and Inference with Unlimited Context Length
+
+</details>
+
+<details>
+<summary><b>2025</b></summary>
+
 - [Comet](https://arxiv.org/pdf/2502.19811): Fine-grained Computation-communication Overlapping for Mixture-of-Experts | ByteDance
 - [ByteScale](https://arxiv.org/pdf/2502.21231) : Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs | ByteDance
-- [Megalodon](https://arxiv.org/abs/2404.08801): Efficient LLM Pretraining and Inference with Unlimited Context Length
 - [SPPO](https://arxiv.org/abs/2503.10377):Efficient Long-sequence LLM Training via Adaptive Sequence Pipeline Parallel Offloading
 - [TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives](https://arxiv.org/abs/2503.20313) | MLSys' 25
 - [Every FLOP Counts](https://arxiv.org/abs/2503.05139): Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs| Ant Group
@@ -72,7 +87,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Scaling Llama 3 Training with Efficient Parallelism Strategies](https://aisystemcodesign.github.io/papers/Llama3-ISCA25.pdf) | ISCA' 25
 - [Lumos](https://arxiv.org/abs/2504.09307) : Efficient Performance Modeling and Estimation for Large-scale LLM Training| MLSys' 25
 - [BurstEngine](https://arxiv.org/abs/2509.19836): an Efficient Distributed Framework for Training Transformers on Extremely Long Sequences of over 1M Tokens
-- [Zeppelin](https://arxiv.org/abs/2509.21841): Balancing Variable-length Workloads in Data Parallel Large Model Training | EuroSys' 26
 - [Robust LLM Training Infrastructure at ByteDance](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
@@ -80,6 +94,12 @@ A curated list of Large Language Model systems related academic papers, articles
 - [DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [TrainVerify: Equivalence-Based Verification for Distributed LLM Training](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [Collective Communication for 100k+ GPUs](https://arxiv.org/abs/2510.20171): Large-scale collective communication optimization for massive GPU clusters
+
+</details>
+
+**2026**
+- [Arena](https://arxiv.org/abs/2403.16125): Efficiently Training Large Models via Dynamic Scheduling and Adaptive Parallelism Co-Design | EuroSys' 26
+- [Zeppelin](https://arxiv.org/abs/2509.21841): Balancing Variable-length Workloads in Data Parallel Large Model Training | EuroSys' 26
 - [RDMA Point-to-Point Communication for LLM Systems](https://arxiv.org/abs/2510.27656): RDMA-based point-to-point communication optimization for distributed LLM systems | MLSys' 26
 - [MoEBlaze](https://arxiv.org/abs/2601.05296): Breaking the Memory Wall for Efficient MoE Training on Modern GPUs | MLSys' 26
 - [Kareus](https://arxiv.org/abs/2601.17654): Joint Reduction of Dynamic and Static Energy in Large Model Training
@@ -110,13 +130,29 @@ A curated list of Large Language Model systems related academic papers, articles
 - [FP8-Flow-MoE: Casting-Free FP8 Recipe for MoE without Double Quantization Error](https://mlsys.org/virtual/2026/oral/3737) | MLSys' 26
 
 
-#### Systems for Post-training / RLHF 
+#### Systems for Post-training / RLHF
+
+<details>
+<summary><b>Before 2024</b></summary>
+
+- [An Adaptive Placement and Parallelism Framework for Accelerating RLHF Training](https://arxiv.org/pdf/2312.11819) | Ant
+
+</details>
+
+<details>
+<summary><b>2024</b></summary>
+
 - [Ymir:](https://tianweiz07.github.io/Papers/24-ics-2.pdf) A Scheduler for Foundation Model Fine-tuning Workloads in Datacenters | ICS' 24
-- [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
 - [HybridFlow](https://arxiv.org/pdf/2409.19256): A Flexible and Efficient RLHF Framework
 - [ReaLHF](https://arxiv.org/html/2406.14088v1): Optimized RLHF Training for Large Language Models through Parameter Reallocation
 - [NeMo-Aligner](https://arxiv.org/pdf/2405.01481): Scalable Toolkit for Efficient Model Alignment | Nvidia
-- [An Adaptive Placement and Parallelism Framework for Accelerating RLHF Training](https://arxiv.org/pdf/2312.11819) | Ant
+
+</details>
+
+<details>
+<summary><b>2025</b></summary>
+
+- [RLHFuse](https://arxiv.org/abs/2409.13221): Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | NSDI'25
 - [Systems Opportunities for LLM Fine-Tuning using Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3721146.3721944)
 - [AReaL](https://arxiv.org/pdf/2505.24298): A Large-Scale Asynchronous Reinforcement Learning System for Language Reasoning | [Code](https://github.com/inclusionAI/AReaL) | Ant
 - [StreamRL](https://arxiv.org/abs/2504.15930): Scalable, Heterogeneous, and Elastic RL for LLMs with Disaggregated Stream Generation
@@ -124,9 +160,13 @@ A curated list of Large Language Model systems related academic papers, articles
 - [PLoRA](https://arxiv.org/pdf/2508.02932): Efficient LoRA Hyperparameter Tuning for Large Models
 - [History Rhymes](https://arxiv.org/abs/2508.18588): Accelerating LLM Reinforcement Learning with RhymeRL
 - [APRIL](https://arxiv.org/abs/2509.18521): Active Partial Rollouts in Reinforcement Learning to tame long-tail generation
-- [Laminar](https://arxiv.org/abs/2510.12633): A Scalable Asynchronous RL Post-Training Framework | EuroSys' 26
 - [Seer](https://arxiv.org/abs/2511.14617): Online Context Learning for Fast Synchronous LLM Reinforcement Learning
 - [SkyRL-Agent](https://arxiv.org/abs/2511.16108): Efficient RL Training for Multi-turn LLM Agent
+
+</details>
+
+**2026**
+- [Laminar](https://arxiv.org/abs/2510.12633): A Scalable Asynchronous RL Post-Training Framework | EuroSys' 26
 - [LoRAFusion](https://dl.acm.org/doi/10.1145/3767295.3769331): Efficient LoRA Fine-Tuning for LLMs | EuroSys' 26
 - [HetRL](https://arxiv.org/abs/2512.12476): Efficient Reinforcement Learning for LLMs in Heterogeneous Environments | MLSys' 26
 - [ReSpec](https://arxiv.org/abs/2510.26475): Towards Optimizing Speculative Decoding in Reinforcement Learning Systems | MLSys' 26
@@ -134,54 +174,80 @@ A curated list of Large Language Model systems related academic papers, articles
 - [FLoRIST: Federated Low-Rank Adaptation with Random Subspaces for LLMs](https://mlsys.org/virtual/2026/poster/3617) | MLSys' 26
 
 #### Fault Tolerance / Straggler Mitigation
+
+<details>
+<summary><b>Before 2024</b></summary>
+
 - [Oobleck:](https://arxiv.org/abs/2309.08125) Resilient Distributed Training of Large Models Using Pipeline Templates | SOSP' 23
+- [GEMINI:](https://dl.acm.org/doi/10.1145/3600006.3613145) Fast Failure Recovery in Distributed Training with In-Memory Checkpoints | SOSP' 23
+
+</details>
+
+<details>
+<summary><b>2024</b></summary>
+
 - [FALCON](https://arxiv.org/abs/2410.12588): Pinpointing and Mitigating Stragglers for Large-Scale Hybrid-Parallel Training
 - [Malleus](https://arxiv.org/abs/2410.13333): Straggler-Resilient Hybrid Parallel Training of Large-scale Models via Malleable Data and Model Parallelization
 - [Fire-Flyer AI-HPC: A Cost-Effective Software-Hardware Co-Design for Deep Learning](https://arxiv.org/abs/2408.14158) | DeepSeek SC' 24
 - [Lazarus: Resilient and Elastic Training of Mixture-of-Experts Models with Adaptive Expert Placement](https://arxiv.org/pdf/2407.04656)
-- [GEMINI:](https://dl.acm.org/doi/10.1145/3600006.3613145) Fast Failure Recovery in Distributed Training with In-Memory Checkpoints
 - [ByteCheckpoint:](https://arxiv.org/abs/2407.20143) A Unified Checkpointing System for LLM Development
 - [ReCycle](https://arxiv.org/pdf/2405.14009): Resilient Training of Large DNNs using Pipeline Adaptation | SOSP' 24
 - [Minder](https://arxiv.org/pdf/2411.01791): Faulty Machine Detection for Large-scale Distributed Model Training | THU
-- [The Streaming Batch Model for Efficient and Fault-Tolerant Heterogeneous Execution](https://arxiv.org/pdf/2501.12407)  
 - [TrainMover](https://arxiv.org/pdf/2412.12636): Efficient ML Training Live Migration with No Memory Overhead | Alibaba
+
+</details>
+
+<details>
+<summary><b>2025</b></summary>
+
+- [The Streaming Batch Model for Efficient and Fault-Tolerant Heterogeneous Execution](https://arxiv.org/pdf/2501.12407)
 - [Characterizing GPU Resilience and Impact on AI/HPC Systems](https://arxiv.org/abs/2503.11901) | UIUC
 - [Understanding Stragglers in Large Model Training Using What-if Analysis](https://arxiv.org/abs/2505.05713) | OSDI' 25
-- [GoCkpt](https://arxiv.org/abs/2511.07035): Gradient-Assisted Multi-Step Overlapped Checkpointing for Efficient LLM Training | PPoPP' 26
 - [BitSnap](https://arxiv.org/abs/2511.12376): Checkpoint Sparsification and Quantization in LLM Training
+
+</details>
+
+**2026**
+- [GoCkpt](https://arxiv.org/abs/2511.07035): Gradient-Assisted Multi-Step Overlapped Checkpointing for Efficient LLM Training | PPoPP' 26
 - [Handling Network Faults in Distributed AI Training: Failover is Now an Option](https://dl.acm.org/doi/10.1145/3767295.3769322) | EuroSys' 26
 - [GUARD: Scalable Straggler Detection and Mitigation in LLM Training](https://mlsys.org/virtual/2026/poster/3608) | MLSys' 26
 
 
 ### Serving
 #### LLM serving
+
+<details>
+<summary><b>Before 2024</b></summary>
+
 - [Orca](https://www.usenix.org/conference/osdi22/presentation/yu): A Distributed Serving System for Transformer-Based Generative Models | OSDI'22
 - [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/abs/2305.13144) | NUS
 - [Efficiently Scaling Transformer Inference](https://arxiv.org/pdf/2211.05102.pdf) | MLSys' 23
-- [Flover](https://arxiv.org/pdf/2305.13484.pdf): A Temporal Fusion Framework for Efficient Autoregressive Model Parallel Inference 
+- [Flover](https://arxiv.org/pdf/2305.13484.pdf): A Temporal Fusion Framework for Efficient Autoregressive Model Parallel Inference
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135.pdf)
-- [FlashAttention-3:](https://tridao.me/blog/2024/flash3/) Fast and Accurate Attention with Asynchrony and Low-precision
-- [SageAttention](https://arxiv.org/pdf/2410.02367): Accurate 8-Bit Attention for Plug-and-play Inference Acceleration | ICLR 2025
-- [SageAttention2](https://arxiv.org/pdf/2411.10958): Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization | ICML 2025
-- [SageAttention3](https://arxiv.org/pdf/2505.11594): SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training | NeurIPS 2025 spotlight
-- [SageAttention2++](https://arxiv.org/abs/2505.21136): SageAttention2++: A More Efficient Implementation of SageAttention2 | ICML ES-FoMo Workshop 2025
-- [DeepSpeed Inference](https://arxiv.org/abs/2207.00032) : Enabling Efficient Inference of Transformer Models at Unprecedented Scale.  
+- [DeepSpeed Inference](https://arxiv.org/abs/2207.00032) : Enabling Efficient Inference of Transformer Models at Unprecedented Scale.
 - [TurboTransformers](https://arxiv.org/pdf/2010.05680.pdf): An Efficient GPU Serving System For Transformer Models
 - [FlexGen](https://arxiv.org/abs/2303.06865): High-throughput Generative Inference of Large Language Models with a Single GPU | ICML' 23
 - [MPCFormer](https://arxiv.org/pdf/2211.01452.pdf) : fast, performant, and private transformer inference with MPC | ICLR'23
 - [POLCA](https://arxiv.org/abs/2308.12908): Power Oversubscription in LLM Cloud Providers | Microsoft
-- [SARATHI](https://arxiv.org/abs/2308.16369): Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills | Microsoft 
+- [SARATHI](https://arxiv.org/abs/2308.16369): Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills | Microsoft
 - [AttMemo](https://arxiv.org/pdf/2301.09262.pdf): Accelerating Self-Attention with Memoization on Big Memory Systems
 - [vLLM](https://vllm.ai/): Easy, Fast, and Cheap LLM Serving with PagedAttention | SOSP' 23
-- [Tabi](https://dl.acm.org/doi/pdf/10.1145/3552326.3587438): An Efficient Multi-Level Inference System for Large Language Models | EuroSys' 23 
-- [Flash-LLM](https://arxiv.org/pdf/2309.10285v1.pdf): Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | VLDB' 24
+- [Tabi](https://dl.acm.org/doi/pdf/10.1145/3552326.3587438): An Efficient Multi-Level Inference System for Large Language Models | EuroSys' 23
 - [AutoGen](https://arxiv.org/abs/2308.08155): Enabling Next-Gen LLM Applications via Multi-Agent Conversation | Microsoft
 - [FlashDecoding++](https://arxiv.org/pdf/2311.01282.pdf): Faster Large Language Model Inference on GPUs | Tsinghua
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII): Model Implementations for Inference (MII) ｜ Microsoft
+- [SuperServe:](https://arxiv.org/pdf/2312.16733.pdf) Fine-Grained Inference Serving for Unpredictable Workloads
+
+</details>
+
+<details>
+<summary><b>2024</b></summary>
+
+- [FlashAttention-3:](https://tridao.me/blog/2024/flash3/) Fast and Accurate Attention with Asynchrony and Low-precision
+- [Flash-LLM](https://arxiv.org/pdf/2309.10285v1.pdf): Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | VLDB' 24
 - [Punica](https://arxiv.org/abs/2310.18547): Multi-Tenant LoRA Serving | MLSys' 24
 - [S-LoRA](https://arxiv.org/abs/2311.03285): Serving Thousands of Concurrent LoRA Adapters | MLSys' 24
 - [SpotServe](https://arxiv.org/abs/2311.15566): Serving Generative Large Language Models on Preemptible Instances | CMU
-- [SuperServe:](https://arxiv.org/pdf/2312.16733.pdf) Fine-Grained Inference Serving for Unpredictable Workloads
 - [Fairness in Serving Large Language Models](https://arxiv.org/abs/2401.00588) | OSDI' 24
 - [Infinite-LLM](https://arxiv.org/abs/2401.02669): Efficient LLM Service for Long Context with DistAttention and Distributed KVCache
 - [CaraServe](https://arxiv.org/abs/2401.11240): CPU-Assisted and Rank-Aware LoRA Serving for Generative LLM Inference
@@ -222,9 +288,20 @@ A curated list of Large Language Model systems related academic papers, articles
 - [NEO](https://arxiv.org/abs/2411.01142): Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
 - [FastSwitch](https://arxiv.org/abs/2411.18424): Optimizing Context Switching Efficiency in Fairness-aware Large Language Model Serving
 - [Flash Communication](https://arxiv.org/abs/2412.04964): Reducing Tensor Parallelization Bottleneck for Fast Large Language Model Inference
-- [FlashInfer](https://arxiv.org/abs/2501.01005): Efficient and Customizable Attention Engine for LLM Inference Serving
 - [Fast Inference for Augmented Large Language Models](https://arxiv.org/abs/2410.18248)
 - [A System for Microserving of LLMs](https://arxiv.org/abs/2412.12488) | CMU
+- [TokenFlow](file/report.pdf): Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling | Plagiarism
+
+</details>
+
+<details>
+<summary><b>2025</b></summary>
+
+- [SageAttention](https://arxiv.org/pdf/2410.02367): Accurate 8-Bit Attention for Plug-and-play Inference Acceleration | ICLR 2025
+- [SageAttention2](https://arxiv.org/pdf/2411.10958): Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization | ICML 2025
+- [SageAttention3](https://arxiv.org/pdf/2505.11594): SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training | NeurIPS 2025 spotlight
+- [SageAttention2++](https://arxiv.org/abs/2505.21136): SageAttention2++: A More Efficient Implementation of SageAttention2 | ICML ES-FoMo Workshop 2025
+- [FlashInfer](https://arxiv.org/abs/2501.01005): Efficient and Customizable Attention Engine for LLM Inference Serving
 - [iServe](https://arxiv.org/abs/2501.13111) : An Intent-based Serving System for LLMs| UT Austin
 - [Locality-aware Fair Scheduling in LLM Serving](https://arxiv.org/abs/2501.14312) | UCB
 - [Towards Efficient Large Multimodal Model Serving](https://arxiv.org/abs/2502.00937) | MSFT
@@ -232,7 +309,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [PIM Is All You Need](https://arxiv.org/abs/2502.07578): A CXL-Enabled GPU-Free System for Large Language Model Inference | ASPLOS' 25
 - [λScale](https://arxiv.org/abs/2502.09922): Enabling Fast Scaling for Serverless Large Language Model Inference
 - [AIBrix: Towards Scalable and Cost-Effective LLM Inference Infrastructure](https://github.com/vllm-project/aibrix/blob/main/docs/paper/AIBrix_White_Paper_0219_2025.pdf) | vLLM
-- [Serving Models, Fast and Slow:Optimizing Heterogeneous LLM Inferencing Workloads at Scale](https://arxiv.org/abs/2502.14617) 
+- [Serving Models, Fast and Slow:Optimizing Heterogeneous LLM Inferencing Workloads at Scale](https://arxiv.org/abs/2502.14617)
 - [Make LLM Inference Affordable to Everyone: Augmenting GPU Memory with NDP-DIMM](https://arxiv.org/abs/2502.16963)
 - [Jenga](https://arxiv.org/abs/2503.18292): Effective Memory Management for Serving LLM with Heterogeneity
 - [AQUA](https://arxiv.org/abs/2407.21255) : Network-Accelerated Memory Offloading for LLMs in Scale-Up GPU Domains | ASPLOS 2025
@@ -252,7 +329,6 @@ A curated list of Large Language Model systems related academic papers, articles
 - [HyGen](https://arxiv.org/pdf/2501.14808): Efficient LLM Serving via Elastic Online-Offline Request Co-location
 - [WaferLLM: A Wafer‑Scale LLM Inference System](https://arxiv.org/abs/2502.04563) | OSDI 25
 - [BlitzScale: Fast and Live Large Model Autoscaling with O(1) Host Caching](https://arxiv.org/abs/2412.17246) | OSDI 25
-- [TokenWeave: Efficient Compute-Communication Overlap for Distributed LLM Inference](https://arxiv.org/abs/2505.11329) | [Code](https://github.com/microsoft/tokenweave) | MLSys' 26
 - [Nexus](https://arxiv.org/abs/2507.06608v2): Taming Throughput-Latency Tradeoff in LLM Serving via Efficient GPU Sharing
 - [Taming the Chaos](https://arxiv.org/abs/2508.19559): Coordinated Autoscaling for Heterogeneous and Disaggregated LLM Inference | Seed
 - [TokenLake](https://arxiv.org/abs/2508.17219): A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving
@@ -273,19 +349,23 @@ A curated list of Large Language Model systems related academic papers, articles
 - [The ML.ENERGY Benchmark](https://arxiv.org/abs/2505.06371): Toward Automated Inference Energy Measurement and Optimization | NeurIPS' 25
 - [Serve Programs, Not Prompts](https://arxiv.org/abs/2510.25412): Efficient LLM serving system for structured program execution
 - [Continuum](https://arxiv.org/abs/2511.02230): Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live
+- [BestServe](https://arxiv.org/abs/2506.05871): Serving Strategies with Optimal Goodput in Collocation and Disaggregation Architectures
+- [Online Scheduling for LLM Inference with KV Cache Constraints](https://arxiv.org/abs/2502.07115): Optimal Batching and Scheduling for KV Cache-Constrained Inference
+
+</details>
+
+**2026**
+- [TokenWeave: Efficient Compute-Communication Overlap for Distributed LLM Inference](https://arxiv.org/abs/2505.11329) | [Code](https://github.com/microsoft/tokenweave) | MLSys' 26
 - [AIConfigurator](https://arxiv.org/abs/2601.06288): Lightning-Fast Configuration Optimization for Multi-Framework LLM Serving
 - [SuperInfer](https://arxiv.org/abs/2601.20309): SLO-Aware Rotary Scheduling and Memory Management for LLM Inference on Superchips | MLSys' 26
 - [Scaling Up Efficient Small Language Models Serving](https://arxiv.org/abs/2510.22101): Serving and Deployment for Semantic Job Search | MLSys' 26
-- [BestServe](https://arxiv.org/abs/2506.05871): Serving Strategies with Optimal Goodput in Collocation and Disaggregation Architectures
 - [OptiKIT](https://arxiv.org/abs/2601.20408): Meeting SLOs, Slashing Hours - Automated Enterprise LLM Optimization | MLSys' 26
 - [BlendServe](https://dl.acm.org/doi/abs/10.1145/3779212.3790133): Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching | ASPLOS' 26
 - [SwiftSpec](https://dl.acm.org/doi/abs/10.1145/3779212.3790246): Ultra-Low Latency LLM Decoding by Scaling Asynchronous Speculative Decoding with Disaggregated Pipeline and Fused Kernels | ASPLOS' 26
 - [MuxWise](https://dl.acm.org/doi/abs/10.1145/3779212.3790236): Towards High-Goodput LLM Serving with Prefill-decode Multiplexing | ASPLOS' 26
 - [MoEless](https://arxiv.org/abs/2603.06350): Efficient MoE LLM Serving via Serverless Computing
-- [Online Scheduling for LLM Inference with KV Cache Constraints](https://arxiv.org/abs/2502.07115): Optimal Batching and Scheduling for KV Cache-Constrained Inference
 - [BiScale](https://arxiv.org/abs/2602.18755): Energy-Efficient Disaggregated LLM Serving via Phase-Aware Placement and DVFS
 - [Harvest](https://arxiv.org/abs/2602.00328): Opportunistic Peer-to-Peer GPU Caching for LLM Inference
-- [TokenFlow](file/report.pdf): Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling | Plagiarism
 - [MineDraft](https://arxiv.org/abs/2603.18016): A Framework for Batch Parallel Speculative Decoding — overlaps drafting and verification across two batches, hiding draft latency. Up to +75% throughput, -39% latency. Integrated into vLLM. | NUS & MIT
 - [Foundry](https://arxiv.org/abs/2604.06664): Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start
 - [AdaServe](https://arxiv.org/abs/2501.12162): Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding | EuroSys' 26
@@ -331,21 +411,35 @@ A curated list of Large Language Model systems related academic papers, articles
 - [ZeRO-Prefill](https://arxiv.org/abs/2605.02960): Zero Redundancy Overheads in MoE Prefill Serving
 
 #### Agent Systems
-- [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
+
+<details>
+<summary><b>2024</b></summary>
+
 - [ALTO](https://arxiv.org/abs/2403.04311): An Efficient Network Orchestrator for Compound AI Systems | Stanford & UCB
 - [Parrot](https://www.usenix.org/conference/osdi24/presentation/lin-chaofan): Efficient Serving of LLM-based Applications with Semantic Variable | OSDI' 24
 - [Efficiently Serving LLM Reasoning Programs with Certaindex](https://arxiv.org/pdf/2412.20993) | UCSD
+- [DroidSpeak](https://arxiv.org/abs/2411.02820): KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving
+
+</details>
+
+<details>
+<summary><b>2025</b></summary>
+
+- [Supporting Our AI Overlords](https://arxiv.org/pdf/2509.00997): Redesigning Data Systems to be Agent-First | UCB
 - [Autellix](https://arxiv.org/pdf/2502.13965): An Efficient Serving Engine for LLM Agents as General Programs | UCB
 - [RAGO](https://arxiv.org/abs/2503.14649v2): Systematic Performance Optimization for Retrieval-Augmented Generation Serving | ISCA'25
 - [Circinus](https://arxiv.org/abs/2504.16397): Efficient Query Planner for Compound ML Serving | UIUC
 - [Patchwork: A Unified Framework for RAG Serving](https://arxiv.org/abs/2505.07833)
 - [DS SERVE](https://berkeley-large-rag.github.io/RAG-DS-Serve/): A Framework for Efficient and Scalable Neural Retrieval | UCB
 - [KVFlow](https://arxiv.org/abs/2507.07400): Efficient Prefix Caching for Accelerating LLM-Based Multi-Agent Workflows
-- [DroidSpeak](https://arxiv.org/abs/2411.02820): KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving
 - [Murakkab](https://arxiv.org/abs/2508.18298): Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms
 - [HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [Aragog: Just-in-Time Model Routing for Scalable Serving of Agentic Workflows](https://arxiv.org/pdf/2511.20975)
+
+</details>
+
+**2026**
 - [DualPath](https://arxiv.org/abs/2602.21548): Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference | DeepSeek
 - [AIMS](https://dl.acm.org/doi/10.1145/3767295.3803622): Cost-Efficient LLM-Based Agent Deployment in Hybrid Cloud-Edge Environments | EuroSys' 26
 - [From Imperative to Declarative](https://dl.acm.org/doi/10.1145/3767295.3803576): Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents | EuroSys' 26
@@ -360,13 +454,33 @@ A curated list of Large Language Model systems related academic papers, articles
 - [OSWorld-Human: Benchmarking Efficiency of Computer-Use Agents](https://mlsys.org/virtual/2026/oral/3865) | MLSys' 26
 
 #### Serving at the edge
+
+<details>
+<summary><b>Before 2024</b></summary>
+
+- [STI](https://arxiv.org/abs/2207.05022): Turbocharge NLP Inference at the Edge via Elastic Pipelining | ASPLOS 23
 - [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) | Apple
-- [STI](https://arxiv.org/abs/2207.05022): Turbocharge NLP Inference at the Edge via Elastic Pipelining | ASPLOS 23 
+
+</details>
+
+<details>
+<summary><b>2024</b></summary>
+
 - [PowerInfer](https://arxiv.org/abs/2312.12456): Fast Large Language Model Serving with a Consumer-grade GPU | SOSP' 24
 - [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
+
+</details>
+
+<details>
+<summary><b>2025</b></summary>
+
 - [InfiniteHiP](https://arxiv.org/abs/2502.08910): Extending Language Model Context Up to 3 Million Tokens on a Single GPU
 - [prima.cpp](https://arxiv.org/pdf/2504.08791): PRIMA.CPP: Speeding Up 70B-Scale LLM Inference on Low-Resource Everyday Home Clusters
 - [Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
+
+</details>
+
+**2026**
 - [TZ-LLM](https://dl.acm.org/doi/10.1145/3767295.3769334): Protecting On-Device Large Language Models with Arm TrustZone | EuroSys' 26
 - [TailorLLM](https://dl.acm.org/doi/10.1145/3767295.3769346): Collaborative End-Cloud Inference of Large and Small Language Models Based on Low-Rank Adaptation | EuroSys' 26
 - [Federated Fine-Tuning of Sparsely-Activated Large Language Models on Resource-Constrained Devices](https://dl.acm.org/doi/10.1145/3767295.3769329) | EuroSys' 26
@@ -380,7 +494,10 @@ A curated list of Large Language Model systems related academic papers, articles
 
 
 #### System Efficiency Optimization - Model Co-design
-- [Sparse-Linear Attention](https://www.arxiv.org/pdf/2509.24006): SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse–Linear Attention | Tsinghua
+
+<details>
+<summary><b>Before 2024</b></summary>
+
 - [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/abs/2305.05920) | PKU
 - [FrugalGPT](https://arxiv.org/pdf/2305.05176.pdf): How to Use Large Language Models While Reducing Cost and Improving Performance |  Stanford
 - [H2O](https://arxiv.org/abs/2306.14048): Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models | ICML ES-FoMo Workshop 2023
@@ -396,14 +513,31 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Skeleton-of-Thought](https://arxiv.org/abs/2307.15337): Large Language Models Can Do Parallel Decoding | THU
 - [LoRAShear](https://arxiv.org/abs/2310.18356): Efficient Large Language Model Structured Pruning and Knowledge Recovery ｜ Microsoft
 - [Ring Attention](https://arxiv.org/pdf/2310.01889.pdf) with Blockwise Transformers for Near-Infinite Context | UCB
+- [Training Transformers with 4-bit Integers](https://arxiv.org/abs/2306.11987) | NeurIPS' 23
+
+</details>
+
+<details>
+<summary><b>2024</b></summary>
+
 - [Learned Best-Effort LLM Serving](https://arxiv.org/abs/2401.07886) | UCB
 - [Star Attention](https://arxiv.org/pdf/2411.17116) : Efficient LLM Inference over Long Sequences| NVIDIA
+- [Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization](https://arxiv.org/abs/2403.12422) | ICML' 24
+
+</details>
+
+<details>
+<summary><b>2025</b></summary>
+
+- [Sparse-Linear Attention](https://www.arxiv.org/pdf/2509.24006): SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse–Linear Attention | Tsinghua
 - [FFN Fusion](https://arxiv.org/abs/2503.18908): Rethinking Sequential Computation in Large Language Models
 - [SpargeAttention](https://arxiv.org/pdf/2502.18137): SpargeAttention: Accurate and Training-free Sparse Attention Accelerating Any Model Inference | ICML' 25
-- [Training Transformers with 4-bit Integers](https://arxiv.org/abs/2306.11987) | NeurIPS' 23
-- [Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization](https://arxiv.org/abs/2403.12422) | ICML' 24
 - [COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training](https://arxiv.org/abs/2410.19313) | ICLR'25
 - [Efficient Mixed-Precision Large Language Model Inference with TurboMind](https://arxiv.org/pdf/2508.15601v1) | Shanghai AI Lab
+
+</details>
+
+**2026**
 - [Reducing GPU Memory Fragmentation via Spatio-Temporal Allocation Planning](https://arxiv.org/abs/2507.16274) | EuroSys' 26
 - [SAS](https://dl.acm.org/doi/10.1145/3767295.3769364): Sparse Attention Synthesizer for Efficient Language Model Inference | EuroSys' 26
 - [LLMFolder](https://dl.acm.org/doi/10.1145/3767295.3769339): Revisiting Constant Folding in Large Language Models | EuroSys' 26
