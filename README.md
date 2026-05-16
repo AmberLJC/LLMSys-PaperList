@@ -613,28 +613,120 @@ A curated list of Large Language Model systems related academic papers, articles
 - [AccelOpt: Self-Improving LLM Agentic System for Kernel Optimization](https://mlsys.org/virtual/2026/oral/3808) | MLSys' 26
 - [VeriMoA: Mixture-of-Agents for Spec-to-HDL Verification and Generation](https://mlsys.org/virtual/2026/poster/3632) | MLSys' 26
 
-## Industrial LLM Technical Report   
- 
-- [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) - (Dec 2024)   
-- [Qwen 3 Technical Report](https://arxiv.org/abs/2505.09388) – (May 2025)
-- [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) - (Feb 2023)
-- [Llama 2: Open Foundation and Fine‑Tuned Chat Models](https://arxiv.org/abs/2307.09288) - (Jul 2023)
-- [The Llama 3 Herd of Models](https://arxiv.org/abs/2404.11083) - (Aug 2024)
-- [Gemini: A Family of Highly Capable Multimodal Models](https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/r7G7RrtT6rnM/v0) - (Dec 2023)
-- [Gemini 1.5: Unlocking multimodal understanding across millions of tokens](https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf) - (Feb 2024)
-- [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next‑Generation Agentic Capabilities](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) - (Jun 2025)
-- [Phi‑4‑reasoning Technical Report](https://arxiv.org/abs/2504.21318) – (Apr 2025)
-- [Phi‑4 Technical Report](https://arxiv.org/abs/2412.08905) – (Dec 2024)
-- [Kimi‑VL Technical Report](https://arxiv.org/abs/2504.07491) – (Apr 2025)
-- [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) – (Jan 2025)
-- [DeepSeek-LLM Technical Report](https://nairl.kr/wp-content/uploads/2025/02/deepseek_r1_techreport.pdf) - (Jan 2024)
-- [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434) - (05/2024)
-- [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) - (12/2024)
-- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://www.boozallen.com/content/dam/home/docs/ai/a-technical-primer-on-deepseek.pdf) - (012025)
-- [Kimi-VL: Multimodal LLM with Vision, Language, and Long Context](https://arxiv.org/abs/2504.07491) – (Apr 2025)
-- [Kimi k1.5: Reinforcement Learning with Multimodal LLMs](https://arxiv.org/abs/2501.12599) – (Jan 2025)
-- [Kimi-K2: Open Agentic Intelligence](https://arxiv.org/abs/2507.20534) – (Jul 2025)
-- [GPT-oss-120b & GPT-oss-20b](https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf) – (Aug 2025)
+## Industrial LLM Technical Report
+
+<details>
+<summary><b>Before 2024</b></summary>
+
+- [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311) – Google / DeepMind (Apr 2022)
+- [GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414) – Zhipu AI (Oct 2022)
+- [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](https://arxiv.org/abs/2211.05100) – BigScience (Nov 2022)
+- [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) – Meta (Feb 2023)
+- [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) – OpenAI (Mar 2023)
+- [BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564) – Bloomberg (Mar 2023)
+- [PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403) – Google / DeepMind (May 2023)
+- [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) – BigCode (May 2023)
+- [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) – Meta (Jul 2023)
+- [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950) – Meta (Aug 2023)
+- [Qwen Technical Report](https://arxiv.org/abs/2309.16609) – Alibaba (Sep 2023)
+- [Baichuan 2: Open Large-scale Language Models](https://arxiv.org/abs/2309.10305) – Baichuan (Sep 2023)
+- [Mistral 7B](https://arxiv.org/abs/2310.06825) – Mistral AI (Oct 2023)
+- [Skywork: A More Open Bilingual Foundation Model](https://arxiv.org/abs/2310.19341) – Skywork (Oct 2023)
+- [The Falcon Series of Open Language Models](https://arxiv.org/abs/2311.16867) – TII (Nov 2023)
+- [Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805) – Google / DeepMind (Dec 2023)
+
+</details>
+
+<details>
+<summary><b>2024</b></summary>
+
+- [Mixtral of Experts](https://arxiv.org/abs/2401.04088) – Mistral AI (Jan 2024)
+- [DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](https://arxiv.org/abs/2401.02954) – DeepSeek (Jan 2024)
+- [DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence](https://arxiv.org/abs/2401.14196) – DeepSeek (Jan 2024)
+- [Gemini 1.5: Unlocking Multimodal Understanding Across Millions of Tokens of Context](https://arxiv.org/abs/2403.05530) – Google / DeepMind (Feb 2024)
+- [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) – DeepSeek (Feb 2024)
+- [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838) – AI2 (Feb 2024)
+- [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173) – BigCode (Feb 2024)
+- [Claude 3 Model Card](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) – Anthropic (Mar 2024)
+- [Gemma: Open Models Based on Gemini Research and Technology](https://arxiv.org/abs/2403.08295) – Google / DeepMind (Mar 2024)
+- [MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training](https://arxiv.org/abs/2403.09611) – Apple (Mar 2024)
+- [Grok-1 Model Release](https://x.ai/blog/grok-os) – xAI (Mar 2024)
+- [DeepSeek-VL: Towards Real-World Vision-Language Understanding](https://arxiv.org/abs/2403.05525) – DeepSeek (Mar 2024)
+- [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652) – 01.AI (Mar 2024)
+- [InternLM2 Technical Report](https://arxiv.org/abs/2403.17297) – InternLM (Shanghai AI Lab) (Mar 2024)
+- [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/abs/2403.19887) – AI21 Labs (Mar 2024)
+- [Introducing DBRX: A New State-of-the-Art Open LLM](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) – Databricks (Mar 2024)
+- [Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone](https://arxiv.org/abs/2404.14219) – Microsoft (Apr 2024)
+- [Command R+ Technical Overview](https://cohere.com/blog/command-r-plus-microsoft-azure) – Cohere (Apr 2024)
+- [Reka Core, Flash, and Edge: A Series of Powerful Multimodal Language Models](https://arxiv.org/abs/2404.12387) – Reka (Apr 2024)
+- [Snowflake Arctic: The Best LLM for Enterprise AI](https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/) – Snowflake (Apr 2024)
+- [MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395) – MiniCPM (Apr 2024)
+- [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434) – DeepSeek (May 2024)
+- [Aya 23: Open Weight Releases to Further Multilingual Progress](https://arxiv.org/abs/2405.15032) – Cohere (May 2024)
+- [Granite Code Models: A Family of Open Foundation Models for Code Intelligence](https://arxiv.org/abs/2405.04324) – IBM (May 2024)
+- [Nemotron-4 340B Technical Report](https://arxiv.org/abs/2406.11704) – NVIDIA (Jun 2024)
+- [Claude 3.5 Sonnet Model Card Addendum](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf) – Anthropic (Jun 2024)
+- [CodeGemma: Open Code Models Based on Gemma](https://arxiv.org/abs/2406.11409) – Google / DeepMind (Jun 2024)
+- [ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools](https://arxiv.org/abs/2406.12793) – Zhipu AI (Jun 2024)
+- [Skywork-MoE: A Deep Dive into Training Techniques for Mixture-of-Experts Language Models](https://arxiv.org/abs/2406.06563) – Skywork (Jun 2024)
+- [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) – Meta (Jul 2024)
+- [Gemma 2: Improving Open Language Models at a Practical Size](https://arxiv.org/abs/2408.00118) – Google / DeepMind (Jul 2024)
+- [Apple Intelligence Foundation Language Models](https://arxiv.org/abs/2407.21075) – Apple (Jul 2024)
+- [Qwen2 Technical Report](https://arxiv.org/abs/2407.10671) – Alibaba (Jul 2024)
+- [Jamba-1.5: Hybrid Transformer-Mamba Models at Scale](https://arxiv.org/abs/2408.12570) – AI21 Labs (Aug 2024)
+- [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191) – Alibaba (Sep 2024)
+- [Qwen2.5-Coder Technical Report](https://arxiv.org/abs/2409.12186) – Alibaba (Sep 2024)
+- [OLMoE: Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2409.02060) – AI2 (Sep 2024)
+- [GPT-4o System Card](https://arxiv.org/abs/2410.21276) – OpenAI (Oct 2024)
+- [Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent](https://arxiv.org/abs/2411.02265) – Tencent (Nov 2024)
+- [Tülu 3: Pushing Frontiers in Open Language Model Post-Training](https://arxiv.org/abs/2411.15124) – AI2 (Nov 2024)
+- [OpenAI o1 System Card](https://arxiv.org/abs/2412.16720) – OpenAI (Dec 2024)
+- [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905) – Microsoft (Dec 2024)
+- [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) – DeepSeek (Dec 2024)
+- [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) – Alibaba (Dec 2024)
+- [Yi-Lightning Technical Report](https://arxiv.org/abs/2412.01253) – 01.AI (Dec 2024)
+- [2 OLMo 2 Furious](https://arxiv.org/abs/2501.00656) – AI2 (Dec 2024)
+
+</details>
+
+<details>
+<summary><b>2025</b></summary>
+
+- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) – DeepSeek (Jan 2025)
+- [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) – Moonshot AI (Jan 2025)
+- [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) – MiniMax (Jan 2025)
+- [Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923) – Alibaba (Feb 2025)
+- [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) – Google / DeepMind (Mar 2025)
+- [Phi-4-reasoning Technical Report](https://arxiv.org/abs/2504.21318) – Microsoft (Apr 2025)
+- [Kimi-VL Technical Report](https://arxiv.org/abs/2504.07491) – Moonshot AI (Apr 2025)
+- [The Llama 4 Herd: The Beginning of a New Era of Natively Multimodal AI](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) – Meta (Apr 2025)
+- [Claude 4 System Card](https://www-cdn.anthropic.com/6be99a52cb68eb70eb9572b4cafad13df32ed995.pdf) – Anthropic (May 2025)
+- [Llama-Nemotron: Efficient Reasoning Models](https://arxiv.org/abs/2505.00949) – NVIDIA (May 2025)
+- [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) – Alibaba (May 2025)
+- [Pangu Ultra: Pushing the Limits of Dense Large Language Models on Ascend NPUs](https://arxiv.org/abs/2505.04519) – Huawei (May 2025)
+- [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next-Generation Agentic Capabilities](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) – Google / DeepMind (Jun 2025)
+- [MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention](https://arxiv.org/abs/2506.13585) – MiniMax (Jun 2025)
+- [Kimi K2: Open Agentic Intelligence](https://arxiv.org/abs/2507.20534) – Moonshot AI (Jul 2025)
+- [GPT-oss-120b & GPT-oss-20b Model Card](https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf) – OpenAI (Aug 2025)
+- [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471) – Zhipu AI (Aug 2025)
+
+</details>
+
+<details>
+<summary><b>2026</b></summary>
+
+- [Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling](https://arxiv.org/abs/2601.02346) – TII (Jan 2026)
+- [Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking](https://arxiv.org/abs/2601.04720) – Alibaba (Jan 2026)
+- [Ministral 3](https://arxiv.org/abs/2601.08584) – Mistral AI (Jan 2026)
+- [TranslateGemma Technical Report](https://arxiv.org/abs/2601.09012) – Google / DeepMind (Jan 2026)
+- [Qwen3-ASR Technical Report](https://arxiv.org/abs/2601.21337) – Alibaba (Jan 2026)
+- [GLM-5: from Vibe Coding to Agentic Engineering](https://arxiv.org/abs/2602.15763) – Zhipu AI (Feb 2026)
+- [Qwen3-Coder-Next Technical Report](https://arxiv.org/abs/2603.00729) – Alibaba (Feb 2026)
+- [Qwen3.5-Omni Technical Report](https://arxiv.org/abs/2604.15804) – Alibaba (Apr 2026)
+- [Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence](https://arxiv.org/abs/2604.24954) – NVIDIA (Apr 2026)
+- [Granite Embedding Multilingual R2 Models](https://arxiv.org/abs/2605.13521) – IBM (May 2026)
+
+</details>
 
 ## ML Conferences
 ### NeurIPS 2025
