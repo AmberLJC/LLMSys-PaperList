@@ -712,7 +712,7 @@ A curated list of Large Language Model systems related academic papers, articles
 
 </details>
 
-<details>
+<details open>
 <summary><b>2026</b></summary>
 
 - [Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling](https://arxiv.org/abs/2601.02346) – TII (Jan 2026)
