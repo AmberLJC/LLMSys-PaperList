@@ -128,6 +128,11 @@ A curated list of Large Language Model systems related academic papers, articles
 - [veScale-FSDP: Flexible and High-Performance FSDP at Scale](https://mlsys.org/virtual/2026/poster/3637) | MLSys' 26
 - [HexiScale: LLM Training over Heterogeneous Hardware](https://mlsys.org/virtual/2026/poster/3605) | MLSys' 26
 - [FP8-Flow-MoE: Casting-Free FP8 Recipe for MoE without Double Quantization Error](https://mlsys.org/virtual/2026/oral/3737) | MLSys' 26
+- [PithTrain](https://arxiv.org/abs/2605.31463): A Compact and Agent-Native MoE Training System with 4D Parallelism and FP8 | CMU
+- [Olmix](https://arxiv.org/abs/2602.12237): A Framework for Data Mixing Throughout LM Development | Stanford
+- [SuperOffload](https://arxiv.org/abs/2510.21755): Unleashing the Power of Large-Scale LLM Training on Superchips | ASPLOS' 26
+- [AutoSP](https://arxiv.org/abs/2604.27089): Unlocking Long-Context LLM Training via Compiler-Based Sequence Parallelism | ICLR' 26
+- [SYMI](https://arxiv.org/abs/2504.19925): Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling | NSDI' 26
 
 
 #### Systems for Post-training / RLHF
@@ -172,6 +177,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [ReSpec](https://arxiv.org/abs/2510.26475): Towards Optimizing Speculative Decoding in Reinforcement Learning Systems | MLSys' 26
 - [Beat the Long Tail: Distribution-Aware Speculative Decoding for Reinforcement Learning](https://mlsys.org/virtual/2026/oral/3766) | MLSys' 26
 - [FLoRIST: Federated Low-Rank Adaptation with Random Subspaces for LLMs](https://mlsys.org/virtual/2026/poster/3617) | MLSys' 26
+- [Taming the Long-Tail](https://arxiv.org/abs/2511.16665): Efficient Reasoning RL Training with an Adaptive Drafter | ASPLOS' 26
+- [Aurora](https://arxiv.org/abs/2602.06932): When RL Meets Adaptive Speculative Training — A Unified Training-Serving System
+- [AstraFlow](https://arxiv.org/abs/2605.15565): Dataflow-Oriented Reinforcement Learning for Agentic LLMs | CMU
+- [RLBoost](https://arxiv.org/abs/2510.19225): Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs | NSDI' 26
 
 #### Fault Tolerance / Straggler Mitigation
 
@@ -211,6 +220,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [GoCkpt](https://arxiv.org/abs/2511.07035): Gradient-Assisted Multi-Step Overlapped Checkpointing for Efficient LLM Training | PPoPP' 26
 - [Handling Network Faults in Distributed AI Training: Failover is Now an Option](https://dl.acm.org/doi/10.1145/3767295.3769322) | EuroSys' 26
 - [GUARD: Scalable Straggler Detection and Mitigation in LLM Training](https://mlsys.org/virtual/2026/poster/3608) | MLSys' 26
+- [Sparse Checkpointing for Fast and Reliable MoE Training (MoEvement)](https://arxiv.org/abs/2412.15411): In-Memory Sparse Checkpointing and Localized Recovery | NSDI' 26
 
 
 ### Serving
@@ -409,6 +419,25 @@ A curated list of Large Language Model systems related academic papers, articles
 - [RaidServe: High-Performance Resilient LLM Serving](https://mlsys.org/virtual/2026/oral/3856) | MLSys' 26
 - [Toward Principled LLM Safety Testing: Solving the Jailbreak Oracle Problem](https://mlsys.org/virtual/2026/oral/3739) | MLSys' 26
 - [ZeRO-Prefill](https://arxiv.org/abs/2605.02960): Zero Redundancy Overheads in MoE Prefill Serving
+- [SkyNomad](https://arxiv.org/abs/2601.06520): On Using Multi-Region Spot Instances to Minimize AI Batch Job Cost | UCB
+- [Qrita](https://arxiv.org/abs/2602.01518): High-performance Top-k and Top-p Algorithm for GPUs using Pivot-based Truncation and Selection | UCB
+- [The Time is Here for Just-in-Time Systems](https://arxiv.org/abs/2605.24096): Challenges and Opportunities for Adaptive AI/ML Serving | UCB
+- [Event Tensor](https://arxiv.org/abs/2604.13327): A Unified Abstraction for Compiling Dynamic Megakernels for Low-Latency Serving | MLSys' 26
+- [XGrammar-2](https://arxiv.org/abs/2601.04426): Efficient Dynamic Structured Generation Engine for Agentic LLMs | CMU
+- [Prism (Superoptimizer)](https://arxiv.org/abs/2604.15272): Symbolic Superoptimization of Tensor Programs | CMU
+- [Coral](https://arxiv.org/abs/2605.04357): Cost-Efficient Multi-LLM Serving over Heterogeneous Cloud GPUs | CMU
+- [LAPS](https://arxiv.org/abs/2601.11589): A Length-Aware-Prefill LLM Serving System | CMU/MBZUAI
+- [Where Do the Joules Go?](https://arxiv.org/abs/2601.22076): Diagnosing Inference Energy Consumption | UMich
+- [SYMPHONY](https://www.usenix.org/conference/nsdi26/presentation/agarwal): Enabling Compute-Memory Disaggregation in LLM Serving Systems | NSDI' 26
+- [OpenTela](https://systems.ethz.ch/news-and-events/news/2026/03/two-papers-accepted-at-osdi26.html): Unifying Decentralized Computing Resources for Heterogeneous LLM Serving | OSDI' 26
+- [Speculative Speculative Decoding](https://arxiv.org/abs/2603.03251): Parallelizing the Speculate-then-Verify Dependency | ICLR' 26
+- [WWW.Serve](https://arxiv.org/abs/2603.20661): Interconnecting Global LLM Services through Decentralization | CMU
+- [Not All Prefills Are Equal](https://arxiv.org/abs/2603.13358): PPD Disaggregation for Multi-turn LLM Serving | UChicago
+- [Hexcute](https://arxiv.org/abs/2504.16214): A Compiler Framework for Automating Layout Synthesis in GPU Programs | CGO' 26
+- [AutoScout](https://arxiv.org/abs/2603.11603): Structured Optimization for Automating ML System Configuration | UT Austin
+- [VoltanaLLM](https://arxiv.org/abs/2509.04827): Energy-Efficient and SLO-Aware Disaggregated LLM Serving | ISC' 26
+- [Regulating Branch Parallelism in LLM Serving](https://arxiv.org/abs/2605.06914): Balancing Intra-Request Branch Admission against Co-batched Latency | Stanford
+- [Strata](https://arxiv.org/abs/2508.18572): Hierarchical Context Caching for Long-Context LLM Serving | OSDI' 26
 
 #### Agent Systems
 
@@ -452,6 +481,13 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Matrix: Peer-to-Peer Multi-Agent Synthetic Data Generation](https://mlsys.org/virtual/2026/oral/3753) | MLSys' 26
 - [Ontology-Guided Long-Term Agent Memory for Conversational RAG](https://mlsys.org/virtual/2026/oral/3738) | MLSys' 26
 - [OSWorld-Human: Benchmarking Efficiency of Computer-Use Agents](https://mlsys.org/virtual/2026/oral/3865) | MLSys' 26
+- [KAIROS](https://arxiv.org/abs/2604.16682): Stateful, Context-Aware, Power-Efficient Agentic Inference Serving | UMich
+- [ThunderAgent](https://arxiv.org/abs/2602.13692): A Simple, Fast and Program-Aware Agentic Inference System | CMU
+- [Vortex](https://arxiv.org/abs/2606.06453): Efficient and Programmable Sparse Attention Serving for AI Agents | CMU
+- [Nalar](https://arxiv.org/abs/2601.05109): An Agent Serving Framework Separating Workflow Specification from Execution | UT Austin
+- [Concurrency without Model Changes](https://arxiv.org/abs/2605.15077): Future-based Asynchronous Function Calling for LLMs | UCB
+- [Agent JIT Compilation](https://arxiv.org/abs/2605.21470): Latency-Optimizing Web Agent Planning and Scheduling | ICML' 26
+- [SemWeave](https://dl.acm.org/doi/10.1145/3788853.3801593): Semantic Common Expressions for LLM-powered Query Processing | SIGMOD' 26
 
 #### Serving at the edge
 
@@ -491,6 +527,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Efficient, VRAM-Constrained Cross-Lingual Model Inference on Client Devices](https://mlsys.org/virtual/2026/oral/3802) | MLSys' 26
 - [Rethinking DVFS for Mobile LLMs: CORE for Energy-Efficient On-Device Inference](https://mlsys.org/virtual/2026/oral/3814) | MLSys' 26
 - [IntAttention: Fully Integer Attention Pipeline for Edge LLM Inference](https://mlsys.org/virtual/2026/oral/3848) | MLSys' 26
+- [OpenJarvis](https://arxiv.org/abs/2605.17172): Personal AI, On Personal Devices via LLM-Guided Spec Search and Local-Cloud Collaboration | Stanford
 
 
 #### System Efficiency Optimization - Model Co-design
@@ -550,6 +587,14 @@ A curated list of Large Language Model systems related academic papers, articles
 - [CAGE: Curvature-Aware Gradient Estimation for Quantization-Aware Training](https://mlsys.org/virtual/2026/oral/3841) | MLSys' 26
 - [OPKV: Recallable Sparsity in Paged KV Cache for Efficient LLM Inference](https://mlsys.org/virtual/2026/poster/3621) | MLSys' 26
 - [Using Span Queries to Optimize Cache and Attention Locality](https://mlsys.org/virtual/2026/oral/3747) | MLSys' 26
+- [SLA2](https://arxiv.org/abs/2602.12675): Sparse-Linear Attention with Learnable Routing and QAT | UCB
+- [SageBwd](https://arxiv.org/abs/2603.02170): A Trainable Low-bit Attention for Efficient Training | UCB
+- [Inference Time Context Sparsity](https://arxiv.org/abs/2605.24168): Illusion or Opportunity? | UCB
+- [Tilus](https://arxiv.org/abs/2504.12984): A Tile-Level GPGPU Programming Language for Low-Precision Computation | ASPLOS' 26
+- [PuzzleMoE](https://arxiv.org/abs/2511.04805): Efficient Compression of Large MoE Models via Sparse Expert Merging and Bit-packed Inference | ICML' 26
+- [Sieve](https://arxiv.org/abs/2605.11277): Dynamic Expert-Aware PIM Acceleration for Evolving Mixture-of-Experts Models | Stanford
+- [Streaming Tensor Programs](https://arxiv.org/abs/2511.07776): A Streaming Abstraction for Dynamic Parallelism on Dataflow Accelerators | ASPLOS' 26
+- [FuseFlow](https://arxiv.org/abs/2511.04768): A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow | ASPLOS' 26
 
 ### Multi-Modal Training Systems
 - [DISTMM](https://www.usenix.org/conference/nsdi24/presentation/huang): Accelerating distributed multimodal model training | NSDI' 24
@@ -558,6 +603,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Cornstarch](https://arxiv.org/abs/2503.11367): Distributed Multimodal Training Must Be Multimodality-Aware | UMich
 - [PipeWeaver](https://arxiv.org/abs/2504.14145): Addressing Data Dynamicity in Large Multimodal Model Training with Dynamic Interleaved Pipeline | SJTU
 - [MegaScale-Omni](https://dl.acm.org/doi/10.1145/3767295.3803587): A Hyper-Scale, Workload-Resilient System for MultiModal LLM Training in Production | EuroSys' 26
+- [Entrain](https://arxiv.org/abs/2605.27918): Addressing Variable Heterogeneity in Distributed Multimodal Training | UMich
 
 ### Multi-Modal Serving Systems
 - [xDiT](https://arxiv.org/abs/2411.01738): an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism
@@ -590,6 +636,12 @@ A curated list of Large Language Model systems related academic papers, articles
 - [CDLM: Consistency Diffusion Language Models for Faster Text Generation Sampling](https://mlsys.org/virtual/2026/oral/3785) | MLSys' 26
 - [db-SP: Accelerating Sparse Attention for Visual Generative Models](https://mlsys.org/virtual/2026/poster/3575) | MLSys' 26
 - [TiDAR: Think in Diffusion, Talk in Autoregression for Multimodal Generation](https://mlsys.org/virtual/2026/poster/3528) | MLSys' 26
+- [SlackServe](https://arxiv.org/abs/2606.15319): Adaptive Resource Management and Quality Control for Streaming Video Generation | Peking University, Purdue
+- [Quant VideoGen](https://arxiv.org/abs/2602.02958): Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization | UCB
+- [MonarchRT](https://arxiv.org/abs/2602.12271): Efficient Attention for Real-Time Video Generation | CMU
+- [SwiftFusion](https://arxiv.org/abs/2601.20273): Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs | Univ. of Toronto
+- [d3LLM](https://arxiv.org/abs/2601.07568): Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation | UCSD
+- [VLA-Perf](https://arxiv.org/abs/2602.18397): Demystifying VLA Inference Performance | Stanford
 
 
 ## LLM for Systems
@@ -612,6 +664,13 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems](https://mlsys.org/virtual/2026/oral/3823) | MLSys' 26
 - [AccelOpt: Self-Improving LLM Agentic System for Kernel Optimization](https://mlsys.org/virtual/2026/oral/3808) | MLSys' 26
 - [VeriMoA: Mixture-of-Agents for Spec-to-HDL Verification and Generation](https://mlsys.org/virtual/2026/poster/3632) | MLSys' 26
+- [AVO](https://arxiv.org/abs/2603.24517): Agentic Variation Operators for Autonomous Evolutionary Search of GPU Attention Kernels | CMU/UW
+- [FlashInfer-Bench](https://arxiv.org/abs/2601.00227): Building the Virtuous Cycle for AI-driven LLM Systems | UW
+- [VibeTensor](https://arxiv.org/abs/2601.16238): System Software for Deep Learning, Fully Generated by AI Agents | UW
+- [SOL-ExecBench](https://arxiv.org/abs/2603.19173): Speed-of-Light Benchmarking for Real-World GPU Kernels Against Hardware Limits | UW
+- [FastKernels](https://arxiv.org/abs/2605.23215): Benchmarking GPU Kernel Generation in Production | CMU
+- [CUCo](https://arxiv.org/abs/2603.02376): An Agentic Framework for Compute and Communication Co-design | UT Austin
+- [ARGUS](https://arxiv.org/abs/2604.18616): Agentic GPU Optimization Guided by Data-Flow Invariants | Stanford
 
 ## Industrial LLM Technical Report
 
