@@ -300,7 +300,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Flash Communication](https://arxiv.org/abs/2412.04964): Reducing Tensor Parallelization Bottleneck for Fast Large Language Model Inference
 - [Fast Inference for Augmented Large Language Models](https://arxiv.org/abs/2410.18248)
 - [A System for Microserving of LLMs](https://arxiv.org/abs/2412.12488) | CMU
-- [TokenFlow](file/report.pdf): Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling | Plagiarism
+- [TokenFlow](files/report.pdf): Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling | Plagiarism
 
 </details>
 
