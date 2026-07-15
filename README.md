@@ -102,7 +102,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Zeppelin](https://arxiv.org/abs/2509.21841): Balancing Variable-length Workloads in Data Parallel Large Model Training | EuroSys' 26
 - [RDMA Point-to-Point Communication for LLM Systems](https://arxiv.org/abs/2510.27656): RDMA-based point-to-point communication optimization for distributed LLM systems | MLSys' 26
 - [MoEBlaze](https://arxiv.org/abs/2601.05296): Breaking the Memory Wall for Efficient MoE Training on Modern GPUs | MLSys' 26
-- [Kareus](https://arxiv.org/abs/2601.17654): Joint Reduction of Dynamic and Static Energy in Large Model Training
+- [Kareus](https://arxiv.org/abs/2601.17654): Joint Reduction of Dynamic and Static Energy in Large Model Training | OSDI' 26
 - [AXLearn](https://arxiv.org/abs/2507.05411): Modular Large Model Training on Heterogeneous Infrastructure | MLSys' 26
 - [MoSE](https://arxiv.org/abs/2602.06154): Mixture of Slimmable Experts for Efficient and Adaptive Language Models
 - [MegaScale-MoE](https://arxiv.org/abs/2505.11432): Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production | EuroSys' 26
@@ -133,6 +133,13 @@ A curated list of Large Language Model systems related academic papers, articles
 - [SuperOffload](https://arxiv.org/abs/2510.21755): Unleashing the Power of Large-Scale LLM Training on Superchips | ASPLOS' 26
 - [AutoSP](https://arxiv.org/abs/2604.27089): Unlocking Long-Context LLM Training via Compiler-Based Sequence Parallelism | ICLR' 26
 - [SYMI](https://arxiv.org/abs/2504.19925): Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling | NSDI' 26
+- [Tessera](https://www.usenix.org/conference/osdi26/presentation/hu-weifang): A Holistic Pipeline Parallelism Framework for Trillion-Parameter Heterogeneous MoE Training | OSDI' 26
+- [Hetu v2](https://www.usenix.org/conference/osdi26/presentation/li-haoyang): A General and Scalable Deep Learning System with Hierarchical and Heterogeneous SPMD Annotations | OSDI' 26
+- [Syncopate](https://www.usenix.org/conference/osdi26/presentation/qiang): Efficient Multi-GPU AI Kernels via Automatic Chunk-Centric Compute-Communication Overlap | OSDI' 26
+- [Teaching the Old Dog New Tricks](https://www.usenix.org/conference/osdi26/presentation/chen-luofan): Building Efficient Data Pipelines for Large-Scale LLM Pre-Training | OSDI' 26
+- [Cocoon](https://www.usenix.org/conference/osdi26/presentation/kim-donghwan): A System Architecture for Differentially Private Training with Correlated Noises | OSDI' 26
+- [Heterogeneity at Hyperscale](https://www.usenix.org/conference/osdi26/presentation/li-suyi): Characterization and Scheduling of Large Production AI Clusters at Alibaba | OSDI' 26
+- [Quota Marketplace](https://www.usenix.org/conference/osdi26/presentation/sivan): Dynamic Pricing for Efficient Allocation of ML Training Resources | OSDI' 26
 
 
 #### Systems for Post-training / RLHF
@@ -165,7 +172,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [PLoRA](https://arxiv.org/pdf/2508.02932): Efficient LoRA Hyperparameter Tuning for Large Models
 - [History Rhymes](https://arxiv.org/abs/2508.18588): Accelerating LLM Reinforcement Learning with RhymeRL
 - [APRIL](https://arxiv.org/abs/2509.18521): Active Partial Rollouts in Reinforcement Learning to tame long-tail generation
-- [Seer](https://arxiv.org/abs/2511.14617): Online Context Learning for Fast Synchronous LLM Reinforcement Learning
+- [Seer](https://arxiv.org/abs/2511.14617): Online Context Learning for Fast Synchronous LLM Reinforcement Learning | OSDI' 26
 - [SkyRL-Agent](https://arxiv.org/abs/2511.16108): Efficient RL Training for Multi-turn LLM Agent
 
 </details>
@@ -181,6 +188,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Aurora](https://arxiv.org/abs/2602.06932): When RL Meets Adaptive Speculative Training — A Unified Training-Serving System
 - [AstraFlow](https://arxiv.org/abs/2605.15565): Dataflow-Oriented Reinforcement Learning for Agentic LLMs | CMU
 - [RLBoost](https://arxiv.org/abs/2510.19225): Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs | NSDI' 26
+- [Weave](https://www.usenix.org/conference/osdi26/presentation/wu-tianyuan): Efficient Co-Scheduling for Disaggregated RL Post-Training | OSDI' 26
+- [RLinf](https://www.usenix.org/conference/osdi26/presentation/yu-chao): Flexible and Efficient Large-Scale Reinforcement Learning via Macro-to-Micro Flow Transformation | OSDI' 26
+- [DynaRL](https://www.usenix.org/conference/osdi26/presentation/wang-yuanqing): Flexible and Dynamic Scheduling of Large-Scale Reinforcement Learning Training | OSDI' 26
+- [RollArt](https://www.usenix.org/conference/osdi26/presentation/gao): Disaggregated Multi-Task Agentic RL Training at Scale | OSDI' 26
 
 #### Fault Tolerance / Straggler Mitigation
 
@@ -202,7 +213,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [ByteCheckpoint:](https://arxiv.org/abs/2407.20143) A Unified Checkpointing System for LLM Development
 - [ReCycle](https://arxiv.org/pdf/2405.14009): Resilient Training of Large DNNs using Pipeline Adaptation | SOSP' 24
 - [Minder](https://arxiv.org/pdf/2411.01791): Faulty Machine Detection for Large-scale Distributed Model Training | THU
-- [TrainMover](https://arxiv.org/pdf/2412.12636): Efficient ML Training Live Migration with No Memory Overhead | Alibaba
+- [TrainMover](https://arxiv.org/pdf/2412.12636): An Interruption-Resilient Runtime for ML Training | Alibaba, OSDI' 26
 
 </details>
 
@@ -221,6 +232,10 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Handling Network Faults in Distributed AI Training: Failover is Now an Option](https://dl.acm.org/doi/10.1145/3767295.3769322) | EuroSys' 26
 - [GUARD: Scalable Straggler Detection and Mitigation in LLM Training](https://mlsys.org/virtual/2026/poster/3608) | MLSys' 26
 - [Sparse Checkpointing for Fast and Reliable MoE Training (MoEvement)](https://arxiv.org/abs/2412.15411): In-Memory Sparse Checkpointing and Localized Recovery | NSDI' 26
+- [SDCs in the Wild](https://www.usenix.org/conference/osdi26/presentation/zheng): Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training | OSDI' 26
+- [Safeguarding LLM Training at Scale](https://www.usenix.org/conference/osdi26/presentation/lei): Online SDC Detection and Insights from 35 Million GPU Hours | OSDI' 26
+- [OpGuard](https://www.usenix.org/conference/osdi26/presentation/zhou-ziming): Bitwise Alignment for Precise and General Debugging of Production LLM Training | OSDI' 26
+- [RobustRL](https://www.usenix.org/conference/osdi26/presentation/chen-zhenqian): Role-Based Fault Tolerance System for RL Post-Training | OSDI' 26
 
 
 ### Serving
@@ -330,7 +345,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [SLOs-Serve](https://arxiv.org/abs/2504.08784): Optimized Serving of Multi-SLO LLMs
 - [Tempo](https://arxiv.org/abs/2504.20068): Application-aware LLM Serving with Mixed SLO Requirements
 - [Hogwild! Inference](https://arxiv.org/abs/2504.06261): Parallel LLM Generation via Concurrent Attention
-- [Prism](https://arxiv.org/pdf/2505.04021): Unleashing GPU Sharing for Cost-Efficient Multi-LLM Serving | UCLA
+- [Prism](https://arxiv.org/pdf/2505.04021): Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning | UCLA, OSDI' 26
 - [RetroInfer](https://arxiv.org/abs/2505.02922): A Vector-Storage Approach for Scalable Long-Context LLM Inference
 - [Efficient Serving of LLM Applications with Probabilistic Demand Modeling](https://arxiv.org/abs/2506.14851)
 - [eLLM](https://arxiv.org/abs/2506.14851) : Elastic Memory Management Framework for Efficient LLM Serving
@@ -429,7 +444,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [LAPS](https://arxiv.org/abs/2601.11589): A Length-Aware-Prefill LLM Serving System | CMU/MBZUAI
 - [Where Do the Joules Go?](https://arxiv.org/abs/2601.22076): Diagnosing Inference Energy Consumption | UMich
 - [SYMPHONY](https://www.usenix.org/conference/nsdi26/presentation/agarwal): Enabling Compute-Memory Disaggregation in LLM Serving Systems | NSDI' 26
-- [OpenTela](https://systems.ethz.ch/news-and-events/news/2026/03/two-papers-accepted-at-osdi26.html): Unifying Decentralized Computing Resources for Heterogeneous LLM Serving | OSDI' 26
+- [OpenTela](https://www.usenix.org/conference/osdi26/presentation/yao): Unifying Decentralized Computing Resources for Heterogeneous LLM Serving | OSDI' 26
 - [Speculative Speculative Decoding](https://arxiv.org/abs/2603.03251): Parallelizing the Speculate-then-Verify Dependency | ICLR' 26
 - [WWW.Serve](https://arxiv.org/abs/2603.20661): Interconnecting Global LLM Services through Decentralization | CMU
 - [Not All Prefills Are Equal](https://arxiv.org/abs/2603.13358): PPD Disaggregation for Multi-turn LLM Serving | UChicago
@@ -438,6 +453,14 @@ A curated list of Large Language Model systems related academic papers, articles
 - [VoltanaLLM](https://arxiv.org/abs/2509.04827): Energy-Efficient and SLO-Aware Disaggregated LLM Serving | ISC' 26
 - [Regulating Branch Parallelism in LLM Serving](https://arxiv.org/abs/2605.06914): Balancing Intra-Request Branch Admission against Co-batched Latency | Stanford
 - [Strata](https://arxiv.org/abs/2508.18572): Hierarchical Context Caching for Long-Context LLM Serving | OSDI' 26
+- [ECHO](https://www.usenix.org/conference/osdi26/presentation/liu-guangda): Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs | OSDI' 26
+- [No Buffer, No Bottleneck](https://www.usenix.org/conference/osdi26/presentation/luo): Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs | OSDI' 26
+- [Simple Is Better](https://www.usenix.org/conference/osdi26/presentation/zhang-dingyan): Multiplication May Be All You Need for LLM Request Scheduling | OSDI' 26
+- [BatchGen](https://www.usenix.org/conference/osdi26/presentation/xu-tairan): An Architecture for Scalable and Efficient Batch Inference | OSDI' 26
+- [Efficient LLM Serving on Commodity GPU Clusters](https://www.usenix.org/conference/osdi26/presentation/du): Data-Reduced Cross-Instance Orchestration for LLM Serving | OSDI' 26
+- [Revisiting Pipeline Parallelism for LLM Serving](https://www.usenix.org/conference/osdi26/presentation/hwang): Revisiting pipeline parallelism as an alternative to tensor parallelism for online LLM serving | OSDI' 26
+- [Kairox](https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng): Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing | OSDI' 26
+- [StriaTrace](https://www.usenix.org/conference/osdi26/presentation/wu-haonan): Efficient Tracing and Diagnosis for Online LLM Inference | OSDI' 26
 
 #### Agent Systems
 
@@ -461,7 +484,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Patchwork: A Unified Framework for RAG Serving](https://arxiv.org/abs/2505.07833)
 - [DS SERVE](https://berkeley-large-rag.github.io/RAG-DS-Serve/): A Framework for Efficient and Scalable Neural Retrieval | UCB
 - [KVFlow](https://arxiv.org/abs/2507.07400): Efficient Prefix Caching for Accelerating LLM-Based Multi-Agent Workflows
-- [Murakkab](https://arxiv.org/abs/2508.18298): Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms
+- [Murakkab](https://arxiv.org/abs/2508.18298): Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms | OSDI' 26
 - [HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://sigops.org/s/conferences/sosp/2025/accepted.html) | SOSP' 25
 - [Aragog: Just-in-Time Model Routing for Scalable Serving of Agentic Workflows](https://arxiv.org/pdf/2511.20975)
@@ -488,6 +511,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Concurrency without Model Changes](https://arxiv.org/abs/2605.15077): Future-based Asynchronous Function Calling for LLMs | UCB
 - [Agent JIT Compilation](https://arxiv.org/abs/2605.21470): Latency-Optimizing Web Agent Planning and Scheduling | ICML' 26
 - [SemWeave](https://dl.acm.org/doi/10.1145/3788853.3801593): Semantic Common Expressions for LLM-powered Query Processing | SIGMOD' 26
+- [Breaking the Reward Barrier](https://www.usenix.org/conference/osdi26/presentation/zhong): Accelerating Tree-of-Thought Reasoning via Speculative Exploration | OSDI' 26
+- [Disentangling Graph Dependencies for Efficient Billion-Scale GPU Vector Search](https://www.usenix.org/conference/osdi26/presentation/zhao) | OSDI' 26
+- [Helmsman](https://www.usenix.org/conference/osdi26/presentation/huang-yuchen): The Clustering Strikes Back — Building Cost-Effective and High-Performance ANNS at Scale | OSDI' 26
 
 #### Serving at the edge
 
@@ -528,6 +554,9 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Rethinking DVFS for Mobile LLMs: CORE for Energy-Efficient On-Device Inference](https://mlsys.org/virtual/2026/oral/3814) | MLSys' 26
 - [IntAttention: Fully Integer Attention Pipeline for Edge LLM Inference](https://mlsys.org/virtual/2026/oral/3848) | MLSys' 26
 - [OpenJarvis](https://arxiv.org/abs/2605.17172): Personal AI, On Personal Devices via LLM-Guided Spec Search and Local-Cloud Collaboration | Stanford
+- [Sereno](https://www.usenix.org/conference/osdi26/presentation/xin): Taming Memory Bandwidth Contention in Mobile LLM Inference | OSDI' 26
+- [Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design](https://www.usenix.org/conference/osdi26/presentation/wang-wenxin) | OSDI' 26
+- [Unleash All Cores](https://www.usenix.org/conference/osdi26/presentation/sang): Asymmetry-Aware Scalable DNN Inference on Mobile CPUs | OSDI' 26
 
 
 #### System Efficiency Optimization - Model Co-design
@@ -595,6 +624,15 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Sieve](https://arxiv.org/abs/2605.11277): Dynamic Expert-Aware PIM Acceleration for Evolving Mixture-of-Experts Models | Stanford
 - [Streaming Tensor Programs](https://arxiv.org/abs/2511.07776): A Streaming Abstraction for Dynamic Parallelism on Dataflow Accelerators | ASPLOS' 26
 - [FuseFlow](https://arxiv.org/abs/2511.04768): A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow | ASPLOS' 26
+- [Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs](https://www.usenix.org/conference/osdi26/presentation/soi) | OSDI' 26
+- [TileLoom](https://www.usenix.org/conference/osdi26/presentation/li-wei): Automatic Dataflow Planning for Tile-Based Languages on Spatial Dataflow Accelerators | OSDI' 26
+- [MPK](https://www.usenix.org/conference/osdi26/presentation/cheng): A Compiler and Runtime for Mega-Kernelizing Tensor Programs into a Single High-Performance Multi-GPU Kernel | OSDI' 26
+- [GraCE](https://www.usenix.org/conference/osdi26/presentation/ghosh): Unlocking CUDA Graphs with Compiler Support for ML Workloads | OSDI' 26
+- [VTC](https://www.usenix.org/conference/osdi26/presentation/hu-muyan): DNN Compilation with Virtual Tensors for Data Movement Elimination | OSDI' 26
+- [ADAngel](https://www.usenix.org/conference/osdi26/presentation/liu-yao): Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping | OSDI' 26
+- [UEP](https://www.usenix.org/conference/osdi26/presentation/mao-ziming-uep): Portable Expert-Parallel Communication for MoE Serving | OSDI' 26
+- [UCCL-Tran](https://www.usenix.org/conference/osdi26/presentation/zhou-yang): An Extensible Software Transport Layer for GPU Networking | OSDI' 26
+- [CoPilotIO](https://www.usenix.org/conference/osdi26/presentation/chen-guanyi): CPU as a Co-Pilot for GPU I/O to Free GPU Compute | OSDI' 26
 
 ### Multi-Modal Training Systems
 - [DISTMM](https://www.usenix.org/conference/nsdi24/presentation/huang): Accelerating distributed multimodal model training | NSDI' 24
@@ -671,6 +709,8 @@ A curated list of Large Language Model systems related academic papers, articles
 - [FastKernels](https://arxiv.org/abs/2605.23215): Benchmarking GPU Kernel Generation in Production | CMU
 - [CUCo](https://arxiv.org/abs/2603.02376): An Agentic Framework for Compute and Communication Co-design | UT Austin
 - [ARGUS](https://arxiv.org/abs/2604.18616): Agentic GPU Optimization Guided by Data-Flow Invariants | Stanford
+- [ECO](https://www.usenix.org/conference/osdi26/presentation/lin-hannah): An AI-Driven Code Efficiency Optimizer for Warehouse Scale Computers | OSDI' 26
+- [SMARTTalk](https://www.usenix.org/conference/osdi26/presentation/akewar): Teaching SMART Logs to Talk to LLMs | OSDI' 26
 
 ## Industrial LLM Technical Report
 
