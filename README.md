@@ -1,8 +1,31 @@
 # Awesome LLM Systems Papers
 
 A curated list of Large Language Model systems related academic papers, articles, tutorials, slides and projects. Star this repository, and then you can keep abreast of the latest developments of this booming research field.
+
+## Trends at a Glance (2024 → 2026)
+
+Three eras, one lens: **what unit of work the system optimizes** — a request (2024), a session or
+reasoning trace (2025), a whole agent trajectory (2026).
+
+![Three eras of LLM systems research](trends/fig_era_evolution_attempt2.png)
+
+Serving is still the largest area in absolute terms, but its share of the list fell from **49% to
+33%** — the growth went to kernel/model co-design (3 → 29 papers), agentic systems (4 → 22),
+AI-for-systems (5 → 16) and edge (2 → 14).
+
+![Papers per sub-area, 2024-2026](trends/fig_landscape.png)
+
+![Composition shift](trends/fig_area_shift.png)
+
+The fastest-rising techniques by share of the year's papers: **agentic / multi-agent** (1.0% → 13.1%),
+**compiler / kernel / megakernel** (0.0% → 10.2%), **speculative decoding** (1.0% → 5.7%),
+**sparse attention** (1.0% → 4.5%) and **energy / power** (1.0% → 3.3%).
+
+**→ Full analysis, per-technique numbers and reproduction scripts: [`trends/`](trends/)**
+
 ## Table of Contents
 
+- [Trends at a Glance](#trends-at-a-glance-2024--2026)
 - [LLM Systems](#llm-systems)
   - [Training](#training)
     - [Pre-training](#pre-training)
@@ -315,7 +338,7 @@ A curated list of Large Language Model systems related academic papers, articles
 - [Flash Communication](https://arxiv.org/abs/2412.04964): Reducing Tensor Parallelization Bottleneck for Fast Large Language Model Inference
 - [Fast Inference for Augmented Large Language Models](https://arxiv.org/abs/2410.18248)
 - [A System for Microserving of LLMs](https://arxiv.org/abs/2412.12488) | CMU
-- [TokenFlow](files/report.pdf): Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling | Plagiarism
+- [TokenFlow](files/sjtu-plagiarism-report.pdf): Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling | Plagiarism
 
 </details>
 

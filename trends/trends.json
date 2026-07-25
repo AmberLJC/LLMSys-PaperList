@@ -1,0 +1,367 @@
+{
+  "years": [
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "year_total": {
+    "<=2023": 50,
+    "2024": 98,
+    "2025": 127,
+    "2026": 244,
+    "unknown": 1
+  },
+  "area_year": {
+    "Agent Systems": {
+      "2024": 4,
+      "2025": 11,
+      "2026": 22
+    },
+    "Edge / On-device": {
+      "<=2023": 2,
+      "2024": 2,
+      "2025": 3,
+      "2026": 14
+    },
+    "Fault Tolerance": {
+      "<=2023": 2,
+      "2024": 8,
+      "2025": 4,
+      "2026": 8
+    },
+    "LLM Serving": {
+      "<=2023": 18,
+      "2024": 48,
+      "2025": 54,
+      "2026": 81
+    },
+    "LLM-for-Systems": {
+      "<=2023": 3,
+      "2024": 5,
+      "2025": 3,
+      "unknown": 1,
+      "2026": 16
+    },
+    "Model Co-design": {
+      "<=2023": 16,
+      "2024": 3,
+      "2025": 5,
+      "2026": 29
+    },
+    "Multi-Modal Serving": {
+      "2024": 4,
+      "<=2023": 3,
+      "2025": 13,
+      "2026": 16
+    },
+    "Multi-Modal Training": {
+      "2024": 3,
+      "2025": 2,
+      "2026": 2
+    },
+    "Post-training / RL": {
+      "<=2023": 1,
+      "2024": 4,
+      "2025": 10,
+      "2026": 14
+    },
+    "Pre-training": {
+      "<=2023": 5,
+      "2024": 17,
+      "2025": 22,
+      "2026": 42
+    }
+  },
+  "theme_count": {
+    "Energy / power / thermal": {
+      "2024": 1,
+      "2026": 8,
+      "2025": 1
+    },
+    "Communication / collectives / network": {
+      "2024": 5,
+      "2025": 6,
+      "2026": 16
+    },
+    "MoE / expert parallelism": {
+      "2024": 4,
+      "2025": 5,
+      "2026": 18
+    },
+    "Reliability / fault tolerance / SDC": {
+      "2024": 10,
+      "2025": 11,
+      "2026": 17
+    },
+    "Benchmark / profiling / characterization": {
+      "2024": 4,
+      "2026": 15,
+      "2025": 6
+    },
+    "Scheduling / SLO / goodput": {
+      "2024": 11,
+      "2026": 23,
+      "2025": 11
+    },
+    "Heterogeneous / cross-cluster / spot": {
+      "2024": 6,
+      "2025": 10,
+      "2026": 22
+    },
+    "Long-context / seq+ctx parallelism": {
+      "2025": 9,
+      "2026": 11,
+      "2024": 5
+    },
+    "Memory offload / hierarchy (CPU,SSD,PIM,CXL)": {
+      "2025": 8,
+      "2026": 12,
+      "2024": 4
+    },
+    "Compiler / kernel / megakernel": {
+      "2025": 4,
+      "2026": 25
+    },
+    "Sparse attention": {
+      "2026": 11,
+      "2024": 1,
+      "2025": 2
+    },
+    "Serverless / elastic / cold start": {
+      "2026": 9,
+      "2025": 11,
+      "2024": 6
+    },
+    "Prefill-decode disaggregation": {
+      "2026": 13,
+      "2025": 8,
+      "2024": 3
+    },
+    "Quantization / low precision": {
+      "2026": 11,
+      "2025": 6,
+      "2024": 2
+    },
+    "Agentic / multi-agent": {
+      "2026": 32,
+      "2025": 10,
+      "2024": 1
+    },
+    "RL post-training / rollout": {
+      "2024": 2,
+      "2025": 9,
+      "2026": 13
+    },
+    "Speculative decoding": {
+      "2026": 14,
+      "2024": 1
+    },
+    "KV cache / context reuse": {
+      "2024": 7,
+      "2025": 5,
+      "2026": 10
+    },
+    "RAG / retrieval / vector search": {
+      "2024": 1,
+      "2025": 7,
+      "2026": 6
+    },
+    "Diffusion / video / any-to-any": {
+      "2025": 11,
+      "2026": 14,
+      "2024": 2
+    }
+  },
+  "theme_share": {
+    "Energy / power / thermal": {
+      "2024": 1.0204081632653061,
+      "2025": 0.7874015748031497,
+      "2026": 3.278688524590164
+    },
+    "Communication / collectives / network": {
+      "2024": 5.1020408163265305,
+      "2025": 4.724409448818897,
+      "2026": 6.557377049180328
+    },
+    "MoE / expert parallelism": {
+      "2024": 4.081632653061225,
+      "2025": 3.937007874015748,
+      "2026": 7.377049180327869
+    },
+    "Reliability / fault tolerance / SDC": {
+      "2024": 10.204081632653061,
+      "2025": 8.661417322834646,
+      "2026": 6.967213114754099
+    },
+    "Benchmark / profiling / characterization": {
+      "2024": 4.081632653061225,
+      "2025": 4.724409448818897,
+      "2026": 6.147540983606557
+    },
+    "Scheduling / SLO / goodput": {
+      "2024": 11.224489795918368,
+      "2025": 8.661417322834646,
+      "2026": 9.426229508196721
+    },
+    "Heterogeneous / cross-cluster / spot": {
+      "2024": 6.122448979591836,
+      "2025": 7.874015748031496,
+      "2026": 9.01639344262295
+    },
+    "Long-context / seq+ctx parallelism": {
+      "2024": 5.1020408163265305,
+      "2025": 7.086614173228346,
+      "2026": 4.508196721311475
+    },
+    "Memory offload / hierarchy (CPU,SSD,PIM,CXL)": {
+      "2024": 4.081632653061225,
+      "2025": 6.299212598425197,
+      "2026": 4.918032786885246
+    },
+    "Compiler / kernel / megakernel": {
+      "2024": 0.0,
+      "2025": 3.1496062992125986,
+      "2026": 10.245901639344263
+    },
+    "Sparse attention": {
+      "2024": 1.0204081632653061,
+      "2025": 1.5748031496062993,
+      "2026": 4.508196721311475
+    },
+    "Serverless / elastic / cold start": {
+      "2024": 6.122448979591836,
+      "2025": 8.661417322834646,
+      "2026": 3.6885245901639343
+    },
+    "Prefill-decode disaggregation": {
+      "2024": 3.061224489795918,
+      "2025": 6.299212598425197,
+      "2026": 5.327868852459017
+    },
+    "Quantization / low precision": {
+      "2024": 2.0408163265306123,
+      "2025": 4.724409448818897,
+      "2026": 4.508196721311475
+    },
+    "Agentic / multi-agent": {
+      "2024": 1.0204081632653061,
+      "2025": 7.874015748031496,
+      "2026": 13.114754098360656
+    },
+    "RL post-training / rollout": {
+      "2024": 2.0408163265306123,
+      "2025": 7.086614173228346,
+      "2026": 5.327868852459017
+    },
+    "Speculative decoding": {
+      "2024": 1.0204081632653061,
+      "2025": 0.0,
+      "2026": 5.737704918032787
+    },
+    "KV cache / context reuse": {
+      "2024": 7.142857142857143,
+      "2025": 3.937007874015748,
+      "2026": 4.098360655737705
+    },
+    "RAG / retrieval / vector search": {
+      "2024": 1.0204081632653061,
+      "2025": 5.511811023622047,
+      "2026": 2.459016393442623
+    },
+    "Diffusion / video / any-to-any": {
+      "2024": 2.0408163265306123,
+      "2025": 8.661417322834646,
+      "2026": 5.737704918032787
+    }
+  },
+  "venue_2026": {
+    "MLSys": 82,
+    "arXiv / preprint": 52,
+    "EuroSys": 47,
+    "OSDI": 43,
+    "ASPLOS": 8,
+    "NSDI": 4,
+    "ICLR": 2,
+    "ICML": 2,
+    "PPoPP": 1,
+    "CGO": 1,
+    "ISC": 1,
+    "SIGMOD": 1
+  },
+  "aff_2026": {
+    "CMU": 12,
+    "UCB": 8,
+    "Stanford": 6,
+    "UW": 4,
+    "UMich": 3,
+    "UT Austin": 3,
+    "MIT": 1,
+    "NUS": 1,
+    "MBZUAI": 1,
+    "UChicago": 1,
+    "DeepSeek": 1,
+    "Purdue": 1,
+    "UCSD": 1
+  },
+  "company_year": {
+    "Google|2022": 1,
+    "Zhipu|2022": 1,
+    "BigScience|2022": 1,
+    "Meta|2023": 3,
+    "OpenAI|2023": 1,
+    "Bloomberg|2023": 1,
+    "Google|2023": 2,
+    "BigCode|2023": 1,
+    "Alibaba|2023": 1,
+    "Baichuan|2023": 1,
+    "Mistral|2023": 1,
+    "Skywork|2023": 1,
+    "TII|2023": 1,
+    "Mistral|2024": 1,
+    "DeepSeek|2024": 6,
+    "Google|2024": 4,
+    "AI2|2024": 4,
+    "BigCode|2024": 1,
+    "cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) \u2013 Anthropic|2024": 1,
+    "Apple|2024": 2,
+    "os) \u2013 xAI|2024": 1,
+    "01.AI|2024": 2,
+    "AI21 Labs|2024": 2,
+    "dbrx-new-state-art-open-llm) \u2013 Databricks|2024": 1,
+    "Microsoft|2024": 2,
+    "r-plus-microsoft-azure) \u2013 Cohere|2024": 1,
+    "Reka|2024": 1,
+    "open-efficient-foundation-language-models-snowflake/) \u2013 Snowflake|2024": 1,
+    "MiniCPM|2024": 1,
+    "Cohere|2024": 1,
+    "IBM|2024": 1,
+    "NVIDIA|2024": 1,
+    "cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf) \u2013 Anthropic|2024": 1,
+    "Zhipu|2024": 1,
+    "Skywork|2024": 1,
+    "Meta|2024": 1,
+    "Alibaba|2024": 4,
+    "OpenAI|2024": 2,
+    "Tencent|2024": 1,
+    "DeepSeek|2025": 1,
+    "Moonshot|2025": 3,
+    "MiniMax|2025": 2,
+    "Alibaba|2025": 2,
+    "Google|2025": 1,
+    "Microsoft|2025": 1,
+    "4-multimodal-intelligence/) \u2013 Meta|2025": 1,
+    "cdn.anthropic.com/6be99a52cb68eb70eb9572b4cafad13df32ed995.pdf) \u2013 Anthropic|2025": 1,
+    "NVIDIA|2025": 1,
+    "Huawei|2025": 1,
+    "media/gemini/gemini_v2_5_report.pdf) \u2013 Google / DeepMind|2025": 1,
+    "9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf) \u2013 OpenAI|2025": 1,
+    "Zhipu|2025": 1,
+    "TII|2026": 1,
+    "Alibaba|2026": 4,
+    "Mistral|2026": 1,
+    "Google|2026": 1,
+    "Zhipu|2026": 1,
+    "NVIDIA|2026": 1,
+    "IBM|2026": 1
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "subarea_year": {
+    "Pre-training": {
+      "<=2023": 5,
+      "2024": 17,
+      "2025": 22,
+      "2026": 30
+    },
+    "Post-training/RLHF": {
+      "<=2023": 1,
+      "2024": 4,
+      "2025": 10,
+      "2026": 6
+    },
+    "Fault Tolerance": {
+      "<=2023": 2,
+      "2024": 8,
+      "2025": 4,
+      "2026": 3
+    },
+    "LLM Serving": {
+      "<=2023": 18,
+      "2024": 48,
+      "2025": 54,
+      "2026": 54
+    },
+    "Agent Systems": {
+      "2024": 4,
+      "2025": 11,
+      "2026": 12
+    },
+    "Edge Serving": {
+      "<=2023": 2,
+      "2024": 2,
+      "2025": 3,
+      "2026": 10
+    },
+    "Model Co-design": {
+      "<=2023": 16,
+      "2024": 3,
+      "2025": 5,
+      "2026": 12
+    },
+    "Multi-Modal Training": {
+      "2024": 2,
+      "unspecified": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "Multi-Modal Serving": {
+      "2024": 4,
+      "unspecified": 3,
+      "<=2023": 1,
+      "2025": 14,
+      "2026": 8
+    },
+    "LLM-for-Systems": {
+      "<=2023": 3,
+      "2024": 5,
+      "2025": 3,
+      "unspecified": 1,
+      "2026": 7
+    }
+  },
+  "company_year": {
+    "Google|2022": 1,
+    "Zhipu|2022": 1,
+    "BigScience|2022": 1,
+    "Meta|2023": 3,
+    "OpenAI|2023": 1,
+    "Bloomberg|2023": 1,
+    "Google|2023": 2,
+    "BigCode|2023": 1,
+    "Alibaba|2023": 1,
+    "Baichuan|2023": 1,
+    "Mistral|2023": 1,
+    "Skywork|2023": 1,
+    "TII|2023": 1,
+    "Mistral|2024": 1,
+    "DeepSeek|2024": 6,
+    "Google|2024": 4,
+    "AI2|2024": 4,
+    "BigCode|2024": 1,
+    "Anthropic|2024": 2,
+    "Apple|2024": 2,
+    "xAI|2024": 1,
+    "01.AI|2024": 2,
+    "AI21 Labs|2024": 2,
+    "Databricks|2024": 1,
+    "Microsoft|2024": 2,
+    "Cohere|2024": 2,
+    "Reka|2024": 1,
+    "Snowflake|2024": 1,
+    "MiniCPM|2024": 1,
+    "IBM|2024": 1,
+    "NVIDIA|2024": 1,
+    "Zhipu|2024": 1,
+    "Skywork|2024": 1,
+    "Meta|2024": 1,
+    "Alibaba|2024": 4,
+    "OpenAI|2024": 2,
+    "Tencent|2024": 1,
+    "DeepSeek|2025": 1,
+    "Moonshot|2025": 3,
+    "MiniMax|2025": 2,
+    "Alibaba|2025": 2,
+    "Google|2025": 2,
+    "Microsoft|2025": 1,
+    "Meta|2025": 1,
+    "Anthropic|2025": 1,
+    "NVIDIA|2025": 1,
+    "Huawei|2025": 1,
+    "OpenAI|2025": 1,
+    "Zhipu|2025": 1,
+    "TII|2026": 1,
+    "Alibaba|2026": 4,
+    "Mistral|2026": 1,
+    "Google|2026": 1,
+    "Zhipu|2026": 1,
+    "NVIDIA|2026": 1,
+    "IBM|2026": 1
+  },
+  "theme_year": {
+    "MoE / Experts": {
+      "2024": 8,
+      "2025": 5,
+      "2026": 9
+    },
+    "Long Context": {
+      "2025": 6,
+      "2026": 6,
+      "2024": 4
+    },
+    "Disaggregation": {
+      "2026": 6,
+      "2025": 8,
+      "2024": 3
+    },
+    "Quantization": {
+      "2026": 1,
+      "2025": 2,
+      "2024": 1
+    },
+    "Agent / Agentic": {
+      "2025": 10,
+      "2026": 12
+    },
+    "Speculative Decoding": {
+      "2026": 9,
+      "2024": 1,
+      "2025": 1
+    },
+    "KV Cache": {
+      "2024": 5,
+      "2025": 2,
+      "2026": 4
+    },
+    "RAG": {
+      "2024": 1,
+      "2025": 6,
+      "2026": 2
+    }
+  }
+}

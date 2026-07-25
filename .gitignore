@@ -1,0 +1,9 @@
+# Secrets — never commit API keys
+.env
+
+# OS / editor cruft
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
