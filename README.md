@@ -930,6 +930,7 @@ See the **[full NeurIPS 2025 collection](neurips25-mlsys/)** for detailed catego
 
 
 ## LLM Benchmark / Leaderboard ? Traces
+-  [ClawBench](https://claw-bench.com/) | [Paper](https://arxiv.org/abs/2604.08523) | [GitHub](https://github.com/reacher-z/ClawBench) | UBC, Vector Institute, University of Waterloo
 -  [LLM Energy Leaderboard](https://ml.energy/leaderboard) | Umich
 -  [LLM-Perf Leaderboard](https://huggingface.co/spaces/optimum/llm-perf-leaderboard) | HuggingFace
 -  [Aviary Explorer](https://aviary.anyscale.com/) | Anyscale
