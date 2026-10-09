@@ -735,6 +735,9 @@ The fastest-rising techniques by share of the year's papers: **agentic / multi-a
 - [ECO](https://www.usenix.org/conference/osdi26/presentation/lin-hannah): An AI-Driven Code Efficiency Optimizer for Warehouse Scale Computers | OSDI' 26
 - [SMARTTalk](https://www.usenix.org/conference/osdi26/presentation/akewar): Teaching SMART Logs to Talk to LLMs | OSDI' 26
 
+- [CacheMind: From Miss Rates to Why -- Natural-Language, Trace-Grounded Reasoning for Cache Replacement](https://arxiv.org/abs/2602.12422): Conversational, retrieval-augmented reasoning over CPU cache traces to explain cache-replacement behavior | ASPLOS' 26
+- [CACHEFORGE: LLM-Guided End-to-End Generative Cache Replacement Policy for Performance and Hardware Efficiency](https://arxiv.org/abs/2610.07668): Hardware-aware iterative generation and evaluation of C++ CPU cache-replacement policies using an LLM and CRC-2 ChampSim | arXiv preprint, 2026
+
 ## Industrial LLM Technical Report
 
 <details>
