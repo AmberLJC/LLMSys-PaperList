@@ -737,6 +737,7 @@ The fastest-rising techniques by share of the year's papers: **agentic / multi-a
 
 - [CacheMind: From Miss Rates to Why -- Natural-Language, Trace-Grounded Reasoning for Cache Replacement](https://arxiv.org/abs/2602.12422): Conversational, retrieval-augmented reasoning over CPU cache traces to explain cache-replacement behavior | ASPLOS' 26
 - [CACHEFORGE: LLM-Guided End-to-End Generative Cache Replacement Policy for Performance and Hardware Efficiency](https://arxiv.org/abs/2610.07668): Hardware-aware iterative generation and evaluation of C++ CPU cache-replacement policies using an LLM and CRC-2 ChampSim | arXiv preprint, 2026
+- [CacheFit: The Rising Cost of Cache Replacement and Constraint-Driven Redesign of Last-Level Cache Replacement Policies](https://arxiv.org/abs/2610.10579): LLM-guided CPU cache-policy redesign under latency, area, and power budgets using ChampSim and HARCOM analytical cost modeling | arXiv preprint, 2026
 
 ## Industrial LLM Technical Report
 
