@@ -580,6 +580,7 @@ The fastest-rising techniques by share of the year's papers: **agentic / multi-a
 - [Sereno](https://www.usenix.org/conference/osdi26/presentation/xin): Taming Memory Bandwidth Contention in Mobile LLM Inference | OSDI' 26
 - [Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design](https://www.usenix.org/conference/osdi26/presentation/wang-wenxin) | OSDI' 26
 - [Unleash All Cores](https://www.usenix.org/conference/osdi26/presentation/sang): Asymmetry-Aware Scalable DNN Inference on Mobile CPUs | OSDI' 26
+- [EC2-Bench](https://arxiv.org/abs/2610.17816): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution | Tsinghua & Northeastern Univ. (China)
 
 
 #### System Efficiency Optimization - Model Co-design
