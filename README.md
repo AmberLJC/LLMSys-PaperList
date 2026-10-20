@@ -484,6 +484,7 @@ The fastest-rising techniques by share of the year's papers: **agentic / multi-a
 - [Revisiting Pipeline Parallelism for LLM Serving](https://www.usenix.org/conference/osdi26/presentation/hwang): Revisiting pipeline parallelism as an alternative to tensor parallelism for online LLM serving | OSDI' 26
 - [Kairox](https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng): Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing | OSDI' 26
 - [StriaTrace](https://www.usenix.org/conference/osdi26/presentation/wu-haonan): Efficient Tracing and Diagnosis for Online LLM Inference | OSDI' 26
+- [MOSAIC](https://arxiv.org/abs/2610.25431): Multi-Objective Search for Allocating Inference Cache Across LLM Decoder Layers — learns per-layer KV-cache budgets for token-eviction methods via multi-objective NAS
 
 #### Agent Systems
 
@@ -580,6 +581,7 @@ The fastest-rising techniques by share of the year's papers: **agentic / multi-a
 - [Sereno](https://www.usenix.org/conference/osdi26/presentation/xin): Taming Memory Bandwidth Contention in Mobile LLM Inference | OSDI' 26
 - [Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design](https://www.usenix.org/conference/osdi26/presentation/wang-wenxin) | OSDI' 26
 - [Unleash All Cores](https://www.usenix.org/conference/osdi26/presentation/sang): Asymmetry-Aware Scalable DNN Inference on Mobile CPUs | OSDI' 26
+- [Unlocking the Edge deployment and ondevice acceleration of multi-LoRA enabled one-for-all foundational LLM](https://arxiv.org/abs/2604.18655): LoRAs as runtime inputs to a single frozen graph, concurrent multi-stream decoding and draft-free self-speculative decoding on mobile NPUs | ACL Findings' 26
 
 
 #### System Efficiency Optimization - Model Co-design
