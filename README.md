@@ -485,6 +485,7 @@ The fastest-rising techniques by share of the year's papers: **agentic / multi-a
 - [Kairox](https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng): Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing | OSDI' 26
 - [StriaTrace](https://www.usenix.org/conference/osdi26/presentation/wu-haonan): Efficient Tracing and Diagnosis for Online LLM Inference | OSDI' 26
 - [MOSAIC](https://arxiv.org/abs/2610.25431): Multi-Objective Search for Allocating Inference Cache Across LLM Decoder Layers — learns per-layer KV-cache budgets for token-eviction methods via multi-objective NAS
+- [The FastPath Agentic Recipe: 50% More Agents and 60% More Throughput at Equal P90 Interactivity on Stock SGLang](https://doi.org/10.5281/zenodo.24457433): Measurement of six existing SGLang flags (FP8 KV cache and HiCache) on the published InferenceX H200 agent cell | Zenodo 2026, FastPathLabs
 
 #### Agent Systems
 
